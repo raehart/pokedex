@@ -1,0 +1,32 @@
+Pokemon guide - pokedex with evolution, where to find, type, egg group, moves on seperate page - what they will learn at what level, what they can learn etc.  Team page
+Gym leader order & guide - what city, how to unlock 
+
+
+Pokedex 
+	One big page that shows all pokemon with number and image-seperate pages for seperate regional dexes.  Include search and dropdown menus
+	When clicked on. Generate page for specific pokemon.  Include: type, where to find, egg group, evolutions - how lv vs stone etc (link to evolved form page)
+
+	new Pokemon {
+		dexNumber:
+		name:
+		primaryType:
+		secondaryType:
+		eggGroup:
+		evolution:
+		location:
+		possible ablities: 
+		moves: 
+		
+	}
+
+
+Hoeen Pokedex 
+
+Gym Leader Guide 
+
+
+Weakness and Strengths Caclulator 
+
+vs match up level 50 vs level 50 - stregeths and weaknesses 
+
+Breeding page 

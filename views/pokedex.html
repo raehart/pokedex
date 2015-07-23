@@ -1,0 +1,31 @@
+	{% extends 'dexlayout.html' %}
+
+	{% block title %}Pokedex{% endblock %}
+
+	{% block pokeblock1 %}
+
+			<h2 id="name">{{name}}</h2>
+			<h3 id="dexNumbers"> Hoenn #{{dexNumber}}, National#{{nationalDex}}</h3>
+			<h3 id="navLinks"><a href="/dex/{{prev}}">Previous</a><a href="/dex/{{next}}">Next</a></h3>
+			<img src = "/img/port/{{img}}.png" id="portrait">
+			<p id= "description"> {{description}} </p>
+			<ul>
+				<li>Primary Type: {{type}}</li>
+				<li>Egg Group: {{eggGroup}}</li>
+				<li>Evolutions: </li>
+				<li>Ablities:  {{abilities}}</li>
+			</ul>
+
+	{% endblock %}
+
+	{% block pokeblock2 %}
+		<h3>Moveset</h3>
+		<ul id="moveset">
+		{% for move in startingMoves %}
+			<li><span class='moveLevel'>Start</span>{{move}}</li>
+		{% endfor %}
+		{% for move in movesByLevel %}
+				<li><span class='moveLevel'>Lv. {{loop.key}}</span>{{move}}</li>
+		{% endfor %}
+		</ul>
+	{% endblock %}
