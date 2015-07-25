@@ -2,6 +2,31 @@
 	font-family: 'Ubuntu', sans-serif;
 }
 
+.spacer {
+	height:120px;
+}
+#pokedex img {
+	height:120px;
+	width:120px;
+}
+#pokedex a {
+	display:block;
+	height:100%;
+	width:100%;
+}
+#pokedex li.dex-entry {
+	list-style: none;
+	border-radius:5px;
+	background-color:rgb(87, 205, 169);
+	margin:20px;
+	display:block;
+	height:150px;
+	width:120px;
+	padding:10px;
+	float:left;
+
+}
+
 html, section {
 	width:100%;
 	height:100%;

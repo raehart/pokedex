@@ -1,12 +1,17 @@
 {% extends 'layout.html' %}
 
-{% block title %}My Page{% endblock %}
-
-{% block head %}
-  {% parent %}
-  <link rel="stylesheet" href="css/custom.css">
-{% endblock %}
+{% block title %}Pokedex{% endblock %}
 
 {% block content %}
-<p>This is just an awesome page.</p>
+<header></header>
+<div class="spacer"></div>
+<ul id="pokedex">
+
+	{% for pokemon in pokedex %}
+		{% set img = pokemon.toLowerCase() %}
+		<li class="dex-entry"><a href="/dex/{{loop.key}}"><img src="/img/port/{{img}}.png">#{{loop.key}} {{pokemon}}</a></li>
+	{% endfor %}
+</ul>
+<div class="spacer"></div>
+<footer></footer>
 {% endblock %}
