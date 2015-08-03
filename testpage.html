@@ -1,0 +1,82 @@
+<html><head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css">
+	<link href="http://fonts.googleapis.com/css?family=Ubuntu:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js" type="text/javascript"></script><style type="text/css"></style>
+  <link rel="stylesheet" href="../css/main.css">
+  <title>Pokedex</title>
+   
+</head>
+<body>
+	<header> </header>
+	<section>
+		<div class="pokeblock">
+  		
+
+			<h2 id="name">Treecko</h2>
+			<h3 id="dexNumbers"> Hoenn #1, National#252</h3>
+			<h3 id="navLinks"><a href="/dex/0">Previous</a><a href="/dex/2">Next</a></h3>
+			<img src="treecko.png" id="portrait">
+			<p id="description"> Treecko has small hooks on the bottom of its feet that enable it to scale vertical walls. This Pokémon attacks by slamming foes with its thick tail. </p>
+			<ul>
+				<li>Primary Type: Grass</li>
+				<li>Egg Group: Monster,Dragon</li>
+				<li>Evolutions: </li>
+				<li>Ablities:  Overgrow,Unburden(Hidden)</li>
+			</ul>
+
+	
+  	</div>
+		<div class="pokeblock">
+  		
+		<h3>Moveset</h3>
+		<ul id="moveset">
+		
+			<li><span class="moveLevel">Start</span>Pound</li>
+		
+			<li><span class="moveLevel">Start</span>Leer</li>
+		
+		
+				<li><span class="moveLevel">Lv. 5</span>Absorb</li>
+		
+				<li><span class="moveLevel">Lv. 9</span>Quick Attack</li>
+		
+				<li><span class="moveLevel">Lv. 13</span>Mega Drain</li>
+		
+				<li><span class="moveLevel">Lv. 17</span>Pursuit</li>
+		
+				<li><span class="moveLevel">Lv. 21</span>Giga Drain</li>
+		
+				<li><span class="moveLevel">Lv. 25</span>Agility</li>
+		
+				<li><span class="moveLevel">Lv. 29</span>Slam</li>
+		
+				<li><span class="moveLevel">Lv. 33</span>Detect</li>
+		
+				<li><span class="moveLevel">Lv. 37</span>Energy Ball</li>
+		
+				<li><span class="moveLevel">Lv. 41</span>Quick Guard</li>
+		
+				<li><span class="moveLevel">Lv. 45</span>Endeavor</li>
+		
+				<li><span class="moveLevel">Lv. 49</span>Screech</li>
+		
+			<li class="result">[object Object]</li>
+		</ul>
+		
+	
+  		
+		</div>
+	</section>
+	<footer></footer>
+  
+		<script>
+		  $.get('http://pokeapi.co/api/v1/pokemon/252/', function(data) {
+				console.log("searching")
+				console.log(data)
+				$(".result").text( data );
+			});
+		</script>
+  
+
+</body></html>

@@ -1,0 +1,3606 @@
+[{
+  "species_id": 1,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "For some time after its birth, it grows by gaining\nnourishment from the seed on its back."
+}, {
+  "species_id": 2,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "When the bud on its back starts swelling, a sweet\naroma wafts to indicate the flower’s coming bloom."
+}, {
+  "species_id": 3,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "After a rainy day, the flower on its back smells\nstronger. The scent attracts other Pokémon."
+}, {
+  "species_id": 4,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "From the time it is born, a flame burns at the tip of\nits tail. Its life would end if the flame were to\ngo out."
+}, {
+  "species_id": 5,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "When it swings its burning tail, it elevates the air\ntemperature to unbearably high levels."
+}, {
+  "species_id": 6,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Its wings can carry this Pokémon close to an\naltitude of 4,600 feet. It blows out fire at very\nhigh temperatures."
+}, {
+  "species_id": 7,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Shoots water at prey while in the water. Withdraws\ninto its shell when in danger."
+}, {
+  "species_id": 8,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It is said to live 10,000 years. Its furry tail is\npopular as a symbol of longevity."
+}, {
+  "species_id": 9,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "The pressurized water jets on this brutal Pokémon’s\nshell are used for high-speed tackles."
+}, {
+  "species_id": 10,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Its feet have suction cups designed to stick to any\nsurface. It tenaciously climbs trees to forage."
+}, {
+  "species_id": 11,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "This Pokémon is vulnerable to attack while its shell\nis soft, exposing its weak and tender body."
+}, {
+  "species_id": 12,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "The wings are protected by rain-repellent dust.\nAs a result, this Pokémon can fly about even\nin rain."
+}, {
+  "species_id": 13,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Its poison stinger is very powerful.\nIts bright-colored body is intended to\nwarn off its enemies."
+}, {
+  "species_id": 14,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "While awaiting evolution, it hides from predators\nunder leaves and in nooks of branches."
+}, {
+  "species_id": 15,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "May appear in a swarm. Flies at violent speeds,\nall the while stabbing with the toxic stinger on\nits rear."
+}, {
+  "species_id": 16,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It is docile and prefers to avoid conflict.\nIf disturbed, however, it can ferociously strike back."
+}, {
+  "species_id": 17,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Very protective of its sprawling territorial area,\nthis Pokémon will fiercely peck at any intruder."
+}, {
+  "species_id": 18,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It spreads its gorgeous wings widely to intimidate\nenemies. It races through the skies at\nMach-2 speed."
+}, {
+  "species_id": 19,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Its fangs are long and very sharp. They grow\ncontinuously, so it gnaws on hard things to whittle\nthem down."
+}, {
+  "species_id": 20,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "The webs on its hind legs enable it to cross rivers.\nIt searches wide areas for food."
+}, {
+  "species_id": 21,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Eats bugs in grassy areas. It has to flap its short\nwings at high speed to stay airborne."
+}, {
+  "species_id": 22,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It has the stamina to fly all day on its broad wings.\nIt fights by using its sharp beak."
+}, {
+  "species_id": 23,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Moving silently and stealthily, it eats the eggs of\nbirds, such as Pidgey and Spearow, whole."
+}, {
+  "species_id": 24,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "To intimidate foes, it spreads its chest wide and\nmakes eerie sounds by expelling air from its mouth."
+}, {
+  "species_id": 25,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It has small electric sacs on both its cheeks.\nIf threatened, it looses electric charges from\nthe sacs."
+}, {
+  "species_id": 26,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It can loose 100,000-volt bursts of electricity,\ninstantly downing foes several times its size."
+}, {
+  "species_id": 27,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Disliking water, it lives in deep burrows in arid\nareas. It can roll itself instantly into a ball."
+}, {
+  "species_id": 28,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Curls up into a spiny ball when threatened. It can\nroll while curled up to attack or escape."
+}, {
+  "species_id": 29,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Small and very docile, it protects itself with its\nsmall, poisonous horn when attacked."
+}, {
+  "species_id": 30,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "When feeding its young, it first chews the food into\na paste, then spits it out for the offspring."
+}, {
+  "species_id": 31,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "The body is covered by stiff, needlelike scales.\nIf it becomes excited, the needles bristle outwards."
+}, {
+  "species_id": 32,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Its large ears are flapped like wings when it is\nlistening to distant sounds. It extends toxic barbs\nwhen angered."
+}, {
+  "species_id": 33,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "An aggressive Pokémon that is quick to attack.\nThe horn on its head secretes a powerful venom."
+}, {
+  "species_id": 34,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "One swing of its mighty tail can snap a telephone\npole as if it were a matchstick."
+}, {
+  "species_id": 35,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "The moonlight that it stores in the wings on its back\napparently gives it the ability to float in midair."
+}, {
+  "species_id": 36,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "A timid fairy Pokémon that is rarely seen, it will run\nand hide the moment it senses people."
+}, {
+  "species_id": 37,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "While young, it has six gorgeous tails. When it\ngrows, several new tails are sprouted."
+}, {
+  "species_id": 38,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Very smart and very vengeful. Grabbing one of its\nmany tails could result in a 1,000-year curse."
+}, {
+  "species_id": 39,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "If it inflates to sing a lullaby, it can perform longer\nand cause sure drowsiness in its audience."
+}, {
+  "species_id": 40,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "The body is soft and rubbery. When angered,\nit will suck in air and inflate itself to an\nenormous size."
+}, {
+  "species_id": 41,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It has no eyes. Instead, it relies on its ultrasonic\ncries for echolocation to flit about in darkness."
+}, {
+  "species_id": 42,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Once it starts sucking blood, it does not stop until\nit is full. It flies at night in search of prey."
+}, {
+  "species_id": 43,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Its scientific name is “Oddium Wanderus.” At night,\nit is said to walk nearly 1,000 feet on its two roots.\n"
+}, {
+  "species_id": 44,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "The honey it drools from its mouth smells so\natrocious, it can curl noses more than a mile away."
+}, {
+  "species_id": 45,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It has the world’s largest petals. With every step,\nthe petals shake out heavy clouds of toxic pollen."
+}, {
+  "species_id": 46,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Burrows under the ground to gnaw on tree roots.\nThe mushrooms on its back absorb most of\nthe nutrition."
+}, {
+  "species_id": 47,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "The larger the mushroom on its back grows,\nthe stronger the mushroom spores it scatters."
+}, {
+  "species_id": 48,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Lives in the shadows of tall trees where it eats\nbugs. It is attracted by light at night."
+}, {
+  "species_id": 49,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "The wings are covered with dustlike scales.\nEvery time it flaps its wings, it looses highly\ntoxic dust."
+}, {
+  "species_id": 50,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Its skin is very thin. If it is exposed to light,\nits blood heats up, causing it to grow weak."
+}, {
+  "species_id": 51,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Extremely powerful, they can dig through even the\nhardest ground to a depth of over 60 miles."
+}, {
+  "species_id": 52,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Adores round objects. It wanders the streets on a\nnightly basis to look for dropped loose change."
+}, {
+  "species_id": 53,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Its lithe muscles allow it to walk without making a\nsound. It attacks in an instant."
+}, {
+  "species_id": 54,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It has mystical powers but doesn’t recall that it has\nused them. That is why it always looks puzzled."
+}, {
+  "species_id": 55,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "The forelegs are webbed, helping to make it an\nadept swimmer. It can be seen swimming elegantly\nin lakes, etc."
+}, {
+  "species_id": 56,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It lives in treetop colonies. If one becomes\nenraged, the whole colony rampages for no reason."
+}, {
+  "species_id": 57,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It is always outrageously furious. If it gives chase,\nit will tenaciously track the target no matter\nhow far."
+}, {
+  "species_id": 58,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It has a brave and trustworthy nature. It fearlessly\nstands up to bigger and stronger foes."
+}, {
+  "species_id": 59,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Its magnificent bark conveys a sense of majesty.\nAnyone hearing it can’t help but grovel before it."
+}, {
+  "species_id": 60,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "The direction of the spiral on the belly differs by\narea. It is more adept at swimming than walking."
+}, {
+  "species_id": 61,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Its two legs are well developed. Even though it can\nlive on the ground, it prefers living in water."
+}, {
+  "species_id": 62,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "A swimmer adept at both the front crawl and\nbreaststroke. Easily overtakes the best\nhuman swimmers."
+}, {
+  "species_id": 63,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It senses impending attacks and teleports away to\nsafety before the actual attacks can strike."
+}, {
+  "species_id": 64,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "If it uses its abilities, it emits special alpha waves\nthat cause machines to malfunction."
+}, {
+  "species_id": 65,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Its brain can outperform a supercomputer. Its IQ\n(intelligence quotient) is said to be around 5,000."
+}, {
+  "species_id": 66,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Its whole body is composed of muscles.\nEven though it’s the size of a human child,\nit can hurl 100 grown-ups."
+}, {
+  "species_id": 67,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It can lift a dump truck with one hand. Using that\npower, it helps people with heavy jobs."
+}, {
+  "species_id": 68,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It uses its four powerful arms to pin the limbs of its\nfoe, then throws the victim over the horizon."
+}, {
+  "species_id": 69,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Its bud looks like a human face. Because of the\nbud, it is rumored to be a type of legendary\nmandrake plant."
+}, {
+  "species_id": 70,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It spits out Poison Powder to immobilize the enemy\nand then finishes it with a spray of Acid."
+}, {
+  "species_id": 71,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Once ingested into this Pokémon’s body,\neven the hardest object will melt into nothing."
+}, {
+  "species_id": 72,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Drifts in shallow seas. Anglers who hook them by\naccident are often punished by their stingers."
+}, {
+  "species_id": 73,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It has 80 tentacles that move about freely.\nThey can sting, causing poisoning and sharp,\nstabbing pain."
+}, {
+  "species_id": 74,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It is impossible to distinguish from rocks. It slams\nagainst others in contests of hardness."
+}, {
+  "species_id": 75,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Rolls down slopes to move. It rolls over any\nobstacle without slowing or changing its direction."
+}, {
+  "species_id": 76,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Even dynamite can’t harm its hard, boulder-like\nbody. It sheds its hide just once a year."
+}, {
+  "species_id": 77,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Its legs grow strong while it chases after its parent.\nIt runs in fields and mountains all day."
+}, {
+  "species_id": 78,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It gallops at nearly 150 mph. With its mane blazing\nferociously, it races as if it were an arrow."
+}, {
+  "species_id": 79,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It lazes vacantly near water. If something bites its\ntail, it won’t even notice for a whole day."
+}, {
+  "species_id": 80,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "When a Slowpoke went hunting in the sea, its tail\nwas bitten by a Shellder. That made it evolve\ninto Slowbro."
+}, {
+  "species_id": 81,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It moves while constantly hovering. It discharges\nThunder Wave and so on from the units at its sides."
+}, {
+  "species_id": 82,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Generates strange radio signals. It raises the\ntemperature by 3.6 degrees Fahrenheit within\n3,300 feet."
+}, {
+  "species_id": 83,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It always walks about with a plant stalk clamped in\nits beak. The stalk is used for building its nest."
+}, {
+  "species_id": 84,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "The brains in its two heads appear to communicate\nemotions to each other with a telepathic power."
+}, {
+  "species_id": 85,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "An odd species that is rarely found. The three\nheads respectively represent joy, sadness,\nand anger."
+}, {
+  "species_id": 86,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Covered with light blue fur, its hide is thick and\ntough. It is active in bitter cold of\n-40 degrees Fahrenheit."
+}, {
+  "species_id": 87,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Its streamlined body has little drag in water.\nThe colder the temperature, the friskier it gets."
+}, {
+  "species_id": 88,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Appears in filthy areas. It thrives by sucking up\npolluted sludge that is pumped out of factories."
+}, {
+  "species_id": 89,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "A toxic fluid seeps from its body. The fluid instantly\nkills plants and trees on contact."
+}, {
+  "species_id": 90,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Clamping on to an opponent reveals its vulnerable\nparts, so it uses this move only as a last resort."
+}, {
+  "species_id": 91,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Its shell is extremely hard. It cannot be shattered,\neven with a bomb. The shell opens only when it\nis attacking."
+}, {
+  "species_id": 92,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Born from gases, anyone would faint if engulfed by\nits gaseous body, which contains poison."
+}, {
+  "species_id": 93,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It licks with its gaseous tongue to steal the victim’s\nlife force. It lurks in darkness for prey."
+}, {
+  "species_id": 94,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Hiding in people’s shadows at night, it absorbs their\nheat. The chill it causes makes the victims shake."
+}, {
+  "species_id": 95,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It usually lives underground. It searches for food\nwhile boring its way through the ground at 50 miles\nper hour."
+}, {
+  "species_id": 96,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "If you think that you had a good dream but you\ncan’t remember it, a Drowzee has probably eaten it."
+}, {
+  "species_id": 97,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Seeing its swinging pendulum can induce sleep in\nthree seconds, even in someone who just woke up."
+}, {
+  "species_id": 98,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It can be found near the sea. The large pincers\ngrow back if they are torn out of their sockets."
+}, {
+  "species_id": 99,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Its pincers grow peculiarly large. If it lifts the\npincers too fast, it loses its balance and staggers."
+}, {
+  "species_id": 100,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Usually found in power plants. Easily mistaken for a\nPoké Ball, it has zapped many people."
+}, {
+  "species_id": 101,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It stores an overflowing amount of electric energy\ninside its body. Even a small shock makes\nit explode."
+}, {
+  "species_id": 102,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Even though it appears to be eggs of some sort,\nit was discovered to be a life-form more like\nplant seeds."
+}, {
+  "species_id": 103,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It is called “The Walking Jungle.” If a head grows\ntoo big, it falls off and becomes an Exeggcute."
+}, {
+  "species_id": 104,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It always wears the skull of its dead mother, so no\none has any idea what its hidden face looks like."
+}, {
+  "species_id": 105,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "The bone it holds is its key weapon. It throws the\nbone skillfully like a boomerang to KO targets."
+}, {
+  "species_id": 106,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "If it starts kicking repeatedly, both legs will stretch\neven longer to strike a fleeing foe."
+}, {
+  "species_id": 107,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "The spirit of a pro boxer has infused this Pokémon.\nIt throws punches that are faster than a bullet train."
+}, {
+  "species_id": 108,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Its tongue is twice the length of its body. It can be\nmoved like an arm for grabbing food and attacking."
+}, {
+  "species_id": 109,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Lighter-than-air gases in its body keep it aloft.\nThe gases not only smell, they are also explosive."
+}, {
+  "species_id": 110,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Very rarely, a sudden mutation can result in two\nsmall Koffing twins becoming conjoined as\na Weezing."
+}, {
+  "species_id": 111,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It is inept at turning because of its four short legs.\nIt can only charge and run in one direction."
+}, {
+  "species_id": 112,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It begins walking on its hind legs after evolution.\nIt can punch holes through boulders with its horn."
+}, {
+  "species_id": 113,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It lays several eggs a day. The eggs are apparently\nrich in nutrients and extremely delicious."
+}, {
+  "species_id": 114,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It tangles any moving thing with its vines. Their\nsubtle shaking is ticklish if you get ensnared."
+}, {
+  "species_id": 115,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "If it is safe, the young gets out of the belly pouch\nto play. The adult keeps a close eye on\nthe youngster."
+}, {
+  "species_id": 116,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It makes its nest in the shade of corals. If it senses\ndanger, it spits murky ink and flees."
+}, {
+  "species_id": 117,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It is capable of swimming backwards by rapidly\nflapping its winglike pectoral fins and stout tail."
+}, {
+  "species_id": 118,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Its dorsal, pectoral, and tail fins wave elegantly in\nwater. That is why it is known as the water dancer."
+}, {
+  "species_id": 119,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It makes its nest by hollowing out boulders in\nstreams with its horn. It defends its eggs with\nits life."
+}, {
+  "species_id": 120,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It appears in large numbers by seashores. At night,\nits central core flashes with a red light."
+}, {
+  "species_id": 121,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "At the center of its body is a red core, which sends\nmysterious radio signals into the night sky."
+}, {
+  "species_id": 122,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It is adept at conning people. It is said to be able\nto create walls out of thin air by miming."
+}, {
+  "species_id": 123,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It slashes through grass with its sharp scythes,\nmoving too fast for the human eye to track."
+}, {
+  "species_id": 124,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It speaks using a language that sounds human.\nResearch is under way to determine what is\nbeing said."
+}, {
+  "species_id": 125,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It loves to feed on strong electricity. It occasionally\nappears around large power plants and so on."
+}, {
+  "species_id": 126,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Born in the spout of a volcano, its body is covered\nby flames that shimmer like the sun."
+}, {
+  "species_id": 127,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It swings its long pincer horns wildly to attack.\nDuring cold periods, it hides deep in forests."
+}, {
+  "species_id": 128,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "When it is about to tackle, it whips its body\nrepeatedly with its three long tails."
+}, {
+  "species_id": 129,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "In the distant past, it was somewhat stronger than\nthe horribly weak descendants that exist today."
+}, {
+  "species_id": 130,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Rarely seen in the wild. Huge and vicious, it is\ncapable of destroying entire cities in a rage."
+}, {
+  "species_id": 131,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Its high intelligence enables it to understand human\nspeech. It likes to ferry people on its back."
+}, {
+  "species_id": 132,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It can freely recombine its own cellular structure to\ntransform into other life-forms."
+}, {
+  "species_id": 133,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Thanks to its unstable genetic makeup, this\nspecial Pokémon conceals many different\npossible evolutions."
+}, {
+  "species_id": 134,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It has evolved to be suitable for an aquatic life.\nIt can invisibly melt away into water."
+}, {
+  "species_id": 135,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It accumulates negative ions in the atmosphere to\nblast out 10,000-volt lightning bolts."
+}, {
+  "species_id": 136,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It has a flame bag inside its body. After inhaling\ndeeply, it blows out flames of nearly\n3,000 degrees Fahrenheit."
+}, {
+  "species_id": 137,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "A Pokémon that consists entirely of programming\ncode. It is capable of moving freely in cyberspace."
+}, {
+  "species_id": 138,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Revived from an ancient fossil, this Pokémon uses\nair stored in its shell to sink and rise in water."
+}, {
+  "species_id": 139,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Once wrapped around its prey, it never lets go.\nIt eats the prey by tearing at it with sharp fangs."
+}, {
+  "species_id": 140,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "This Pokémon was regenerated from the fossil of an\nancient creature. It protects itself with a hard shell."
+}, {
+  "species_id": 141,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "A slim and fast swimmer. It slices its prey with its\nsharp sickles and drinks the body fluids."
+}, {
+  "species_id": 142,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "This vicious Pokémon is said to have flown in\nancient skies while shrieking high-pitched cries."
+}, {
+  "species_id": 143,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Its stomach can digest any kind of food,\neven if it happens to be moldy or rotten."
+}, {
+  "species_id": 144,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "A legendary bird Pokémon that is said to appear to\ndoomed people who are lost in icy mountains."
+}, {
+  "species_id": 145,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "A legendary Pokémon that is said to live in\nthunderclouds. It freely controls lightning bolts."
+}, {
+  "species_id": 146,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "One of the legendary bird Pokémon. It is said that\nits appearance indicates the coming of spring."
+}, {
+  "species_id": 147,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "This Pokémon is full of life energy. It continually\nsheds its skin and grows steadily larger."
+}, {
+  "species_id": 148,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "A mystical Pokémon that exudes a gentle aura.\nIt is said to have the ability to change the weather."
+}, {
+  "species_id": 149,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It is said to make its home somewhere in the sea.\nIt guides crews of shipwrecks to shore."
+}, {
+  "species_id": 150,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "A Pokémon created by recombining Mew’s genes.\nIt’s said to have the most savage heart\namong Pokémon."
+}, {
+  "species_id": 151,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Its DNA is said to contain the genetic codes of all\nPokémon, so it can use all kinds of techniques."
+}, {
+  "species_id": 152,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It uses the leaf on its head to determine the\ntemperature and humidity. It loves to sunbathe."
+}, {
+  "species_id": 153,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "The buds that ring its neck give off a spicy aroma\nthat perks people up."
+}, {
+  "species_id": 154,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Meganium’s breath has the power to revive dead\ngrass and plants. It can make them healthy again."
+}, {
+  "species_id": 155,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It has a timid nature. If it is startled, the flames on\nits back burn more vigorously."
+}, {
+  "species_id": 156,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Be careful if it turns its back during battle. It means\nthat it will attack with the fire on its back."
+}, {
+  "species_id": 157,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It has a secret, devastating move. It rubs its blazing\nfur together to cause huge explosions."
+}, {
+  "species_id": 158,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Its powerful, well-developed jaws are capable of\ncrushing anything. Even its Trainer must be careful."
+}, {
+  "species_id": 159,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Once it bites down, it won’t let go until it loses its\nfangs. New fangs quickly grow into place."
+}, {
+  "species_id": 160,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "When it bites with its massive and powerful jaws,\nit shakes its head and savagely tears its victim up."
+}, {
+  "species_id": 161,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It stands on its tail so it can see a long way.\nIf it spots an enemy, it cries loudly to warn its kind."
+}, {
+  "species_id": 162,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It makes a nest to suit its long and skinny body.\nThe nest is impossible for other Pokémon to enter."
+}, {
+  "species_id": 163,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It always stands on one foot. It changes feet so\nfast, the movement can rarely be seen."
+}, {
+  "species_id": 164,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "When it needs to think, it rotates its head\n180 degrees to sharpen its intellectual power."
+}, {
+  "species_id": 165,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It is timid and clusters together with others.\nThe fluid secreted by its feet indicates its location."
+}, {
+  "species_id": 166,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "The spot patterns on its back grow larger or smaller\ndepending on the number of stars in the night sky."
+}, {
+  "species_id": 167,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It lies still in the same pose for days in its web,\nwaiting for its unsuspecting prey to wander close."
+}, {
+  "species_id": 168,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It attaches silk to its prey and sets it free. Later,\nit tracks the silk to the prey and its friends."
+}, {
+  "species_id": 169,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Having four wings allows it to fly more quickly and\nquietly so it can sneak up on prey without\nits noticing."
+}, {
+  "species_id": 170,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It shoots positive and negative electricity between\nthe tips of its two antennae and zaps its enemies."
+}, {
+  "species_id": 171,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It blinds prey with an intense burst of light.\nWith the prey incapacitated, the Pokémon\nswallows it in a single gulp."
+}, {
+  "species_id": 172,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It is not yet skilled at storing electricity.\nIt may send out a jolt if amused or startled."
+}, {
+  "species_id": 173,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Many appear when the night skies are filled with\nshooting stars. They disappear with sunrise."
+}, {
+  "species_id": 174,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It has a very soft body. If it starts to roll, it will\nbounce all over and be impossible to stop."
+}, {
+  "species_id": 175,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "A proverb claims that happiness will come to\nanyone who can make a sleeping Togepi stand up."
+}, {
+  "species_id": 176,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "They say that it will appear before kindhearted,\ncaring people and shower them with happiness."
+}, {
+  "species_id": 177,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It usually forages for food on the ground but may,\non rare occasions, hop onto branches to peck\nat shoots."
+}, {
+  "species_id": 178,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "They say that it stays still and quiet because it is\nseeing both the past and future at the same time."
+}, {
+  "species_id": 179,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It stores lots of air in its soft fur, allowing it to stay\ncool in summer and warm in winter."
+}, {
+  "species_id": 180,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "If its coat becomes fully charged with electricity,\nits tail lights up. It fires hair that zaps on impact."
+}, {
+  "species_id": 181,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "The tail’s tip shines brightly and can be seen from\nfar away. It acts as a beacon for lost people."
+}, {
+  "species_id": 182,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "When the heavy rainfall season ends, it is drawn\nout by warm sunlight to dance in the open."
+}, {
+  "species_id": 183,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "The tip of its tail is filled with oil that is lighter than\nwater, so it acts as a float."
+}, {
+  "species_id": 184,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "The bubble-like pattern on its stomach helps it\ncamouflage itself when it’s in the water."
+}, {
+  "species_id": 185,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It disguises itself as a tree to avoid attack. It hates\nwater, so it will disappear if it starts raining."
+}, {
+  "species_id": 186,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "If Poliwag and Poliwhirl hear its echoing cry, they\nrespond by gathering from far and wide."
+}, {
+  "species_id": 187,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It drifts on winds. It is said that when Hoppip gather\nin fields and mountains, spring is on the way."
+}, {
+  "species_id": 188,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It spreads its petals to absorb sunlight. It also floats\nin the air to get closer to the sun."
+}, {
+  "species_id": 189,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Even in the fiercest wind, it can control its fluff to\nmake its way to any place in the world it wants."
+}, {
+  "species_id": 190,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Its tail is so powerful that it can use it to grab a\ntree branch and hold itself up in the air."
+}, {
+  "species_id": 191,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It lives by drinking only dewdrops from under the\nleaves of plants. It is said that it eats nothing else."
+}, {
+  "species_id": 192,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It gets energy from warm sunlight and is known for\nits habit of moving in pursuit of it."
+}, {
+  "species_id": 193,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "If it flaps its wings really fast, it can generate shock\nwaves that will shatter windows in the area."
+}, {
+  "species_id": 194,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "When the temperature cools in the evening,\nthey emerge from water to seek food along\nthe shore."
+}, {
+  "species_id": 195,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "This carefree Pokémon has an easygoing nature.\nWhile swimming, it always bumps into boat hulls."
+}, {
+  "species_id": 196,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Its fur is so sensitive, it can feel minute shifts in the\nair and predict the weather...and its foes’ thoughts."
+}, {
+  "species_id": 197,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "When exposed to the moon’s aura, the rings on its\nbody glow faintly and it’s filled with a\nmysterious power."
+}, {
+  "species_id": 198,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Feared and loathed by many, it is believed to bring\nmisfortune to all those who see it at night."
+}, {
+  "species_id": 199,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "When its head was bitten, toxins entered\nSlowpoke’s head and unlocked an\nextraordinary power."
+}, {
+  "species_id": 200,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It likes playing mischievous tricks, such as\nscreaming and wailing to startle people at night."
+}, {
+  "species_id": 201,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Shaped like ancient writing, it is a huge mystery\nwhether language or Unown came first."
+}, {
+  "species_id": 202,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "To keep its pitch-black tail hidden, it lives quietly in\nthe darkness. It is never first to attack."
+}, {
+  "species_id": 203,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Its tail has a small brain of its own. Beware! If you\nget close, it may react to your scent by biting."
+}, {
+  "species_id": 204,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It looks just like a pinecone. Its shell protects it\nfrom bird Pokémon that peck it by mistake."
+}, {
+  "species_id": 205,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It remains immovably rooted to its tree. It scatters\npieces of its hard shell to drive its enemies away."
+}, {
+  "species_id": 206,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It digs into the ground with its tail and makes a\nmazelike nest. It can fly just a little."
+}, {
+  "species_id": 207,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It flies straight at its target’s face, then clamps\ndown on the startled victim to inject poison."
+}, {
+  "species_id": 208,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It chews its way through boulders with its\nsturdy jaws. Its eyes can see in the\ndarkness underground."
+}, {
+  "species_id": 209,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Small Pokémon flee from its scary face. It is,\nhowever, considered by women to be cute."
+}, {
+  "species_id": 210,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It can make most any Pokémon run away simply by\nopening its mouth wide to reveal its big fangs."
+}, {
+  "species_id": 211,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "The small spikes covering its body developed from\nscales. They inject a toxin that causes fainting."
+}, {
+  "species_id": 212,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It has a steel-hard body. It intimidates foes by\nupraising its eye-patterned pincers."
+}, {
+  "species_id": 213,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It stores berries inside its shell. To avoid attacks,\nit hides beneath rocks and remains completely still."
+}, {
+  "species_id": 214,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "With its Herculean powers, it can easily throw\naround an object that is 100 times its own weight."
+}, {
+  "species_id": 215,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Its paws conceal sharp claws. If attacked,\nit suddenly extends the claws and startles\nits enemy."
+}, {
+  "species_id": 216,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Before food becomes scarce in wintertime, its habit\nis to hoard food in many hidden locations."
+}, {
+  "species_id": 217,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Although it has a large body, it is quite skilled at\nclimbing trees. It eats and sleeps in the treetops."
+}, {
+  "species_id": 218,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Its body is made of magma. If it doesn’t keep\nmoving, its body will cool and harden."
+}, {
+  "species_id": 219,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Its body is as hot as lava and is always billowing.\nFlames will occasionally burst from its shell."
+}, {
+  "species_id": 220,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "If it smells something enticing, it dashes off\nheadlong to find the source of the aroma."
+}, {
+  "species_id": 221,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Because the long hair all over its body obscures its\nsight, it just keeps charging repeatedly."
+}, {
+  "species_id": 222,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "They prefer unpolluted southern seas. Their coral\nbranches lose their color and deteriorate in\ndirty water."
+}, {
+  "species_id": 223,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Using its dorsal fin as a suction pad, it clings to a\nMantine’s underside to scavenge for leftovers."
+}, {
+  "species_id": 224,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It traps foes with the suction cups on its tentacles,\nthen smashes them with its rock-hard head."
+}, {
+  "species_id": 225,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It carries food all day long. When someone is lost\nin the mountains, it shares that food."
+}, {
+  "species_id": 226,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "While elegantly swimming in the sea, it ignores\nRemoraid that cling to its fins seeking food scraps."
+}, {
+  "species_id": 227,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Despite being clad entirely in iron-hard armor,\nit flies at speeds over 180 mph."
+}, {
+  "species_id": 228,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "To corner prey, they check each other’s location\nusing barks that only they can understand."
+}, {
+  "species_id": 229,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "The flames it breathes when angry contain toxins.\nIf they cause a burn, it will hurt forever."
+}, {
+  "species_id": 230,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It stores energy by sleeping at underwater depths\nat which no other life-forms can survive."
+}, {
+  "species_id": 231,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It is strong despite its compact size. It can easily\npick up and carry an adult human on its back."
+}, {
+  "species_id": 232,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "The longer and bigger its tusks, the higher its rank\nin its herd. The tusks take long to grow."
+}, {
+  "species_id": 233,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "With planetary development software installed,\nit became capable of working in space."
+}, {
+  "species_id": 234,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "The curved antlers subtly change the flow of air to\ncreate a strange space where reality is distorted."
+}, {
+  "species_id": 235,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Once it becomes an adult, it has a tendency to let\nits comrades plant footprints on its back."
+}, {
+  "species_id": 236,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "To brush up on its fighting skills, it will challenge\nanyone. It has a very strong competitive spirit."
+}, {
+  "species_id": 237,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "If you are enchanted by its smooth, dance-like\nkicks, you may get a closer experience with one\nthan you’d like."
+}, {
+  "species_id": 238,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It tests everything by touching with its lips,\nwhich remember what it likes and dislikes."
+}, {
+  "species_id": 239,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Spinning its arms around to generate electricity\nmakes the area between its horns shine light blue."
+}, {
+  "species_id": 240,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Its magma-like blood circulates throughout\nits body. Its body’s heat can top\n1,100 degrees Fahrenheit."
+}, {
+  "species_id": 241,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Its milk is packed with nutrition, making it the\nultimate beverage for the sick or weary."
+}, {
+  "species_id": 242,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "This kindhearted Pokémon nurses sick Pokémon to\nhealth. It senses feelings of sadness."
+}, {
+  "species_id": 243,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "This rough Pokémon stores energy inside its body,\nthen sweeps across the land, shooting\noff electricity."
+}, {
+  "species_id": 244,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It is said that when it roars, a volcano erupts\nsomewhere around the globe."
+}, {
+  "species_id": 245,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Said to be the embodiment of north winds, it can\ninstantly purify filthy, murky water."
+}, {
+  "species_id": 246,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Born deep underground, it comes aboveground and\nbecomes a pupa once it has finished eating the\nsurrounding soil."
+}, {
+  "species_id": 247,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Its shell is as hard as sheet rock, and it is also very\nstrong. Its thrashing can topple a mountain."
+}, {
+  "species_id": 248,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "If it rampages, it knocks down mountains and buries\nrivers. Maps must be redrawn afterward."
+}, {
+  "species_id": 249,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It is said to be the guardian of the seas. It is\nrumored to have been seen on the night of a storm."
+}, {
+  "species_id": 250,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It will reveal itself before a pure-hearted Trainer by\nshining its bright, rainbow-colored wings."
+}, {
+  "species_id": 251,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It has the power to travel across time, but it is said\nto appear only in peaceful times."
+}, {
+  "species_id": 252,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Small hooks on the bottom of its feet catch on\nwalls and ceilings. That is how it can hang\nfrom above."
+}, {
+  "species_id": 253,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It lives in dense jungles. While closing in on its\nprey, it leaps from branch to branch."
+}, {
+  "species_id": 254,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It agilely leaps about the jungle and uses the sharp\nleaves on its arms to strike its prey."
+}, {
+  "species_id": 255,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "A fire burns inside, so it feels very warm to hug.\nIt launches fireballs of 1,800 degrees Fahrenheit."
+}, {
+  "species_id": 256,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "During a battle, the hot flame in its body increases.\nIts kicks have outstanding destructive power."
+}, {
+  "species_id": 257,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "When facing a tough foe, it looses flames from\nits wrists. Its powerful legs let it jump clear\nover buildings."
+}, {
+  "species_id": 258,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "To alert it, the fin on its head senses the flow of\nwater. It has the strength to heft boulders."
+}, {
+  "species_id": 259,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Living on muddy ground that provides poor footing\nhas made its legs sturdy."
+}, {
+  "species_id": 260,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It can swim while towing a large ship. It bashes\ndown foes with a swing of its thick arms."
+}, {
+  "species_id": 261,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It has a very tenacious nature. Its acute sense of\nsmell lets it chase a chosen prey without ever\nlosing track."
+}, {
+  "species_id": 262,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It chases down prey in a pack of around ten.\nThey defeat foes with perfectly\ncoordinated teamwork."
+}, {
+  "species_id": 263,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "A Pokémon with abundant curiosity. It shows an\ninterest in everything, so it always zigzags."
+}, {
+  "species_id": 264,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It charges prey at speeds over 60 mph. However,\nbecause it can only run straight, it often fails."
+}, {
+  "species_id": 265,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It lives among the tall grass and in forests. It repels\nattacks by raising up the spikes on its rear."
+}, {
+  "species_id": 266,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It drinks dew that collects on its silk and waits for\nevolution. Its hard cocoon repels attacks."
+}, {
+  "species_id": 267,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It has an aggressive nature. It stabs prey with its\nlong, narrow mouth to drain the prey’s fluids."
+}, {
+  "species_id": 268,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It never forgets any attack it endured while in the\ncocoon. After evolution, it seeks payback."
+}, {
+  "species_id": 269,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It violently flutters its wings to scatter toxic dust\nwhen attacked. It becomes active after sunset."
+}, {
+  "species_id": 270,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It searches about for clean water. If it does not\ndrink water for too long, the leaf on its head wilts."
+}, {
+  "species_id": 271,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It has a mischievous spirit. If it spots an angler,\nit will tug on the fishing line to interfere."
+}, {
+  "species_id": 272,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "The rhythm of bright, festive music activates\nLudicolo’s cells, making it more powerful."
+}, {
+  "species_id": 273,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "When it dangles from a tree branch, it looks just\nlike an acorn. It enjoys scaring other Pokémon."
+}, {
+  "species_id": 274,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It lives deep in forests. With the leaf on its head,\nit makes a flute whose song makes\nlisteners uneasy."
+}, {
+  "species_id": 275,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "By flapping its leafy fan, it can whip up gusts of\n100 feet per second that can level houses."
+}, {
+  "species_id": 276,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It dislikes cold seasons. They migrate to other\nlands in search of warmth, flying over 180 miles\na day."
+}, {
+  "species_id": 277,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It dives at a steep angle as soon as it spots its\nprey. It catches its prey with sharp claws."
+}, {
+  "species_id": 278,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It makes its nest on steep sea cliffs.\nRiding updrafts, it soars to great heights."
+}, {
+  "species_id": 279,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It is a messenger of the skies, carrying small\nPokémon and eggs to safety in its bill."
+}, {
+  "species_id": 280,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It is highly attuned to the emotions of people and\nPokémon. It hides if it senses hostility."
+}, {
+  "species_id": 281,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It has a psychic power that enables it to distort the\nspace around it and see into the future."
+}, {
+  "species_id": 282,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It has the power to predict the future. Its power\npeaks when it is protecting its Trainer."
+}, {
+  "species_id": 283,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It appears as if it is skating on water. It draws prey\nwith a sweet scent from the tip of its head."
+}, {
+  "species_id": 284,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It flaps its four wings to hover and fly freely in any\ndirection--to and fro and sideways."
+}, {
+  "species_id": 285,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It spouts poison spores from the top of its head.\nThese spores cause pain all over if inhaled."
+}, {
+  "species_id": 286,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It scatters poisonous spores and throws powerful\npunches while its foe is hampered by\ninhaled spores."
+}, {
+  "species_id": 287,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "If it eats just three leaves in a day, it is satisfied.\nOther than that, it sleeps for 20 hours a day."
+}, {
+  "species_id": 288,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Its stress level rises if it cannot keep moving\nconstantly. Too much stress makes it feel sick."
+}, {
+  "species_id": 289,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It is the world’s most slothful Pokémon. However,\nit can exert horrifying power by releasing pent-up\nenergy all at once."
+}, {
+  "species_id": 290,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It can sometimes live underground for more than\n10 years. It absorbs nutrients from the roots\nof trees."
+}, {
+  "species_id": 291,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Because it moves so quickly, it sometimes becomes\nunseeable. It congregates around tree sap."
+}, {
+  "species_id": 292,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "A most peculiar Pokémon that somehow appears in\na Poké Ball when a Nincada evolves."
+}, {
+  "species_id": 293,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "If it senses danger, it scares the foe by crying out\nwith the volume of a jet-plane engine."
+}, {
+  "species_id": 294,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "The shock waves from its cries can tip over trucks.\nIt stamps its feet to power up."
+}, {
+  "species_id": 295,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Its roar in battle shakes the ground like a\ntremor--or like an earthquake has struck."
+}, {
+  "species_id": 296,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It grows stronger by enduring harsh training. It is a\ngutsy Pokémon that can withstand any attack."
+}, {
+  "species_id": 297,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It loves to match power with big-bodied Pokémon.\nIt can knock a truck flying with its arm thrusts."
+}, {
+  "species_id": 298,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It swings its large, nutrient-filled tail around to fight\nopponents bigger than itself."
+}, {
+  "species_id": 299,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Its magnetic nose consistently faces north.\nTravelers check Nosepass to get their bearings."
+}, {
+  "species_id": 300,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It shows its cute side by chasing its own tail\nuntil it gets dizzy."
+}, {
+  "species_id": 301,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It is highly popular among female Trainers for its\nsublime fur. It does not keep a nest."
+}, {
+  "species_id": 302,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It dwells in the darkness of caves. It uses its sharp\nclaws to dig up gems to nourish itself."
+}, {
+  "species_id": 303,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Attached to its head is a huge set of jaws formed\nby horns. It can chew through iron beams."
+}, {
+  "species_id": 304,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "When it evolves, it sheds the steel carapace that\ncovered its whole body and develops a new one."
+}, {
+  "species_id": 305,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It habitually shows off its strength with the size of\nsparks it creates by ramming its steel body\ninto boulders."
+}, {
+  "species_id": 306,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "While seeking iron for food, it digs tunnels by\nbreaking through bedrock with its steel horns."
+}, {
+  "species_id": 307,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It eats just one berry a day. By enduring hunger,\nits spirit is tempered and made sharper."
+}, {
+  "species_id": 308,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Through yoga training, it gained the psychic power\nto predict its foe’s next move."
+}, {
+  "species_id": 309,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It stores static electricity in its fur for discharging.\nIt gives off sparks if a storm approaches."
+}, {
+  "species_id": 310,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It discharges electricity from its mane. It creates a\nthundercloud overhead to drop lightning bolts."
+}, {
+  "species_id": 311,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It absorbs electricity from telephone poles. It shorts\nout its body to create crackling noises."
+}, {
+  "species_id": 312,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It cheers on friends. If its friends are losing,\nits body lets off more and more sparks."
+}, {
+  "species_id": 313,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It lives around clean ponds. At night, its rear lights\nup. It converses with others by flashing its light."
+}, {
+  "species_id": 314,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "With its sweet aroma, it guides Volbeat to draw\nsigns with light in the night sky."
+}, {
+  "species_id": 315,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Roselia that drink nutritionally rich springwater are\nsaid to reveal rare coloration when they bloom."
+}, {
+  "species_id": 316,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "There is nothing its stomach can’t digest. While it is\ndigesting, vile, overpowering gases are expelled."
+}, {
+  "species_id": 317,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It gulps anything that fits in its mouth. Its special\nenzymes can dissolve anything."
+}, {
+  "species_id": 318,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It lives in massive rivers that course through\njungles. It swarms prey that enter its territory."
+}, {
+  "species_id": 319,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It can swim at speeds of 75 mph by jetting\nseawater through its body. It is the bandit of\nthe sea."
+}, {
+  "species_id": 320,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It eats one ton of food every day. It plays by\nshooting stored seawater out its blowholes with\ngreat force."
+}, {
+  "species_id": 321,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "The biggest of all Pokémon. It can dive to a depth\nof almost 10,000 feet on only one breath."
+}, {
+  "species_id": 322,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "The magma in its body reaches 2,200 degrees\nFahrenheit. Its hump gets smaller when it uses\nFire-type moves."
+}, {
+  "species_id": 323,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "If angered, the humps on its back erupt in a shower\nof molten lava. It lives in the craters of volcanoes."
+}, {
+  "species_id": 324,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It burns coal inside its shell for energy. It blows out\nblack soot if it is endangered."
+}, {
+  "species_id": 325,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It bounces around on its tail to keep its\nheart pumping. It carries a pearl from\nClamperl on its head."
+}, {
+  "species_id": 326,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It uses black pearls to amplify its psychic power.\nIt does an odd dance to gain control over foes."
+}, {
+  "species_id": 327,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "The chances of two Spinda having identical spot\npatterns is less than one in four billion."
+}, {
+  "species_id": 328,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It makes an inescapable conical pit and lies in wait\nat the bottom for prey to come tumbling down."
+}, {
+  "species_id": 329,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It generates ultrasonic waves by violently flapping\nits wings. After making its prey faint, it melts the\nprey with acid."
+}, {
+  "species_id": 330,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Known as “The Desert Spirit,” this Pokémon hides in\nthe sandstorms it causes by beating its wings."
+}, {
+  "species_id": 331,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It prefers harsh environments such as deserts.\nIt can survive for 30 days on water stored in\nits body."
+}, {
+  "species_id": 332,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Packs of them follow travelers through the desert\nuntil the travelers can no longer move."
+}, {
+  "species_id": 333,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It constantly grooms its cotton-like wings. It takes\na shower to clean itself if it becomes dirty."
+}, {
+  "species_id": 334,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "On sunny days, it flies freely through the sky and\nblends into the clouds. It sings in a\nbeautiful soprano."
+}, {
+  "species_id": 335,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Its fur would all stand on end if it smelled a Seviper\nnearby. Its sharp claws tear up its foes."
+}, {
+  "species_id": 336,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Constant polishing makes the edge of the blade on\nits tail extremely sharp. It’s Zangoose’s archrival."
+}, {
+  "species_id": 337,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It was discovered at the site of a meteor strike\n40 years ago. Its stare can lull its foes to sleep."
+}, {
+  "species_id": 338,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It absorbs solar energy during the day. Always\nexpressionless, it can sense what its foe is thinking."
+}, {
+  "species_id": 339,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Its whiskers make a superb radar. They are used to\nlocate prey, even in the murkiest of water."
+}, {
+  "species_id": 340,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It makes its nest at the bottom of swamps.\nIt will eat anything--if it is alive, Whiscash will eat it."
+}, {
+  "species_id": 341,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Its hardy vitality enables it to adapt to any\nenvironment. Its pincers will never release prey."
+}, {
+  "species_id": 342,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Loving to battle, this Pokémon pinches all Pokémon\nthat enter its territory with its pincers and throws\nthem out."
+}, {
+  "species_id": 343,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It moves by spinning on its foot. It is a rare\nPokémon that was discovered in ancient ruins."
+}, {
+  "species_id": 344,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It is said that it originates from clay dolls made by\nan ancient civilization."
+}, {
+  "species_id": 345,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It lived on the seafloor 100 million years ago and\nwas reanimated scientifically."
+}, {
+  "species_id": 346,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It ensnares prey with its eight tentacles. It then\nmelts the prey with a strong acid before feeding."
+}, {
+  "species_id": 347,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "A Pokémon ancestor that was reanimated from a\nfossil. It lived in the sea and hunted with claws."
+}, {
+  "species_id": 348,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Protected by a hard shell, its body is very sturdy.\nIt skewers prey with its claws to feed."
+}, {
+  "species_id": 349,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It is the shabbiest Pokémon of all. It forms in\nschools and lives at the bottom of rivers."
+}, {
+  "species_id": 350,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It is the world’s most beautiful Pokémon. There are\nmany works of art featuring Milotic."
+}, {
+  "species_id": 351,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It has the ability to change its form into the sun,\nthe rain, or a snow cloud, depending on\nthe weather."
+}, {
+  "species_id": 352,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It changes its shading to match its surroundings\nso it can sneak up on prey. Only its belly patterns\nstay fixed."
+}, {
+  "species_id": 353,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It loves vengeful emotions and hangs in rows under\nthe eaves of houses where vengeful people live."
+}, {
+  "species_id": 354,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Strong feelings of hatred turned a puppet into a\nPokémon. If it opens its mouth, its cursed\nenergy escapes."
+}, {
+  "species_id": 355,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "If it finds bad children who won’t listen to their\nparents, it will spirit them away--or so it’s said."
+}, {
+  "species_id": 356,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Its body is hollow. It is said that those who look\ninto its body are sucked into the void."
+}, {
+  "species_id": 357,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "The bunch of fruit around its neck ripens twice a\nyear and is delicious. It’s a highly favored\ntropical snack."
+}, {
+  "species_id": 358,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Emitting ultrasonic cries, it floats on winds to travel\ngreat distances."
+}, {
+  "species_id": 359,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It appears when it senses an impending natural\ndisaster. As a result, it was mistaken as a\ndoom bringer."
+}, {
+  "species_id": 360,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It grows strong by pushing up against others en\nmasse. It loves eating sweet fruit."
+}, {
+  "species_id": 361,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "In the snow country, certain folklore says a house\nwill prosper if a Snorunt lives there."
+}, {
+  "species_id": 362,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It can instantly freeze moisture in the atmosphere.\nIt uses this power to freeze its foes."
+}, {
+  "species_id": 363,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Its body is covered in fluffy fur. The fur keeps it\nfrom feeling cold while it is rolling on ice."
+}, {
+  "species_id": 364,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Be it Spheal or Poké Ball, it will spin any round\nobject on its nose with the greatest of ease."
+}, {
+  "species_id": 365,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It shatters drift ice with its strong tusks. Its thick\nlayer of blubber repels enemy attacks."
+}, {
+  "species_id": 366,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It is protected by a sturdy shell. Once in a lifetime,\nit makes a magnificent pearl."
+}, {
+  "species_id": 367,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It lives deep in the sea. With a tail shaped like a\nsmall fish, it attracts unsuspecting prey."
+}, {
+  "species_id": 368,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Its swimming form is exquisitely elegant.\nWith its thin mouth, it feeds on seaweed\nthat grows between rocks."
+}, {
+  "species_id": 369,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "A rare Pokémon discovered during a deep-sea\nexploration. It has not changed in over\n100 million years."
+}, {
+  "species_id": 370,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "During the spawning season, countless Luvdisc\ncongregate at coral reefs, turning the waters pink."
+}, {
+  "species_id": 371,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Dreaming of one day flying, it practices by leaping\noff cliffs every day."
+}, {
+  "species_id": 372,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Its armored body makes all attacks bounce off.\nThe armor is too tough, however, making it heavy\nand somewhat sluggish."
+}, {
+  "species_id": 373,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It’s uncontrollable if enraged. It flies around\nspouting flames and scorching fields\nand mountains."
+}, {
+  "species_id": 374,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It converses with others by using magnetic pulses.\nIn a swarm, they move in perfect unison."
+}, {
+  "species_id": 375,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It is formed by two Beldum joining together. Its two\nbrains are linked, amplifying its psychic power."
+}, {
+  "species_id": 376,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Metang combined to form it. With four brains, it has\nthe intelligence of a supercomputer."
+}, {
+  "species_id": 377,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "The same rocks that form its body have been found\nin ground layers around the world."
+}, {
+  "species_id": 378,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Its body is made of ice from the ice age. It controls\nfrigid air of -328 degrees Fahrenheit."
+}, {
+  "species_id": 379,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Its body is said to be harder than any kind of metal.\nA study has revealed that its body is hollow."
+}, {
+  "species_id": 380,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It can telepathically communicate with people. It\nchanges its appearance using its down that\nrefracts light."
+}, {
+  "species_id": 381,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It understands human speech and is highly\nintelligent. It is a tender Pokémon that\ndislikes fighting."
+}, {
+  "species_id": 382,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It is said to have widened the seas by causing\ndownpours. It had been asleep in a marine trench."
+}, {
+  "species_id": 383,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "This legendary Pokémon is said to represent the\nland. It went to sleep after dueling Kyogre."
+}, {
+  "species_id": 384,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It flies in the ozone layer, way up high in the sky.\nUntil recently, no one had ever seen it."
+}, {
+  "species_id": 385,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It is said to have the ability to grant any wish for\njust one week every thousand years."
+}, {
+  "species_id": 386,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "DNA from a space virus mutated and became a\nPokémon. It appears where auroras are seen."
+}, {
+  "species_id": 387,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It undertakes photosynthesis with its body, making\noxygen. The leaf on its head wilts if it is thirsty."
+}, {
+  "species_id": 388,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It knows where pure water wells up. It carries fellow\nPokémon there on its back."
+}, {
+  "species_id": 389,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Small Pokémon occasionally gather on its unmoving\nback to begin building their nests."
+}, {
+  "species_id": 390,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "The gas made in its belly burns from its rear end.\nThe fire burns weakly when it feels sick."
+}, {
+  "species_id": 391,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It uses ceilings and walls to launch aerial attacks.\nIts fiery tail is but one weapon."
+}, {
+  "species_id": 392,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It tosses its enemies around with agility. It uses all\nits limbs to fight in its own unique style."
+}, {
+  "species_id": 393,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Because it is very proud, it hates accepting food\nfrom people. Its thick down guards it from cold."
+}, {
+  "species_id": 394,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It lives a solitary life. Its wings deliver wicked blows\nthat can snap even the thickest of trees."
+}, {
+  "species_id": 395,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "The three horns that extend from its beak attest to\nits power. The leader has the biggest horns."
+}, {
+  "species_id": 396,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "They flock around mountains and fields, chasing\nafter bug Pokémon. Their singing is noisy\nand annoying."
+}, {
+  "species_id": 397,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It lives in forests and fields. Squabbles over\nterritory occur when flocks collide."
+}, {
+  "species_id": 398,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "When Staravia evolve into Staraptor, they leave the\nflock to live alone. They have sturdy wings."
+}, {
+  "species_id": 399,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It constantly gnaws on logs and rocks to whittle\ndown its front teeth. It nests alongside water."
+}, {
+  "species_id": 400,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It makes its nest by damming streams with bark and\nmud. It is known as an industrious worker."
+}, {
+  "species_id": 401,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "When its antennae hit each other, it sounds like the\nmusic of a xylophone."
+}, {
+  "species_id": 402,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It signals its emotions with its melodies. Scientists\nare studying these melodic patterns."
+}, {
+  "species_id": 403,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "All of its fur dazzles if danger is sensed. It flees\nwhile the foe is momentarily blinded."
+}, {
+  "species_id": 404,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Strong electricity courses through the tips of its\nsharp claws. A light scratch causes fainting in foes."
+}, {
+  "species_id": 405,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Luxray’s ability to see through objects comes in\nhandy when it’s scouting for danger."
+}, {
+  "species_id": 406,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Over the winter, it closes its bud and endures the\ncold. In spring, the bud opens and releases pollen."
+}, {
+  "species_id": 407,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "With the movements of a dancer, it strikes with\nwhips that are densely lined with poison thorns."
+}, {
+  "species_id": 408,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "A lifelong jungle dweller from 100 million years\nago, it would snap obstructing trees with headbutts."
+}, {
+  "species_id": 409,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Its skull is as hard as iron. It is a brute that tears\ndown jungle trees while catching prey."
+}, {
+  "species_id": 410,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It was generated from a fossil dug out of a layer of\nclay that was older than anyone knows. It has a\nsturdy face."
+}, {
+  "species_id": 411,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Any frontal attack is repulsed. It is a docile\nPokémon that feeds on grass and berries."
+}, {
+  "species_id": 412,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "If its cloak is broken in battle, it quickly remakes\nthe cloak with materials nearby."
+}, {
+  "species_id": 413,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "When Burmy evolved, its cloak became a part of\nthis Pokémon’s body. The cloak is never shed."
+}, {
+  "species_id": 414,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It flutters around at night and steals honey from\nthe Combee hive."
+}, {
+  "species_id": 415,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It collects and delivers honey to its colony.\nAt night, they cluster to form a beehive and sleep."
+}, {
+  "species_id": 416,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Its abdomen is a honeycomb for grubs. It raises its\ngrubs on honey collected by Combee."
+}, {
+  "species_id": 417,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "A pair may be seen rubbing their cheek pouches\ntogether in an effort to share stored electricity."
+}, {
+  "species_id": 418,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It inflates the flotation sac around its neck and\npokes its head out of the water to see what is\ngoing on."
+}, {
+  "species_id": 419,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Its flotation sac developed as a result of pursuing\naquatic prey. It can double as a rubber raft."
+}, {
+  "species_id": 420,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It evolves by sucking the energy out of the small\nball where it had been storing nutrients."
+}, {
+  "species_id": 421,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "If it senses strong sunlight, it opens its folded\npetals to absorb the sun’s rays with its whole body."
+}, {
+  "species_id": 422,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Its shape and coloration vary, depending on\nits habitat."
+}, {
+  "species_id": 423,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It apparently had a huge shell for protection in\nancient times. It lives in shallow tidal pools."
+}, {
+  "species_id": 424,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "To eat, it deftly shucks nuts with its two tails.\nIt rarely uses its arms now."
+}, {
+  "species_id": 425,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "These Pokémon are called the “Signpost for\nWandering Spirits.” Children holding them\nsometimes vanish."
+}, {
+  "species_id": 426,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It’s drowsy in daytime, but flies off in the evening in\nbig groups. No one knows where they go."
+}, {
+  "species_id": 427,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "When it senses danger, it perks up its ears.\nOn cold nights, it sleeps with its head tucked into\nits fur."
+}, {
+  "species_id": 428,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "The ears appear to be delicate. If they are touched\nroughly, it kicks with its graceful legs."
+}, {
+  "species_id": 429,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Its cries sound like incantations to torment the foe.\nIt appears where you least expect it."
+}, {
+  "species_id": 430,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Becoming active at night, it is known to swarm with\nnumerous Murkrow in tow."
+}, {
+  "species_id": 431,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "When it’s happy, Glameow demonstrates beautiful\nmovements of its tail, like a dancing ribbon."
+}, {
+  "species_id": 432,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "To make itself appear intimidatingly beefy, it tightly\ncinches its waist with its twin tails."
+}, {
+  "species_id": 433,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "There is an orb inside its mouth. When it hops,\nthe orb bounces all over and makes a\nringing sound."
+}, {
+  "species_id": 434,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It protects itself by spraying a noxious fluid from its\nrear. The stench lingers for 24 hours."
+}, {
+  "species_id": 435,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It sprays a stinky fluid from its tail. The fluid smells\nworse the longer it is allowed to fester."
+}, {
+  "species_id": 436,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Implements shaped like it were discovered in\nancient tombs. It is unknown if they are related."
+}, {
+  "species_id": 437,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Ancient people believed that petitioning Bronzong\nfor rain was the way to make crops grow."
+}, {
+  "species_id": 438,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It prefers an arid atmosphere. It leaks water that\nlooks like tears when adjusting its moisture level."
+}, {
+  "species_id": 439,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It habitually mimics foes. Once mimicked, the foe\ncannot take its eyes off this Pokémon."
+}, {
+  "species_id": 440,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It carefully carries a round, white rock that it thinks\nis an egg. It’s bothered by how curly its hair looks."
+}, {
+  "species_id": 441,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It can learn and speak human words. If they gather,\nthey all learn the same saying."
+}, {
+  "species_id": 442,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It was bound to a fissure in an odd keystone as\npunishment for misdeeds 500 years ago."
+}, {
+  "species_id": 443,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It nests in small, horizontal holes in cave walls.\nIt pounces to catch prey that stray too close."
+}, {
+  "species_id": 444,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "As it digs to expand its nest, it habitually digs up\ngems that it then hoards in its nest."
+}, {
+  "species_id": 445,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It flies at speeds equal to a jet fighter plane.\nIt never allows its prey to escape."
+}, {
+  "species_id": 446,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It conceals food under the long fur on its body.\nIt carts around this food stash and swallows it\nwithout chewing."
+}, {
+  "species_id": 447,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "The aura that emanates from its body intensifies to\nalert others if it is afraid or sad."
+}, {
+  "species_id": 448,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "By reading the auras of all things, it can tell how\nothers are feeling from over half a mile away."
+}, {
+  "species_id": 449,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It enshrouds itself with sand to protect itself from\ngerms. It does not enjoy getting wet."
+}, {
+  "species_id": 450,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It blasts internally stored sand from ports on its\nbody to create a towering twister for attack."
+}, {
+  "species_id": 451,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It burrows under the sand to lie in wait for prey.\nIts tail claws can inject its prey with a\nsavage poison."
+}, {
+  "species_id": 452,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It has the power in its clawed arms to make scrap\nof a car. The tips of its claws release poison."
+}, {
+  "species_id": 453,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Inflating its poison sacs, it fills the area with an odd\nsound and hits flinching opponents with a\npoison jab."
+}, {
+  "species_id": 454,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Its knuckle claws secrete a toxin so vile that even a\nscratch could prove fatal."
+}, {
+  "species_id": 455,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It binds itself to trees in marshes. It attracts prey\nwith its sweet-smelling drool and gulps them down."
+}, {
+  "species_id": 456,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "After long exposure to sunlight, the patterns on its\ntail fins shine vividly when darkness arrives."
+}, {
+  "species_id": 457,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "To avoid detection by predators, it crawls along the\nseafloor using the two fins on its chest."
+}, {
+  "species_id": 458,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "When it swims close to the surface of the ocean,\npeople aboard ships are able to observe the pattern\non its back."
+}, {
+  "species_id": 459,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "In the spring, it grows berries with the texture of\nfrozen treats around its belly."
+}, {
+  "species_id": 460,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It lives a quiet life on mountains that are perpetually\ncovered in snow. It hides itself by whipping\nup blizzards."
+}, {
+  "species_id": 461,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "They live in cold regions, forming groups of four or\nfive that hunt prey with impressive coordination."
+}, {
+  "species_id": 462,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It evolved from exposure to a special magnetic\nfield. Three units generate magnetism."
+}, {
+  "species_id": 463,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Their saliva contains lots of components that can\ndissolve anything. The numbness caused by their\nlick does not dissipate."
+}, {
+  "species_id": 464,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It puts rocks in holes in its palms and uses its\nmuscles to shoot them. Geodude are shot at\nrare times."
+}, {
+  "species_id": 465,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Its vines grow so profusely that, in the warm\nseason, you can’t even see its eyes."
+}, {
+  "species_id": 466,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It pushes the tips of its two tails against the foe,\nthen lets loose with over 20,000 volts of power."
+}, {
+  "species_id": 467,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It blasts fireballs of over 3,600 degrees Fahrenheit\nout of its arms. Its breath also sears and sizzles."
+}, {
+  "species_id": 468,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It shares many blessings with people who respect\none another’s rights and avoid needless strife."
+}, {
+  "species_id": 469,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "This six-legged Pokémon is easily capable of\ntransporting an adult in flight. The wings on its tail\nhelp it stay balanced."
+}, {
+  "species_id": 470,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Just like a plant, it uses photosynthesis. As a result,\nit is always enveloped in clear air."
+}, {
+  "species_id": 471,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It lowers its body heat to freeze its fur. The hairs\nthen become like needles it can fire."
+}, {
+  "species_id": 472,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Its flight is soundless. It uses its lengthy tail to\ncarry off its prey... Then its elongated fangs do\nthe rest."
+}, {
+  "species_id": 473,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Its impressive tusks are made of ice. The population\nthinned when it turned warm after the ice age."
+}, {
+  "species_id": 474,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Its programming was modified to enable it to travel\nthrough alien dimensions. Seems there might have\nbeen an error..."
+}, {
+  "species_id": 475,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "A master of courtesy and swordsmanship, it fights\nusing extending swords on its elbows."
+}, {
+  "species_id": 476,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It freely controls three small units called Mini-Noses\nusing magnetic force."
+}, {
+  "species_id": 477,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "The antenna on its head captures radio waves from\nthe world of spirits that command it to take\npeople there."
+}, {
+  "species_id": 478,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Legends in snowy regions say that a woman who\nwas lost on an icy mountain was reborn as Froslass."
+}, {
+  "species_id": 479,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Its body is composed of plasma. It is known to\ninfiltrate electronic devices and wreak havoc."
+}, {
+  "species_id": 480,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It is said that its emergence gave humans the\nintelligence to improve their quality of life."
+}, {
+  "species_id": 481,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It sleeps at the bottom of a lake. Its spirit is said to\nleave its body to fly on the lake’s surface."
+}, {
+  "species_id": 482,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It is thought that Uxie, Mesprit, and Azelf all came\nfrom the same egg."
+}, {
+  "species_id": 483,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It has the power to control time. It appears in\nSinnoh-region myths as an ancient deity."
+}, {
+  "species_id": 484,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It has the ability to distort space. It is described as\na deity in Sinnoh-region mythology."
+}, {
+  "species_id": 485,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Boiling blood, like magma, circulates through its\nbody. It makes its dwelling place in volcanic caves."
+}, {
+  "species_id": 486,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "There is an enduring legend that states this\nPokémon towed continents with ropes."
+}, {
+  "species_id": 487,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It was banished for its violence. It silently gazed\nupon the old world from the Distortion World."
+}, {
+  "species_id": 488,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Those who sleep holding Cresselia’s feather are\nassured of joyful dreams. It is said to represent\nthe crescent moon."
+}, {
+  "species_id": 489,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It drifts in warm seas. It always returns to where it\nwas born, no matter how far it may have drifted."
+}, {
+  "species_id": 490,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It starts its life with a wondrous power that permits\nit to bond with any kind of Pokémon."
+}, {
+  "species_id": 491,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It can lull people to sleep and make them dream.\nIt is active during nights of the new moon."
+}, {
+  "species_id": 492,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "The blooming of Gracidea flowers confers the\npower of flight upon it. Feelings of gratitude are\nthe message it delivers."
+}, {
+  "species_id": 493,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It is told in mythology that this Pokémon was born\nbefore the universe even existed."
+}, {
+  "species_id": 494,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "When it shares the infinite energy it creates,\nthat being’s entire body will be overflowing\nwith power."
+}, {
+  "species_id": 495,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "They photosynthesize by bathing their tails in\nsunlight. When they are not feeling well, their\ntails droop."
+}, {
+  "species_id": 496,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "When it gets dirty, its leaves can’t be used in\nphotosynthesis, so it always keeps itself clean."
+}, {
+  "species_id": 497,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It can stop its opponents’ movements with just a\nglare. It takes in solar energy and boosts\nit internally."
+}, {
+  "species_id": 498,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It loves to eat roasted berries, but sometimes it\ngets too excited and burns them to a crisp."
+}, {
+  "species_id": 499,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "When its internal fire flares up, its movements grow\nsharper and faster. When in trouble, it emits smoke."
+}, {
+  "species_id": 500,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It has mastered fast and powerful fighting moves.\nIt grows a beard of fire."
+}, {
+  "species_id": 501,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It fights using the scalchop on its stomach.\nIn response to an attack, it retaliates immediately\nby slashing."
+}, {
+  "species_id": 502,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "As a result of strict training, each Dewott learns\ndifferent forms for using the scalchops."
+}, {
+  "species_id": 503,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "One swing of the sword incorporated in its armor\ncan fell an opponent. A simple glare from one of\nthem quiets everybody."
+}, {
+  "species_id": 504,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Extremely cautious, one of them will always be on\nthe lookout, but it won’t notice a foe coming\nfrom behind."
+}, {
+  "species_id": 505,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "When they see an enemy, their tails stand high,\nand they spit the seeds of berries stored in their\ncheek pouches."
+}, {
+  "species_id": 506,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Though it is a very brave Pokémon, it’s also smart\nenough to check its foe’s strength and avoid battle."
+}, {
+  "species_id": 507,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It has black, cape-like fur that is very hard and\ndecreases the amount of damage it receives."
+}, {
+  "species_id": 508,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Being wrapped in its long fur is so comfortable\nthat a person would be fine even overnight on a\nwintry mountain."
+}, {
+  "species_id": 509,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "They steal from people for fun, but their victims\ncan’t help but forgive them. Their deceptively cute\nact is perfect."
+}, {
+  "species_id": 510,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Stealthily, it sneaks up on its target, striking from\nbehind before its victim has a chance to react."
+}, {
+  "species_id": 511,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It’s good at finding berries and gathers them from\nall over. It’s kind enough to share them\nwith friends."
+}, {
+  "species_id": 512,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Ill tempered, it fights by swinging its barbed tail\naround wildly. The leaf growing on its head is\nvery bitter."
+}, {
+  "species_id": 513,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "This Pokémon lives in caves in volcanoes.\nThe fire within the tuft on its head can reach\n600 degrees Fahrenheit."
+}, {
+  "species_id": 514,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "When it gets excited, embers rise from its head\nand tail and it gets hot. For some reason, it\nloves sweets."
+}, {
+  "species_id": 515,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "The water stored inside the tuft on its head is full of\nnutrients. Plants that receive its water grow large."
+}, {
+  "species_id": 516,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It prefers places with clean water. When its tuft runs\nlow, it replenishes it by siphoning up water with\nits tail."
+}, {
+  "species_id": 517,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It eats the dreams of people and Pokémon. When it\neats a pleasant dream, it expels pink-colored mist."
+}, {
+  "species_id": 518,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "The dream mist coming from its forehead changes\ninto many different colors depending on the dream\nthat was eaten."
+}, {
+  "species_id": 519,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "These Pokémon live in cities. They are accustomed\nto people. Flocks often gather in parks and plazas."
+}, {
+  "species_id": 520,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "No matter where in the world it goes, it knows\nwhere its nest is, so it never gets separated from\nits Trainer."
+}, {
+  "species_id": 521,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Males have plumage on their heads. They will never\nlet themselves feel close to anyone other than\ntheir Trainers."
+}, {
+  "species_id": 522,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Its mane shines when it discharges electricity.\nThey use the frequency and rhythm of these flashes\nto communicate."
+}, {
+  "species_id": 523,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "They have lightning-like movements.\nWhen Zebstrika run at full speed, the sound of\nthunder reverberates."
+}, {
+  "species_id": 524,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "They were discovered a hundred years ago in an\nearthquake fissure. Inside each one is an\nenergy core."
+}, {
+  "species_id": 525,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "When it is healthy, its core sticks out. Always facing\nthe same way, it swiftly moves front to back and left\nto right."
+}, {
+  "species_id": 526,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Compressing the energy from its internal core\nlets it fire off an attack capable of blowing away\na mountain."
+}, {
+  "species_id": 527,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "The heart-shaped mark left on a body after a\nWoobat has been attached to it is said to bring\ngood fortune."
+}, {
+  "species_id": 528,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Anyone who comes into contact with the ultrasonic\nwaves emitted by a courting male experiences a\npositive mood shift."
+}, {
+  "species_id": 529,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "By spinning its body, it can dig straight through the\nground at a speed of 30 mph."
+}, {
+  "species_id": 530,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "More than 300 feet below the surface, they build\nmazelike nests. Their activity can be destructive to\nsubway tunnels."
+}, {
+  "species_id": 531,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It touches others with the feelers on its ears, using\nthe sound of their heartbeats to tell how they\nare feeling."
+}, {
+  "species_id": 532,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Always carrying squared logs, they help out with\nconstruction. As they grow, they carry bigger logs."
+}, {
+  "species_id": 533,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "This Pokémon is so muscular and strongly built that\neven a group of wrestlers could not make it budge\nan inch."
+}, {
+  "species_id": 534,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Rather than rely on force, they master moves that\nutilize the centrifugal force of spinning concrete."
+}, {
+  "species_id": 535,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "By vibrating its cheeks, it emits sound waves\nimperceptible to humans. It uses the rhythm of\nthese sounds to talk."
+}, {
+  "species_id": 536,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It lives in the water and on land. It uses its long,\nsticky tongue to immobilize its opponents."
+}, {
+  "species_id": 537,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "They shoot paralyzing liquid from their head bumps.\nThey use vibration to hurt their opponents."
+}, {
+  "species_id": 538,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "When it encounters a foe bigger than itself, it wants\nto throw it. It changes belts as it gets stronger."
+}, {
+  "species_id": 539,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Tying their belts gets them pumped and makes their\npunches more destructive. Disturbing their training\nangers them."
+}, {
+  "species_id": 540,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Since this Pokémon makes its own clothes out of\nleaves, it is a popular mascot for fashion designers."
+}, {
+  "species_id": 541,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It protects itself from the cold by wrapping up in\nleaves. It stays on the move, eating leaves\nin forests."
+}, {
+  "species_id": 542,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It keeps its eggs warm with heat from fermenting\nleaves. It also uses leaves to make warm wrappings\nfor Sewaddle."
+}, {
+  "species_id": 543,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Its bite injects a potent poison, enough to paralyze\nlarge bird Pokémon that try to prey on it."
+}, {
+  "species_id": 544,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It is usually motionless, but when attacked,\nit rotates at high speed and then crashes into\nits opponent."
+}, {
+  "species_id": 545,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "With quick movements, it chases down its foes,\nattacking relentlessly with its horns until it prevails."
+}, {
+  "species_id": 546,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Perhaps because they feel more at ease in a group,\nthey stick to others they find. They end up looking\nlike a cloud."
+}, {
+  "species_id": 547,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Like the wind, it can slip through any gap,\nno matter how small. It leaves balls of white\nfluff behind."
+}, {
+  "species_id": 548,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Since they prefer moist, nutrient-rich soil, the areas\nwhere Petilil live are known to be good for\ngrowing plants."
+}, {
+  "species_id": 549,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Even veteran Trainers face a challenge in getting its\nbeautiful flower to bloom. This Pokémon is popular\nwith celebrities."
+}, {
+  "species_id": 550,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Red and blue Basculin usually do not get along,\nbut sometimes members of one school mingle with\nthe other’s school."
+}, {
+  "species_id": 551,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "They live buried in the sands of the desert.\nThe sun-warmed sands prevent their body\ntemperature from dropping."
+}, {
+  "species_id": 552,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "The special membrane covering its eyes can sense\nthe heat of objects, so it can see its surroundings\neven in darkness."
+}, {
+  "species_id": 553,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "They never allow prey to escape. Their jaws\nare so powerful, they can crush the body of\nan automobile."
+}, {
+  "species_id": 554,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "When it sleeps, it pulls its limbs into its\nbody and its internal fire goes down to\n1,100 degrees Fahrenheit."
+}, {
+  "species_id": 555,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Its internal fire burns at 2,500 degrees Fahrenheit,\nmaking enough power that it can destroy a dump\ntruck with one punch."
+}, {
+  "species_id": 556,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Arid regions are their habitat. They move\nrhythmically, making a sound similar to maracas."
+}, {
+  "species_id": 557,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "When it finds a stone of a suitable size, it secretes\na liquid from its mouth to open up a hole to\ncrawl into."
+}, {
+  "species_id": 558,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Competing for territory, Crustle fight viciously.\nThe one whose boulder is broken is the loser of\nthe battle."
+}, {
+  "species_id": 559,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Proud of its sturdy skull, it suddenly headbutts\neverything, but its weight makes it unstable, too."
+}, {
+  "species_id": 560,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It can smash concrete blocks with its kicking\nattacks. The one with the biggest crest is the\ngroup leader."
+}, {
+  "species_id": 561,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "The guardians of an ancient city, they always fly\nthe same route while keeping watch for invaders."
+}, {
+  "species_id": 562,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Each of them carries a mask that used to be its face\nwhen it was human. Sometimes they look at it\nand cry."
+}, {
+  "species_id": 563,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Grave robbers who mistake them for real coffins and\nget too close end up trapped inside their bodies."
+}, {
+  "species_id": 564,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Restored from a fossil, this Pokémon can dive to\ndepths beyond half a mile."
+}, {
+  "species_id": 565,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It could knock out a foe with a slap from one of its\ndeveloped front appendages and chew it up, shell\nor bones and all."
+}, {
+  "species_id": 566,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Said to be an ancestor of bird Pokémon, they were\nunable to fly and moved about by hopping from one\nbranch to another."
+}, {
+  "species_id": 567,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It runs better than it flies. It takes off into the sky\nby running at a speed of 25 mph."
+}, {
+  "species_id": 568,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Inhaling the gas they belch will make you sleep for\na week. They prefer unsanitary places."
+}, {
+  "species_id": 569,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Consuming garbage makes new kinds of poison\ngases and liquids inside their bodies."
+}, {
+  "species_id": 570,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "To protect themselves from danger, they hide their\ntrue identities by transforming into people\nand Pokémon."
+}, {
+  "species_id": 571,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Bonds between these Pokémon are very strong.\nIt protects the safety of its pack by tricking\nits opponents."
+}, {
+  "species_id": 572,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "These Pokémon prefer a tidy habitat. They are\nalways sweeping and dusting, using their tails\nas brooms."
+}, {
+  "species_id": 573,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Cinccino’s body is coated in a special oil that helps\nit deflect attacks, such as punches."
+}, {
+  "species_id": 574,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "They intently observe both Trainers and Pokémon.\nApparently, they are looking at something that only\nGothita can see."
+}, {
+  "species_id": 575,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "According to many old tales, it creates friends for\nitself by controlling sleeping children on\nstarry nights."
+}, {
+  "species_id": 576,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "They can predict the future from the placement and\nmovement of the stars. They can see Trainers’\nlife spans."
+}, {
+  "species_id": 577,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "They drive away attackers by unleashing psychic\npower. They can use telepathy to talk with others."
+}, {
+  "species_id": 578,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "When their two divided brains think the same\nthoughts, their psychic power is maximized."
+}, {
+  "species_id": 579,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "When Reuniclus shake hands, a network forms\nbetween their brains, increasing their\npsychic power."
+}, {
+  "species_id": 580,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "They are better at swimming than flying, and they\nhappily eat their favorite food, peat moss, as they\ndive underwater."
+}, {
+  "species_id": 581,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Swanna start to dance at dusk. The one dancing in\nthe middle is the leader of the flock."
+}, {
+  "species_id": 582,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "This Pokémon formed from icicles bathed in energy\nfrom the morning sun. It sleeps buried in snow."
+}, {
+  "species_id": 583,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Snowy mountains are this Pokémon’s habitat.\nDuring an ancient ice age, they moved to\nsouthern areas."
+}, {
+  "species_id": 584,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Swallowing large amounts of water, they make\nsnow clouds inside their bodies and, when angry,\ncause violent blizzards."
+}, {
+  "species_id": 585,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "The turning of the seasons changes the color and\nscent of this Pokémon’s fur. People use it to mark\nthe seasons."
+}, {
+  "species_id": 586,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "They migrate according to the seasons, so some\npeople call Sawsbuck the harbingers of spring."
+}, {
+  "species_id": 587,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "The energy made in its cheeks’ electric pouches is\nstored inside its membrane and released while it\nis gliding."
+}, {
+  "species_id": 588,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "For some reason they evolve when they receive\nelectrical energy while they are attacking Shelmet."
+}, {
+  "species_id": 589,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "These Pokémon evolve by wearing the shell\ncovering of a Shelmet. The steel armor protects\ntheir whole body."
+}, {
+  "species_id": 590,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It lures Pokémon with its pattern that looks just like\na Poké Ball, then releases poison spores."
+}, {
+  "species_id": 591,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It lures prey close by dancing and waving its\narm caps, which resemble Poké Balls, in a\nswaying motion."
+}, {
+  "species_id": 592,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "If its veil-like arms stun and wrap a foe, that foe will\nbe dragged miles below the surface, never\nto return."
+}, {
+  "species_id": 593,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "The fate of the ships and crew that wander into\nJellicent’s habitat: all sunken, all lost, all vanished."
+}, {
+  "species_id": 594,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It gently holds injured and weak Pokémon in its\nfins. Its special membrane heals their wounds."
+}, {
+  "species_id": 595,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "They attach themselves to large-bodied Pokémon\nand absorb static electricity, which they store in an\nelectric pouch."
+}, {
+  "species_id": 596,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "When attacked, they create an electric barrier by\nspitting out many electrically charged threads."
+}, {
+  "species_id": 597,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It absorbs the iron it finds in the rock while clinging\nto the ceiling. It shoots spikes when in danger."
+}, {
+  "species_id": 598,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "They attach themselves to cave ceilings, firing steel\nspikes at targets passing beneath them."
+}, {
+  "species_id": 599,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "The two minigears that mesh together are\npredetermined. Each will rebound from other\nminigears without meshing."
+}, {
+  "species_id": 600,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "A minigear and big gear comprise its body. If the\nminigear it launches at a foe doesn’t return, it\nwill die."
+}, {
+  "species_id": 601,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Its red core functions as an energy tank. It fires the\ncharged energy through its spikes into an area."
+}, {
+  "species_id": 602,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "One alone can emit only a trickle of electricity,\nso a group of them gathers to unleash a powerful\nelectric shock."
+}, {
+  "species_id": 603,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "These Pokémon have a big appetite. When they\nspot their prey, they attack it and paralyze it\nwith electricity."
+}, {
+  "species_id": 604,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "They crawl out of the ocean using their arms.\nThey will attack prey on shore and immediately drag\nit into the ocean."
+}, {
+  "species_id": 605,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Rumors of its origin are linked to a UFO crash site\nin the desert 50 years ago."
+}, {
+  "species_id": 606,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It uses psychic power to control an opponent’s\nbrain and tamper with its memories."
+}, {
+  "species_id": 607,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Litwick shines a light that absorbs the life energy of\npeople and Pokémon, which becomes the fuel that\nit burns."
+}, {
+  "species_id": 608,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It arrives near the moment of death and steals spirit\nfrom the body."
+}, {
+  "species_id": 609,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "The spirits burned up in its ominous flame lose their\nway and wander this world forever."
+}, {
+  "species_id": 610,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "They mark their territory by leaving gashes in trees\nwith their tusks. If a tusk breaks, a new one grows\nin quickly."
+}, {
+  "species_id": 611,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "A broken tusk will not grow back, so it diligently\nsharpens its tusks on river rocks after the end of\na battle."
+}, {
+  "species_id": 612,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Their sturdy tusks will stay sharp even if used to cut\nsteel beams. These Pokémon are covered in\nhard armor."
+}, {
+  "species_id": 613,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Their snot is a barometer of health. When healthy,\ntheir snot is sticky and the power of their ice\nmoves increases."
+}, {
+  "species_id": 614,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It freezes its breath to create fangs and claws of ice\nto fight with. Cold northern areas are its habitat."
+}, {
+  "species_id": 615,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "They are composed of ice crystals. They capture\nprey with chains of ice, freezing the prey at\n-148 degrees Fahrenheit."
+}, {
+  "species_id": 616,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It evolves when bathed in an electric-like energy\nalong with Karrablast. The reason is still unknown."
+}, {
+  "species_id": 617,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "When its body dries out, it weakens. So, to prevent\ndehydration, it wraps itself in many layers of\nthin membrane."
+}, {
+  "species_id": 618,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It conceals itself in the mud of the seashore.\nThen it waits. When prey touch it, it delivers a jolt\nof electricity."
+}, {
+  "species_id": 619,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "In fights, they dominate with onslaughts of flowing,\ncontinuous attacks. With their sharp claws, they\ncut enemies."
+}, {
+  "species_id": 620,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Using the long fur on its arms like whips, it\nlaunches into combo attacks that, once started,\nno one can stop."
+}, {
+  "species_id": 621,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It warms its body by absorbing sunlight with its\nwings. When its body temperature falls, it can no\nlonger move."
+}, {
+  "species_id": 622,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Ancient science fashioned this Pokémon from clay.\nIt’s been active for thousands of years."
+}, {
+  "species_id": 623,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It flies across the sky at Mach speeds. Removing\nthe seal on its chest makes its internal energy go\nout of control."
+}, {
+  "species_id": 624,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Ignoring their injuries, groups attack by sinking\nthe blades that cover their bodies into their prey."
+}, {
+  "species_id": 625,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Bisharp pursues prey in the company of a large\ngroup of Pawniard. Then Bisharp finishes off\nthe prey."
+}, {
+  "species_id": 626,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Their fluffy fur absorbs damage, even if they strike\nfoes with a fierce headbutt."
+}, {
+  "species_id": 627,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "They will challenge anything, even strong\nopponents, without fear. Their frequent fights help\nthem become stronger."
+}, {
+  "species_id": 628,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "They fight for their friends without any thought\nabout danger to themselves. One can carry a car\nwhile flying."
+}, {
+  "species_id": 629,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Their wings are too tiny to allow them to fly.\nThey guard their posteriors with bones that were\ngathered by Mandibuzz."
+}, {
+  "species_id": 630,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Watching from the sky, they swoop to strike\nweakened Pokémon on the ground. They decorate\nthemselves with bones."
+}, {
+  "species_id": 631,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It draws in air through its tail, transforms it into fire,\nand uses it like a tongue. It melts Durant and\neats them."
+}, {
+  "species_id": 632,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "They attack in groups, covering themselves in steel\narmor to protect themselves from Heatmor."
+}, {
+  "species_id": 633,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Lacking sight, it’s unaware of its surroundings,\nso it bumps into things and eats anything\nthat moves."
+}, {
+  "species_id": 634,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "After it has eaten up all the food in its territory,\nit moves to another area. Its two heads do not\nget along."
+}, {
+  "species_id": 635,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It responds to movement by attacking. This scary,\nthree-headed Pokémon devours everything in\nits path!"
+}, {
+  "species_id": 636,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "The base of volcanoes is where they make their\nhomes. They shoot fire from their five horns to repel\nattacking enemies."
+}, {
+  "species_id": 637,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "When volcanic ash darkened the atmosphere, it is\nsaid that Volcarona’s fire provided a replacement\nfor the sun."
+}, {
+  "species_id": 638,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It has a body and heart of steel. It worked with its\nallies to punish people when they hurt Pokémon."
+}, {
+  "species_id": 639,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Spoken of in legend, this Pokémon used its\nphenomenal power to destroy a castle in its effort\nto protect Pokémon."
+}, {
+  "species_id": 640,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Legends say this Pokémon confounded opponents\nwith its swift movements."
+}, {
+  "species_id": 641,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Tornadus expels massive energy from its tail,\ncausing severe storms. Its power is great enough\nto blow houses away."
+}, {
+  "species_id": 642,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "As it flies around, it shoots lightning all over\nthe place and causes forest fires. It is\ntherefore disliked."
+}, {
+  "species_id": 643,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "When Reshiram’s tail flares, the heat energy moves\nthe atmosphere and changes the world’s weather."
+}, {
+  "species_id": 644,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Concealing itself in lightning clouds, it flies\nthroughout the Unova region. It creates electricity\nin its tail."
+}, {
+  "species_id": 645,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "From the forces of lightning and wind, it creates\nenergy to give nutrients to the soil and make the\nland abundant."
+}, {
+  "species_id": 646,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It generates a powerful, freezing energy inside\nitself, but its body became frozen when the energy\nleaked out."
+}, {
+  "species_id": 647,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "When it is resolute, its body fills with power and it\nbecomes swifter. Its jumps are then too fast\nto follow."
+}, {
+  "species_id": 648,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Its melodies are sung with a special vocalization\nmethod that can control the feelings of those who\nhear it."
+}, {
+  "species_id": 649,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "This Pokémon existed 300 million years ago. Team\nPlasma altered it and attached a cannon to its back."
+}, {
+  "species_id": 650,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Such a thick shell of wood covers its head and back\nthat even a direct hit from a truck wouldn’t faze it."
+}, {
+  "species_id": 651,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "They strengthen their lower bodies by\nrunning into one another. They are very\nkind and won’t start fights."
+}, {
+  "species_id": 652,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "When it takes a defensive posture with its fists\nguarding its face, it could withstand a bomb blast."
+}, {
+  "species_id": 653,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "As it walks, it munches on a twig in place\nof a snack. It intimidates opponents\nby puffing hot air out of its ears."
+}, {
+  "species_id": 654,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "When the twig is plucked from its tail,\nfriction sets the twig alight. The flame\nis used to send signals to its allies."
+}, {
+  "species_id": 655,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Using psychic power, it generates a\nfiery vortex of 5,400 degrees Fahrenheit,\nincinerating foes swept into this whirl of flame."
+}, {
+  "species_id": 656,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It protects its skin by covering its body in\ndelicate bubbles. Beneath its happy-go-lucky air,\nit keeps a watchful eye on its surroundings."
+}, {
+  "species_id": 657,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Its swiftness is unparalleled.\nIt can scale a tower of more\nthan 2,000 feet in a minute’s time."
+}, {
+  "species_id": 658,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It appears and vanishes with a ninja’s grace.\nIt toys with its enemies using swift movements, while\nslicing them with throwing stars of sharpest water."
+}, {
+  "species_id": 659,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It has ears like shovels. Digging holes\nstrengthens its ears so much that they\ncan sever thick roots effortlessly."
+}, {
+  "species_id": 660,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "As powerful as an excavator, its ears\ncan reduce dense bedrock to rubble.\nWhen it’s finished digging, it lounges lazily."
+}, {
+  "species_id": 661,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Despite the beauty of its lilting voice, it’s\nmerciless to intruders that enter its territory."
+}, {
+  "species_id": 662,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "The hotter the flame sac on its belly,\nthe faster it can fly, but it takes some\ntime to get the fire going."
+}, {
+  "species_id": 663,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "When attacking prey, it can reach speeds\nof up to 310 mph. It finishes its prey off\nwith a colossal kick."
+}, {
+  "species_id": 664,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "The powder that covers its body\nregulates its temperature, so it\ncan live in any region or climate."
+}, {
+  "species_id": 665,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "The beaks of bird Pokémon can’t begin\nto scratch its stalwart body.\nTo defend itself, it spews powder."
+}, {
+  "species_id": 666,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "The patterns on this Pokémon’s wings\ndepend on the climate and topography\nof its habitat. It scatters colorful scales."
+}, {
+  "species_id": 667,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "They set off on their own from their pride\nand live by themselves to become stronger.\nThese hot-blooded Pokémon are quick to fight."
+}, {
+  "species_id": 668,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "With fiery breath of more than 10,000 degrees\nFahrenheit, they viciously threaten any challenger.\nThe females protect the pride’s cubs."
+}, {
+  "species_id": 669,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "When it finds a flower it likes, it dwells on\nthat flower its whole life long. It floats in the\nwind’s embrace with an untroubled heart."
+}, {
+  "species_id": 670,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "When the flowers of a well-tended flower bed bloom,\nit appears and celebrates with an elegant dance."
+}, {
+  "species_id": 671,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "In times long past, governors of castles\nwould invite Florges to create flower gardens\nto embellish the castle domains."
+}, {
+  "species_id": 672,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "If it has sunshine and water, it doesn’t\nneed to eat, because it can generate\nenergy from the leaves on its back."
+}, {
+  "species_id": 673,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "They inhabit mountainous regions.\nThe leader of the herd is decided by\na battle of clashing horns."
+}, {
+  "species_id": 674,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It does its level best to glare and pull a scary face,\nbut it can’t help grinning if anyone pats its head."
+}, {
+  "species_id": 675,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It charges ahead and bashes its opponents like\na berserker, uncaring about any hits it might take.\nIts arms are mighty enough to snap a telephone pole."
+}, {
+  "species_id": 676,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Historically, in the Kalos region, these Pokémon\nwere the designated guardians of the king."
+}, {
+  "species_id": 677,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It has enough psychic energy to blast\neverything within 300 feet of itself,\nbut it has no control over its power."
+}, {
+  "species_id": 678,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "The eyeball patterns on the interior of its ears\nemit psychic energy. It keeps the patterns tightly\ncovered because that power is too immense."
+}, {
+  "species_id": 679,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "If anyone dares to grab its hilt, it wraps\na blue cloth around that person’s arm and\ndrains that person’s life energy completely."
+}, {
+  "species_id": 680,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "The complex attack patterns of its two swords\nare unstoppable, even for an opponent\ngreatly accomplished at swordplay."
+}, {
+  "species_id": 681,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Apparently, it can detect the innate qualities\nof leadership. According to legend, whoever it\nrecognizes is destined to become king."
+}, {
+  "species_id": 682,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "In the past, rather than using perfume,\nroyal ladies carried a Spritzee\nthat would waft a fragrance they liked."
+}, {
+  "species_id": 683,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Its scent is so overpowering that, unless a Trainer\nhappens to really enjoy the smell, he or she will\nhave a hard time walking alongside it."
+}, {
+  "species_id": 684,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Because it eats nothing but sweets,\nits fur is as sticky sweet as cotton candy."
+}, {
+  "species_id": 685,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Its sense of smell is 100 million times better than\na human’s, so even the faintest scent tells it about\neverything in the area. It’s like it can see with its nose!"
+}, {
+  "species_id": 686,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It flashes the light-emitting spots on its body,\nwhich drains its opponent’s will to fight.\nIt takes the opportunity to scuttle away and hide."
+}, {
+  "species_id": 687,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It lures its prey close with hypnotic motions,\nthen wraps its tentacles around it before\nfinishing it off with digestive fluids."
+}, {
+  "species_id": 688,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "They stretch and then contract, yanking their\nrocks along with them in bold hops. They eat\nseaweed that washes up on the shoreline."
+}, {
+  "species_id": 689,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Barbaracle’s legs and hands have minds\nof their own, and they will move independently.\nBut they usually follow the head’s orders."
+}, {
+  "species_id": 690,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It looks just like rotten kelp. It hides from foes\nwhile storing up power for its evolution."
+}, {
+  "species_id": 691,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Tales are told of ships that wander into\nseas where Dragalge live, never to return."
+}, {
+  "species_id": 692,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Through controlled explosions of internal gas,\nit can expel water like a pistol shot.\nAt close distances, it can shatter rock."
+}, {
+  "species_id": 693,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "By expelling water from the nozzle in the back\nof its claw, it can move at a speed of 60 knots."
+}, {
+  "species_id": 694,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "The frills on either side of its head have cells\nthat generate electricity when exposed to sunlight."
+}, {
+  "species_id": 695,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It stimulates its muscles with electricity,\nboosting the strength in its legs and enabling\nit to run 100 yards in five seconds."
+}, {
+  "species_id": 696,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Its immense jaws have enough destructive\nforce that it can chew up an automobile.\nIt lived 100 million years ago."
+}, {
+  "species_id": 697,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Nothing could stop this Pokémon\n100 million years ago,\nso it behaved like a king."
+}, {
+  "species_id": 698,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "This calm Pokémon lived in a cold land where\nthere were no violent predators like Tyrantrum."
+}, {
+  "species_id": 699,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Using its diamond-shaped crystals,\nit can instantly create a wall of\nice to block an opponent’s attack."
+}, {
+  "species_id": 700,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It wraps its ribbonlike feelers around\nthe arm of its beloved Trainer\nand walks with him or her."
+}, {
+  "species_id": 701,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "With its wings, it controls its position in the air.\nIt likes to attack from above, a maneuver that\nis difficult to defend against."
+}, {
+  "species_id": 702,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It uses its tail to absorb electricity from\npower plants or from outlets in houses,\nand then it fires the electricity from its whiskers."
+}, {
+  "species_id": 703,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It has slept underground for hundreds of millions\nof years since its birth. It’s occasionally found\nduring the excavation of caves."
+}, {
+  "species_id": 704,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It’s covered in a slimy membrane that makes\nany punches or kicks slide off it harmlessly."
+}, {
+  "species_id": 705,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Its four horns are a high-performance radar system.\nIt uses them to sense sounds and smells,\nrather than using ears or a nose."
+}, {
+  "species_id": 706,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It attacks with retractable horns.\nIt throws a punch that’s the equivalent\nof the force of a hundred pro boxers."
+}, {
+  "species_id": 707,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It never lets go of a key that it likes,\nso people give it the keys to vaults and\nsafes as a way to prevent crime."
+}, {
+  "species_id": 708,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "According to old tales, these Pokémon are\nstumps possessed by the spirits of\nchildren who died while lost in the forest."
+}, {
+  "species_id": 709,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Using its roots as a nervous system,\nit controls the trees in the forest.\nIt’s kind to the Pokémon that reside in its body."
+}, {
+  "species_id": 710,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It is said to carry wandering spirits\nto the place where they belong\nso they can move on."
+}, {
+  "species_id": 711,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It enwraps its prey in its hairlike arms.\nIt sings joyfully as it observes the\nsuffering of its prey."
+}, {
+  "species_id": 712,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Using air of -150 degrees Fahrenheit, they\nfreeze opponents solid. They live in herds\nabove the snow line on mountains."
+}, {
+  "species_id": 713,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "The way several Bergmite huddle\non its back makes it look like\nan aircraft carrier made of ice."
+}, {
+  "species_id": 714,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "Even a robust wrestler will become\ndizzy and unable to stand when exposed\nto its 200,000-hertz ultrasonic waves."
+}, {
+  "species_id": 715,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "The ultrasonic waves it emits from its ears\ncan reduce a large boulder to pebbles.\nIt swoops out of the dark to attack."
+}, {
+  "species_id": 716,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "When the horns on its head shine\nin seven colors, it is said to be\nsharing everlasting life."
+}, {
+  "species_id": 717,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "When its life comes to an end, it absorbs\nthe life energy of every living thing\nand turns into a cocoon once more."
+}, {
+  "species_id": 718,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It’s hypothesized that it’s monitoring\nthose who destroy the ecosystem\nfrom deep in the cave where it lives."
+}, {
+  "species_id": 719,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It can instantly create many diamonds\nby compressing the carbon in the air\nbetween its hands."
+}, {
+  "species_id": 720,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It gathers things it likes and passes them through\nits loop to teleport them to a secret place."
+}, {
+  "species_id": 721,
+  "version_id": 24,
+  "language_id": 9,
+  "flavor_text": "It expels its internal steam from the\narms on its back. It has enough\npower to blow away a mountain."
+}]

@@ -27,5 +27,18 @@
 		{% for move in movesByLevel %}
 				<li><span class='moveLevel'>Lv. {{loop.key}}</span>{{move}}</li>
 		{% endfor %}
+			<li class="result"></li>
 		</ul>
+		
 	{% endblock %}
+
+
+  {% block scripts %}
+		<script>
+		  $.get('http://pokeapi.co/api/v1/pokemon/{{nationalDex}}/', function(data) {
+				console.log("searching")
+				console.log(data)
+				$(".result").html( data );
+			});
+		</script>
+  {% endblock %}
