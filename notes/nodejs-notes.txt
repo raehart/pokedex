@@ -1,4 +1,0 @@
-to run the server:
-
-DEBUG=myapp npm start
-
