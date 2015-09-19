@@ -1,0 +1,14 @@
+#package managers
+node_modules
+**/node_modules
+
+#microsoft thumbnails
+Thumbs.db
+**/Thumbs.db
+
+#test and notes files
+test/
+notes/
+
+#Archived files
+archive/

@@ -11,10 +11,12 @@
 	<header> </header>
 	<section>
 		<div class="pokeblock">
+  		
+
 			<h2 id="name">Treecko</h2>
 			<h3 id="dexNumbers"> Hoenn #1, National#252</h3>
 			<h3 id="navLinks"><a href="/dex/0">Previous</a><a href="/dex/2">Next</a></h3>
-			<img src="../img/port/treecko.png" id="portrait">
+			<img src="treecko.png" id="portrait">
 			<p id="description"> Treecko has small hooks on the bottom of its feet that enable it to scale vertical walls. This Pokémon attacks by slamming foes with its thick tail. </p>
 			<ul>
 				<li>Primary Type: Grass</li>
@@ -22,41 +24,57 @@
 				<li>Evolutions: </li>
 				<li>Ablities:  Overgrow,Unburden(Hidden)</li>
 			</ul>
-			<ul id="egg-groups">
-				
-			</ul>
+
+	
   	</div>
-		<div class="pokeblock">		
-			<h3>Moveset</h3>
-			<ul id="moveset">
-				<li><span class="moveLevel">Start</span>Pound</li>
-				<li><span class="moveLevel">Start</span>Leer</li>
+		<div class="pokeblock">
+  		
+		<h3>Moveset</h3>
+		<ul id="moveset">
+		
+			<li><span class="moveLevel">Start</span>Pound</li>
+		
+			<li><span class="moveLevel">Start</span>Leer</li>
+		
+		
 				<li><span class="moveLevel">Lv. 5</span>Absorb</li>
+		
 				<li><span class="moveLevel">Lv. 9</span>Quick Attack</li>
+		
 				<li><span class="moveLevel">Lv. 13</span>Mega Drain</li>
+		
 				<li><span class="moveLevel">Lv. 17</span>Pursuit</li>
+		
 				<li><span class="moveLevel">Lv. 21</span>Giga Drain</li>
+		
 				<li><span class="moveLevel">Lv. 25</span>Agility</li>
+		
 				<li><span class="moveLevel">Lv. 29</span>Slam</li>
+		
 				<li><span class="moveLevel">Lv. 33</span>Detect</li>
+		
 				<li><span class="moveLevel">Lv. 37</span>Energy Ball</li>
+		
 				<li><span class="moveLevel">Lv. 41</span>Quick Guard</li>
+		
 				<li><span class="moveLevel">Lv. 45</span>Endeavor</li>
+		
 				<li><span class="moveLevel">Lv. 49</span>Screech</li>
-			</ul>
+		
+			<li class="result">[object Object]</li>
+		</ul>
+		
+	
+  		
 		</div>
 	</section>
 	<footer></footer>
   
 		<script>
-		  $.get('http://pokeapi.co/api/v1/pokemon/252/', function(pokemon) {
-		  	var HTML = ''
-	  		for(var i=0;i<pokemon.egg_groups.length;i++) {
-	  			HTML += '<li>' + pokemon.egg_groups[i].name + '</li>'
-	  		}
-	  		$('#egg-groups').html(HTML)
-				console.log(pokemon);
-				
+		  $.get('http://pokeapi.co/api/v1/pokemon/252/', function(data) {
+				console.log("searching")
+				console.log(data)
+				$(".result").text( data );
 			});
 		</script>
   
