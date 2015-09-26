@@ -1,7 +1,38 @@
 <section id="title" class="well">
-	<h1>{{pokemon.name}}</h1>
+	<h1>#{{pokemon.national_id}} {{pokemon.name}}</h1>
 	<h4>{{pokemon.species}}</h4>
 </section>
+
+<section id="image">
+	<p> sprite </p>
+</section>
+
+<section id="basic-info">
+	Height: {{pokemon.height}} meters
+	Weight: {{pokemon.weight}} grams
+	
+</section>
+
+<section id="poke-type">
+	types (array)
+</section>
+
+<section id="evolution">
+	evolutions (array)
+</section>
+
+
+<section id="egg-groups">
+	egg groups (array)
+</section>
+
+<section id="abilities" class="col-lg-4 col-md-6">
+	<h3>Abilities</h3>
+	<ul class="list-group">
+		<li ng-repeat="ability in pokemon.abilities" class="list-group-item" ng-click="getData(ability.resource_uri)">{{ability.name}}</li>
+	</ul>
+</section>
+
 <section id="moves" class="col-lg-4 col-md-6">
 	<h3>Moves</h3>
 	<ul class="list-group">
