@@ -1,12 +1,20 @@
 POKEMON
 user stories
-	as a user, I can 
+	as a user, I can filer by different pokedexes
 	as a user, I can access an individual page for each of the 721 pokemon
 		as a user, I can 
 	as a user, I can see a page with all of the pokemon in sprite form with their name and numbers
 		as a user, I can click on one of these pokemon to be taken to their full page
 		as a user, on the main page, I can filter by pokemon type
-
+	as a user, I can access a teambuilder page where I can make a team of 6 pokemon
+		as a user, I can choose a moveset for those 6 pokemon
+			as a user, I can see an elemental analysis page for my team based on type weaknesses
+	as a user, I can access a breeding guide page
+		as a user, I can select a pokemon I want to breed and I will see a list of egg moves
+			as a user, I can see a list of compatible breeding partners for that pokemon
+				as a user, I can choose a move and see a list of comaptible partners to get that move
+				as a user, I can see these breeding partners in the form of icons like on the main page
+				
 _____________________
 
 pokemon factory
