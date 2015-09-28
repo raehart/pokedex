@@ -4,7 +4,7 @@
 </section>
 
 <section id="image">
-	<p> sprite </p>
+	<p> <img ng-src = "{{pokeSprite}}"> </p>
 </section>
 
 <section id="basic-info">
@@ -14,16 +14,25 @@
 </section>
 
 <section id="poke-type">
-	types (array)
+	<h3> Type </h3>
+	<ul ng-repeat="type in pokemon.types">
+		<li> Type: {{type.name}} </li>
+	</ul>
 </section>
 
 <section id="evolution">
-	evolutions (array)
+	<h3>Evolution</h3>
+	<ul ng-repeat="evolution in pokemon.evolutions">
+		<li> Evolution: {{evolution.to}} </li> <li> Method: {{evolution.method}} {{evolution.level}} </li> 
+	</ul>
 </section>
 
 
 <section id="egg-groups">
-	egg groups (array)
+	<h3>Egg Group</h3>
+	<ul ng-repeat="group in pokemon.egg_groups">
+		<li> Group: {{group.name}} </li>
+	</ul>
 </section>
 
 <section id="abilities" class="col-lg-4 col-md-6">
