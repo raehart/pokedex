@@ -12,12 +12,18 @@ angular.module('PokedexApp', ['ngRoute'])
 	})
 }])
 
-.controller('MainController', ['$scope', function($scope) {
-	console.log('MAIN')
+.controller('MainController', ['$scope', '$routeParams', '$http', function($scope, $routeParams, $http) {
+	var url ="http://pokeapi.co/api/v1/pokedex/1/";
+		$http.get(url).success(function(data){
+		$scope.totaldex = data;
+		$scope.allpokemon = $scope.totaldex.pokemon
+		console.log($scope.allpokemon);
+	})
+
 }])
 .controller('DexController', ['$scope', '$routeParams', '$http', function($scope, $routeParams, $http) {
 	$scope.dexnum = $routeParams.dexnum;
-	$scope.root = "http://pokeapi.co"
+	$scope.root = "http://pokeapi.co";
 	var url = "http://pokeapi.co/api/v1/pokemon/" + $scope.dexnum + "/";
 		$http.get(url).success(function(data) {
 		$scope.pokemon = data;
@@ -32,7 +38,6 @@ angular.module('PokedexApp', ['ngRoute'])
 			if($scope.uriData.hasOwnProperty("image")) {
 				$scope.pokeSprite = $scope.root + $scope.uriData.image; 
 			}
-			//add if statements to return other urls as needed
 		})
 	}
 
