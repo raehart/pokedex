@@ -16,8 +16,9 @@ angular.module('PokedexApp', ['ngRoute'])
 	var url ="http://pokeapi.co/api/v1/pokedex/1/";
 		$http.get(url).success(function(data){
 		$scope.totaldex = data;
-		$scope.allpokemon = $scope.totaldex.pokemon
-		console.log($scope.allpokemon);
+		$scope.allpokemon = $scope.totaldex.pokemon;
+		$scope.getData($scope.allpokemon.resource_uri);
+		//get data function outside contoller but outside both and it doesnt work
 	})
 
 }])
@@ -35,9 +36,10 @@ angular.module('PokedexApp', ['ngRoute'])
 		var url = $scope.root + uri;
 		$http.get(url).success(function(data) {
 			$scope.uriData = data;
+			console.log($scope.uriData);
 			if($scope.uriData.hasOwnProperty("image")) {
 				$scope.pokeSprite = $scope.root + $scope.uriData.image; 
-			}
+			} 
 		})
 	}
 
