@@ -1,4 +1,4 @@
 <h1>HOME</h1>
-<ul ng-repeat="pokemon in allpokemon">
+<ul ng-repeat="pokemon in allpokemon | orderBy: 'number'">
 	<li>{{pokemon.name}} sprite  dexnum</li>
 </ul>
