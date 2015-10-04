@@ -20,3 +20,45 @@ h1 {
 }
 
 /*pokedex entry page*/
+
+.on-screen {
+	background: #0ce3ac;
+	max-width: 40em;
+	margin: 10em, auto;
+}
+
+.on-screen li {
+	list-style: none;
+}
+
+.row1 {
+	float: left;
+	margin: 2em 2em;
+	text-align: left;
+}
+
+.row2 {
+	float: right;
+	margin: 2em 2em;
+	text-align: left;
+}
+2
+.basic-info {
+	margin-bottom: 2em;
+}
+
+.btn {
+	min-width: 5em;
+	min-height: 5em;
+	background: red;
+	color: white;
+}
+
+#prior {
+	float: left;
+
+}
+
+#next{
+	float: right;
+}

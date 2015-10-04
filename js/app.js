@@ -12,6 +12,7 @@ angular.module('PokedexApp', ['ngRoute'])
 	})
 }])
 
+//need to fix bug for prior and next buttons on first and last pokemon
 .controller('MainController', ['$scope', '$routeParams', '$http', function($scope, $routeParams, $http) {
 	var url ="http://pokeapi.co/api/v1/pokedex/1/";
 	$http.get(url).success(function(data){
@@ -37,8 +38,11 @@ angular.module('PokedexApp', ['ngRoute'])
 	var url = "http://pokeapi.co/api/v1/pokemon/" + $scope.dexnum + "/";
 		$http.get(url).success(function(data) {
 		$scope.pokemon = data;
+		$scope.prior = $scope.pokemon.national_id-1;
+		$scope.next= $scope.pokemon.national_id+1
 		$scope.getData($scope.pokemon.sprites[0].resource_uri);
-	})
+		$scope.getData($scope.pokemon.descriptions[0].resource_uri);
+	});
 
 	$scope.getData = function(uri) {
 		var url = $scope.root + uri;
@@ -46,7 +50,9 @@ angular.module('PokedexApp', ['ngRoute'])
 			$scope.uriData = data;
 			if($scope.uriData.hasOwnProperty("image")) {
 				$scope.pokeSprite = $scope.root + $scope.uriData.image; 
-			} 
+			} if($scope.uriData.hasOwnProperty("description")) {
+				$scope.pokeDes =$scope.uriData.description;
+			}
 		})
 	}
 
