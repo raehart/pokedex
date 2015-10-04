@@ -1,0 +1,22 @@
+a:hover {
+	text-decoration: none;
+}
+
+h1 {
+	text-align: center;
+}
+
+/*main page*/
+
+.pokedex-main {
+	margin-top: 5em;
+	color: white;
+}
+
+.pokeblock {
+	list-style: none;
+	max-height: 30em; 
+	text-align: center;
+}
+
+/*pokedex entry page*/

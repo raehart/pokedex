@@ -1,4 +1,8 @@
 <h1>HOME</h1>
-<ul ng-repeat="pokemon in allpokemon | orderBy: 'number'">
-	<li> <a ng-href = "#"> #{{pokemon.number}} {{pokemon.name}} sprite </a></li>
-</ul>
+<div class="pokedex-main container">
+<div class="row">
+<div class= "col-lg-4  col-md-4 col-sm-4 col-xs-6 center-block" ng-repeat="pokemon in allpokemon | orderBy: 'number'">
+	<div class="pokeblock"> <a ng-href = "http://pokedex.lawlietblack.com/#/dex/{{pokemon.number}}"> <img class="center-block" ng-src="http://pokeapi.co/media/img/{{pokemon.number}}.png"/> #{{pokemon.number}} {{pokemon.name}}  </a></div>
+</div>
+</div>
+</div>
