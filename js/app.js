@@ -16,7 +16,11 @@ angular.module('PokedexApp', ['ngRoute'])
 	var url ="http://pokeapi.co/api/v1/pokedex/1/";
 	$http.get(url).success(function(data){
 		$scope.totaldex = data;
-		$scope.allpokemon = $scope.totaldex.pokemon;
+		console.log($scope.totaldex.pokemon)
+		$scope.allpokemon = $scope.totaldex.pokemon.filter(function(pokemon, index) {
+			var num = parseInt(pokemon.resource_uri.slice(15, -1));
+			return num < 10000;
+		});
 		for(key in $scope.allpokemon) {
 			if($scope.allpokemon.hasOwnProperty(key)) {
 				$scope.allpokemon[key].number = parseInt($scope.allpokemon[key].resource_uri.slice(15, -1));
