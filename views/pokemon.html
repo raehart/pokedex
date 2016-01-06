@@ -1,39 +1,35 @@
 <section id="title" class="well">
-	<h1>#{{pokemon.national_id}} {{pokemon.name}}</h1>
-	<h4>{{pokemon.species}}</h4>
+	<a ng-href= "http://pokedex.lawlietblack.com/#/dex/{{prior}}"> <button type="button" class="btn" id="prior"> 
+	<p> Previous Entry </p>
+</button> 
+<a ng-href= "http://pokedex.lawlietblack.com/#/dex/{{next}}">  <button type="button" class="btn" id="next">
+	<p> Next Entry </p>
+</button> </a> </a> <h1>#{{pokemon.national_id}} {{pokemon.name}}</h1> 
 </section>
 
-<section id="image">
-	<p> <img ng-src = "{{pokeSprite}}"> </p>
-</section>
+<div class="on-screen container">
+	<section class="text-center basic-info">
+		<p> <img class="center-block" ng-src = "{{pokeSprite}}"> <h4> {{pokemon.species}} </h4> </br> <em>{{pokeDes}} </em> </p>
+	</section>
+	<div class="row1">
+		<section>
+			<b>Height: </b> {{pokemon.height}} meters </br>
+			<b>Weight: </b> {{pokemon.weight}} grams
+		</section>
+		<section id="poke-type" ng-repeat="type in pokemon.types">
+				<b> Type: </b> {{type.name}}
+		</section>
+	</div>
+	<div class="row2">
+		<section id="evolution" ng-repeat="evolution in pokemon.evolutions">
+				<b> Evolves Into: </b> {{evolution.to}}  </br> <b> Evolution Method: {{evolution.method}} {{evolution.level}} </b>
 
-<section id="basic-info">
-	Height: {{pokemon.height}} meters
-	Weight: {{pokemon.weight}} grams
-	
-</section>
-
-<section id="poke-type">
-	<h3> Type </h3>
-	<ul ng-repeat="type in pokemon.types">
-		<li> Type: {{type.name}} </li>
-	</ul>
-</section>
-
-<section id="evolution">
-	<h3>Evolution</h3>
-	<ul ng-repeat="evolution in pokemon.evolutions">
-		<li> Evolution: {{evolution.to}} </li> <li> Method: {{evolution.method}} {{evolution.level}} </li> 
-	</ul>
-</section>
-
-
-<section id="egg-groups">
-	<h3>Egg Group</h3>
-	<ul ng-repeat="group in pokemon.egg_groups">
-		<li> Group: {{group.name}} </li>
-	</ul>
-</section>
+		</section>
+		<section id="egg-groups" ng-repeat="group in pokemon.egg_groups">
+				<b> Egg Group: </b> {{group.name}} 
+		</section>
+	</div>
+  	</div>
 
 <section id="abilities" class="col-lg-4 col-md-6">
 	<h3>Abilities</h3>
@@ -42,9 +38,12 @@
 	</ul>
 </section>
 
+</div>
+
 <section id="moves" class="col-lg-4 col-md-6">
 	<h3>Moves</h3>
 	<ul class="list-group">
 		<li ng-repeat="move in pokemon.moves" class="list-group-item" ng-click="getData(move.resource_uri)">{{move.name}} <span class="pull-right"> {{move.learn_type}} {{move.level}}</span></li>
 	</ul>
 </section>
+
