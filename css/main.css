@@ -19,4 +19,17 @@ h1 {
 	text-align: center;
 }
 
+.pokemon-container {
+	position:relative;
+}
+.code {
+	width: 200px;
+	position: absolute;
+	right: 0;
+	top:0;
+	margin:10px;
+}
+.pokemon-input {
+	width: calc(100% - 300px);
+}
 /*pokedex entry page*/

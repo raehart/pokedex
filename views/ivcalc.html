@@ -1,0 +1,75 @@
+<div class="pokemon-container container">
+	<div class="pokemon-input">
+		<form action="" class="form-horizontal">
+			<div class="form-group">
+<!-- 				<label for=""> Species
+					<input type="text" class="form-control" 
+									ng-model="currentPKMN.species" 
+									ng-change="update()">
+				</label> -->
+				<label for=""> Species
+					<select name="species-select" id="species-select" 
+									class="form-control"
+									ng-options="pokemon.name for pokemon in pokedex track by pokemon.name"
+									ng-model="species"
+									ng-change="changePkmn(species)"></select>
+				</label>
+				<label for=""> Level
+					<input type="text" class="form-control" 
+									ng-model="currentPKMN.level" 
+									ng-change="update()">
+				</label>
+				<label for=""> Nature
+					<input type="text" class="form-control" 
+									ng-model="currentPKMN.nature" 
+									ng-change="update()">
+				</label>
+			</div>
+			<div class="form-group">
+				<label for=""> HP
+					<input type="text" class="form-control" 
+									ng-model="currentPKMN.current.hp" 
+									ng-change="update()">
+				</label>
+				<label for=""> Attack
+					<input type="text" class="form-control" 
+									ng-model="currentPKMN.current.atk" 
+									ng-change="update()">
+				</label>
+				<label for=""> Defense
+					<input type="text" class="form-control" 
+									ng-model="currentPKMN.current.def" 
+									ng-change="update()">
+				</label>
+				<label for=""> Special Attack
+					<input type="text" class="form-control" 
+									ng-model="currentPKMN.current.satk" 
+									ng-change="update()">
+				</label>
+				<label for=""> Special Defense
+					<input type="text" class="form-control" 
+									ng-model="currentPKMN.current.sdef" 
+									ng-change="update()">
+				</label>
+				<label for=""> Speed
+					<input type="text" class="form-control" 
+									ng-model="currentPKMN.current.spd" 
+									ng-change="update()">
+				</label>
+			</div>
+		</form>
+	</div>
+	<pre class="code">{{ivs | json}}</pre>
+</div>
+
+<!-- Input: 		
+		Species
+		Nature
+		Stats:
+			Level
+			HP
+			Atk
+			Def
+			Sp Atk
+			Sp Def
+			Speed -->

@@ -7,6 +7,9 @@ angular.module('PokedexApp', ['ngRoute'])
 	}).when('/dex/:dexnum', {
 		controller:'DexController',
 		templateUrl:'views/pokemon.html'
+	}).when('/ivcalc/', {
+		controller: 'IVController',
+		templateUrl: 'views/ivcalc.html'
 	}).otherwise({
 		redirectTo: '/'
 	})
@@ -52,3 +55,206 @@ angular.module('PokedexApp', ['ngRoute'])
 
 }])
 
+.controller('IVController', ['$scope', '$http', function($scope, $http) {
+	$scope.page = "IV Calculator"
+	$scope.currentPKMN = {
+		species: "charmander",
+		level: 50,
+		nature: "Adamant",
+		current: {
+			hp: 115,
+			atk: 79,
+			def: 63,
+			satk: 72,
+			sdef: 70,
+			spd: 85
+		},
+		EV: {
+			hp: 0,
+			atk: 0,
+			def: 0,
+			satk: 0,
+			sdef: 0,
+			spd: 0
+		}, 
+		base:{
+			hp: 39,
+			atk: 52,
+			def: 43,
+			satk: 60,
+			sdef: 50,
+			spd: 65
+		}
+	}
+	function getIV(stat, lv, base, curr, ev ) {
+		if(stat === "hp") {
+			IV = ((curr - 10) * 100) / lv - 2*base - ev/4 - 100;
+		} else {
+			IV = ((curr/nat - 5) * 100) / lv - 2*base - ev/4;
+		}
+		return IV;
+	};
+	function getStat(stat, lv, base, iv, ev, nat) {
+		if(stat === "hp") {
+			STAT = ((2*base + iv + ev/4 + 100) * lv) / 100 + 10;
+		} else {
+			STAT = (((2*base + iv + ev/4) * lv) / 100 + 5) * nat;
+		}
+		return STAT;
+	};
+	function nature(nat) {
+		var stats = []
+		switch(nat.toLowerCase()) {
+			case 'hardy':
+			case 'docile':
+			case 'bashful':
+			case 'quirky':
+			case 'serious':	
+				stats = [1, 1, 1, 1, 1];
+				break;
+			case 'lonely':
+				stats = [1.1, 0.9, 1, 1, 1];
+				break;
+			case 'adamant':
+				stats = [1.1, 1, 0.9, 1, 1];
+				break;
+			case 'naughty':
+				stats = [1.1, 1, 1, 0.9, 1];
+				break;
+			case 'brave':
+				stats = [1.1, 1, 1, 1, 0.9];
+				break;
+			case 'bold':	
+				stats = [0.9, 1.1, 1, 1, 1];
+				break;
+			case 'impish':	
+				stats = [1, 1.1, 0.9, 1, 1];
+				break;
+			case 'lax':	
+				stats = [1, 1.1, 1, 0.9, 1];
+				break;
+			case 'relaxed':	
+				stats = [1, 1.1, 1, 1, 0.9];
+				break;
+			case 'modest':	
+				stats = [0.9, 1, 1.1, 1, 1];
+				break;
+			case 'mild':	
+				stats = [1, 0.9, 1.1, 1, 1];
+				break;
+			case 'rash':	
+				stats = [1, 1, 1.1, 0.9, 1];
+				break;
+			case 'calm':	
+				stats = [0.9, 1, 1, 1.1, 1];
+				break;
+			case 'gentle':	
+				stats = [1, 0.9, 1, 1.1, 1];
+				break;
+			case 'careful':	
+				stats = [1, 1, 0.9, 1.1, 1];
+				break;
+			case 'sassy':	
+				stats = [1, 1, 1, 1.1, 0.9];
+				break;
+			case 'timid':	
+				stats = [0.9, 1, 1, 1, 1.1];
+				break;
+			case 'hasty':	
+				stats = [1, 0.9, 1, 1, 1.1];
+				break;
+			case 'jolly':	
+				stats = [1, 1, 0.9, 1, 1.1];
+				break;
+			case 'naive':	
+				stats = [1, 1, 1, 0.9, 1.1];
+				break;
+		}
+		mods = {
+			hp: 1,
+			atk: stats[0],
+			def: stats[1],
+			satk: stats[2],
+			sdef: stats[3],
+			spd: stats[4]
+		}
+		return mods
+	};
+	function getSpread(stat, lv, base, ev, nat) {
+		var spread = {}
+		for(var i=0; i<32; i++) {
+			score = Math.floor(getStat(stat, lv, base, i, ev, nat))
+			if(spread[score] === undefined) {
+				spread[score] = []
+			}
+			spread[score].push(i)
+		}
+		return spread
+	}
+	function getAllSpreads(pokemon) {
+		var stats = ['hp', 'atk', 'def', 'satk', 'sdef', 'spd'];
+		var spreads = {'hp':[], 'atk':[], 'def':[], 'satk':[], 'sdef':[], 'spd':[]};
+		var natureMods = nature(pokemon.nature);
+		for(var i=0; i<stats.length; i++) {
+			var stat = stats[i]
+			var lv = pokemon.level
+			var base = pokemon.base[stat]
+			var ev = pokemon.EV[stat]
+			var nat = natureMods[stat]
+			spreads[stat] = getSpread(stat, lv, base, ev, nat)
+		}
+		return spreads
+	}
+	function getAllIVs(pokemon) {
+		var stats = ['hp', 'atk', 'def', 'satk', 'sdef', 'spd'];
+		var spreads = getAllSpreads(pokemon)
+		var IVs = {'hp':[], 'atk':[], 'def':[], 'satk':[], 'sdef':[], 'spd':[]};
+		for(var i=0;i<stats.length; i++) {
+			var stat = stats[i]
+			var current = pokemon.current[stat]
+			if (spreads[stat][current] !== undefined) {
+				IVs[stat] = spreads[stat][current]	
+			} else {
+				IVs[stat] = "Invalid stat"
+			}
+		}
+		return IVs
+	}
+	$scope.update = function() {
+		$scope.ivs = getAllIVs($scope.currentPKMN);
+	}
+	$scope.changePkmn = function(speciesData) {
+		console.log(speciesData)
+		$http.get('http://pokeapi.co/' + speciesData.resource_uri).success(function(data) {
+			$scope.currentPKMN.species = speciesData.name;
+			$scope.pokemonData = data;
+			$scope.currentPKMN.base = {
+				hp: data.hp,
+				atk: data.attack,
+				def: data.defense,
+				satk: data.sp_atk,
+				sdef: data.sp_def,
+				spd: data.speed
+			}
+			console.log($scope.currentPKMN.base)
+			$scope.update();
+		}).error(function(err) {
+			console.log(err);
+		})
+	}
+
+	$http.get('http://pokeapi.co/api/v1/pokedex/1/').success(function(data) {
+		$scope.pokedex = data.pokemon;
+		console.log($scope.pokedex)
+	}).error(function(err) {
+		console.log(err)
+	})
+	$scope.ivs = getAllIVs($scope.currentPKMN)
+	// $('body').on('change', '.pokemon-input input', function(e) {
+	// 	$scope.ivs = getAllIVs($scope.currentPKMN)
+	// });
+
+
+
+
+}])
