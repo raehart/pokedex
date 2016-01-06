@@ -68,7 +68,7 @@ angular.module('PokedexApp', ['ngRoute'])
 		level: 50,
 		nature: "Adamant",
 		current: {
-			hp: 115,
+			hp: 114,
 			atk: 79,
 			def: 63,
 			satk: 72,
@@ -251,7 +251,7 @@ angular.module('PokedexApp', ['ngRoute'])
 
 	$http.get('http://pokeapi.co/api/v1/pokedex/1/').success(function(data) {
 		$scope.pokedex = data.pokemon;
-		console.log($scope.pokedex)
+		$scope.species = $scope.pokedex[1];
 	}).error(function(err) {
 		console.log(err)
 	})
