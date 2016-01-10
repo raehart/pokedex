@@ -57,4 +57,3 @@ angular.module('PokedexApp', ['ngRoute'])
 	}
 
 }])
-

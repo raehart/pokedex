@@ -1,64 +1,70 @@
-a:hover {
-	text-decoration: none;
-}
+/*general*/
+	a:hover {
+		text-decoration: none;
+	}
 
-h1 {
-	text-align: center;
-}
+	h1 {
+		text-align: center;
+	}
 
 /*main page*/
 
-.pokedex-main {
-	margin-top: 5em;
-	color: white;
-}
+	.pokedex-main {
+		margin-top: 5em;
+		color: white;
+	}
 
-.pokeblock {
-	list-style: none;
-	max-height: 30em; 
-	text-align: center;
-}
+	.pokeblock {
+		list-style: none;
+		max-height: 30em; 
+		text-align: center;
+	}
 
 /*pokedex entry page*/
 
-.on-screen {
-	background: #0ce3ac;
-	max-width: 40em;
-	margin: 10em, auto;
-}
+	.on-screen {
+		background: #0ce3ac;
+		max-width: 40em;
+		margin: 10em, auto;
+	}
 
-.on-screen li {
-	list-style: none;
-}
 
-.row1 {
-	float: left;
-	margin: 2em 2em;
-	text-align: left;
-}
+	.on-screen img {
+		margin-top: 2em;
+	}
+	.on-screen li {
+		list-style: none;
+	}
 
-.row2 {
-	float: right;
-	margin: 2em 2em;
-	text-align: left;
-}
-2
-.basic-info {
-	margin-bottom: 2em;
-}
+	.row1 {
+		float: left;
+		margin: 2em 2em;
+		text-align: left;
+	}
 
-.btn {
-	min-width: 5em;
-	min-height: 5em;
-	background: red;
-	color: white;
-}
+	.row2 {
+		float: right;
+		margin: 2em 2em;
+		text-align: left;
+	}
+	2
+	.basic-info {
+		margin-bottom: 2em;
+	}
 
-#prior {
-	float: left;
+	.btn {
+		min-width: 5em;
+		min-height: 5em;
+		background: red;
+		color: white;
+	}
 
-}
+	#prior {
+		float: left;
 
-#next{
-	float: right;
-}
+	}
+
+	#next{
+		float: right;
+	}
+
