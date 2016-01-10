@@ -47,6 +47,11 @@ pokemon page - Brigette
 		moves, when clicked, bring up a modal with more info from another query to the API
  - image on banner with name, species, abilities
 
+gymleader page - Brigette
+	
+	-select game from menu
+		-display gym leader name, badge, reward and pokemon
+
 teambuilder page - Kenny
 
  - dropdowns for pokemon selection
