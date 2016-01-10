@@ -60,8 +60,6 @@ angular.module('PokedexApp', ['ngRoute'])
 	}
 
 }])
-<<<<<<< HEAD
-=======
 
 .controller('IVController', ['$scope', '$http', function($scope, $http) {
 	$scope.page = "IV Calculator"
@@ -266,4 +264,3 @@ angular.module('PokedexApp', ['ngRoute'])
 
 
 }])
->>>>>>> 871b2979b685199be1190911a615eb16aadd6a02
