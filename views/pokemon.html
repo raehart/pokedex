@@ -31,19 +31,18 @@
 	</div>
   	</div>
 
- <!-- want to do something with css with moves and abilites  -->
 <div class = "moves-abilities">
 <section id="abilities" class="col-lg-4 col-md-6">
-	<h3>Abilities</h3>
-	<ul class="list-group">
+	<h3 id="abilities_header">Abilities</h3>
+	<ul class="list-group" id="ability-list">
 		<li ng-repeat="ability in pokemon.abilities" class="list-group-item" ng-click="getData(ability.resource_uri)">{{ability.name}}</li>
 	</ul>
 </section>
 
 </div>
 <section id="moves" class="col-lg-4 col-md-6">
-	<h3>Moves</h3>
-	<ul class="list-group">
+	<h3 id="move_header">Moves</h3>
+	<ul class="list-group" id="move-list">
 		<li ng-repeat="move in pokemon.moves" class="list-group-item" ng-click="getData(move.resource_uri)">{{move.name}} <span class="pull-right"> {{move.learn_type}} {{move.level}}</span></li>
 	</ul>
 </section>

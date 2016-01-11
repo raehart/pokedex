@@ -10,6 +10,9 @@ angular.module('PokedexApp', ['ngRoute'])
 	}).when('/ivcalc/', {
 		controller: 'IVController',
 		templateUrl: 'views/ivcalc.html'
+	}).when('/gymleaders/', {
+		controller: 'GymLeaders',
+		templateUrl: 'views/gymleaders.html'
 	}).otherwise({
 		redirectTo: '/'
 	})
@@ -29,7 +32,6 @@ angular.module('PokedexApp', ['ngRoute'])
 			if($scope.allpokemon.hasOwnProperty(key)) {
 				$scope.allpokemon[key].number = parseInt($scope.allpokemon[key].resource_uri.slice(15, -1));
 			}
-
 	}
 		console.log($scope.allpokemon)
 	})
@@ -56,9 +58,11 @@ angular.module('PokedexApp', ['ngRoute'])
 			} if($scope.uriData.hasOwnProperty("description")) {
 				$scope.pokeDes =$scope.uriData.description;
 			}
+			$('body').on('click',"#moves_header", function(){
+				$("#moves-list").slideUp("fast")
+			})
 		})
 	}
-
 }])
 
 .controller('IVController', ['$scope', '$http', function($scope, $http) {
