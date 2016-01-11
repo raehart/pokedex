@@ -41,7 +41,7 @@ angular.module('PokedexApp', ['ngRoute'])
 	$scope.dexnum = $routeParams.dexnum;
 	$scope.root = "http://pokeapi.co";
 	var url = "http://pokeapi.co/api/v1/pokemon/" + $scope.dexnum + "/";
-		$http.get(url).success(function(data) {
+	$http.get(url).success(function(data) {
 		$scope.pokemon = data;
 		$scope.prior = $scope.pokemon.national_id-1;
 		$scope.next= $scope.pokemon.national_id+1
@@ -58,11 +58,14 @@ angular.module('PokedexApp', ['ngRoute'])
 			} if($scope.uriData.hasOwnProperty("description")) {
 				$scope.pokeDes =$scope.uriData.description;
 			}
-			$('body').on('click',"#moves_header", function(){
-				$("#moves-list").slideUp("fast")
-			})
 		})
 	}
+
+	$('body').on('click','#moves-header', function() {
+		console.log('click')
+		$('#moves-list').slideToggle()
+	})
+
 }])
 
 .controller('IVController', ['$scope', '$http', function($scope, $http) {

@@ -41,8 +41,8 @@
 
 </div>
 <section id="moves" class="col-lg-4 col-md-6">
-	<h3 id="move_header">Moves</h3>
-	<ul class="list-group" id="move-list">
+	<h3 id="moves-header">Moves</h3>
+	<ul class="list-group" id="moves-list">
 		<li ng-repeat="move in pokemon.moves" class="list-group-item" ng-click="getData(move.resource_uri)">{{move.name}} <span class="pull-right"> {{move.learn_type}} {{move.level}}</span></li>
 	</ul>
 </section>

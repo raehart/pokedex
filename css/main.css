@@ -9,6 +9,9 @@
 
 /*main page*/
 
+	main {
+		min-height: 1000px;
+	}
 	.pokedex-main {
 		margin-top: 5em;
 		color: white;
@@ -60,7 +63,6 @@
 		margin: 2em 2em;
 		text-align: left;
 	}
-	2
 	.basic-info {
 		margin-bottom: 2em;
 	}
