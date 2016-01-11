@@ -1,0 +1,198 @@
+[{
+	"gymNumber": 1,
+	"location": "Santalune City",
+	"gymLeader": "Viola",
+	"specialty": "Bug-type",
+	"reward": "Bug Badge, TM 83 Infestation",
+	"description":"The first gym in the game is run by the character Viola. In this gym, you need to navigate your way around the web, battling trainers as you go along. Many paths are blocked but the ones you can pass through are noticiably thicker. This badge allows for Pokémon up to Level 30 to obey.",
+	"pokemon":[{
+		"name": "Surskit",
+		"Level": 10,
+		"ability": "Swift Swim",
+		"attacks": ["Bubble", "Water Sport", "Quick Attack"],
+		"holdItem": "No Item"
+	}, {
+		"name": "Vivillon",
+		"Level": 12,
+		"ability": "Shield Dust",
+		"attacks": ["Harden", "Tackle", "Infestation"],
+		"holdItem": "No Item"
+	}]
+}, {
+	"gymNumber": 2,
+	"location": "Cyllage City",
+	"gymLeader": "Grant",
+	"specialty": "Rock-type",
+	"reward": "Cliff Badge, TM 39 Rock Tomb",
+	"description":"The next gym is a fair bit later than the first and has you have to find Grant on the nearby cycle track. Once done, you enter the gym which is a rock climb up a cliff. You will encounter multiple trainers on the way. This badge allows for Pokémon up to Level 40 to obey.",
+	"pokemon":[{
+		"name": "Tyrunt",
+		"Level": 25,
+		"ability": "Strong Jaw",
+		"attacks": ["Bite", "Rock Tomb", "Stomp"],
+		"holdItem": "No Item"
+	}, {
+		"name": "Amaura",
+		"Level": 25,
+		"ability": "Refrigerate",
+		"attacks": ["Thunder Wave", "Rock Tomb", "Aurora Beam", "Take Down"],
+		"holdItem": "No Item"
+	}]
+}, {
+	"gymNumber": 3,
+	"location": "Shalour City",
+	"gymLeader": "Korrina",
+	"specialty": "Fighting-type",
+	"reward": "Rumble Badge, TM 98 Power-Up Punch",
+	"description":"Having encountered her before in Geosenge City, you will then be invited to battle her properly within her Gym. This Gym is in a rollerskating rink and requires you to defeat all the trainers in order to create a path to Korrina. This badge allows for Pokémon up to Level 50 to obey",
+	"pokemon":[{		
+		"name": "Mienfoo",
+		"Level": 29,
+		"ability": "Regenerator",
+		"attacks": ["Fake Out", "Double Slap", "Power-up Punch"],
+		"holdItem": "No Item"
+	}, {
+		"name": "Hawlucha",
+		"Level": 32,
+		"ability": "Unburden",
+		"attacks": ["Hone Claws", "Flying Press", "Power-up Punch"],
+		"holdItem": "No Item"
+	}, {
+		"name": "Machoke",
+		"Level": 28,
+		"ability": "Guts",
+		"attacks": ["Rock Tomb", "Power-up Punch", "Leer"],
+		"holdItem": "No Item"
+	}]
+}, {
+	"gymNumber": 4,
+	"location": "Courmaline City",
+	"gymLeader": "Ramos",
+	"specialty": "Grass-type",
+	"reward": "Grass Badge, TM 86 Grass Knot",
+	"description":"This gym is a relatively simple one and has you have to climb up various ropes around a tree, swinging from platform to platform to reach the leader, Ramos. This badge allows for Pokémon up to Level 60 to obey",
+	"pokemon":[{		
+		"name": "Jumpluff",
+		"Level": 30,
+		"ability": "Chlorophyll",
+		"attacks": ["Bullet Seed", "Acrobatics", "Leech Seed"],
+	"holdItem": "No Item"
+	}, {
+		"name": "Gogoat",
+		"Level": 34,
+		"ability": "Sap Sipper",
+		"attacks": ["Bulldoze", "Grass Knot", "Take Down"],
+		"holdItem": "No Item"
+
+	}, {
+		"name": "Weepinbell",
+		"Level": 31,
+		"ability": "Chlorophyll",
+		"attacks": ["Grass Knot", "Poison Powder", "Acid", "Gastro Acid"],
+		"holdItem": "No Item"
+	}]
+}, {
+	"gymNumber": 5,
+	"location": "Lumiose City",
+	"gymLeader": "Clemont",
+	"specialty": "Electric-type",
+	"reward": "Voltage Badge, TM 24 Thunderbolt",
+	"description":"This gym is a call back to an original and, after you have restored power to northern Lumiose City, has you climb up the Prism Tower, answering questions put forth by Clemont's sister Bonnie to proceed. If you get it right, you can go to the next floor, if not, you have to try again and battle another opponent. This badge allows for Pokémon up to level 70 to obey",
+	"pokemon":[{	
+		"name": "Emolga",
+		"Level": 35,
+		"ability": "Static",
+		"attacks": ["Volt Switch", "Quick Attack", "Aerial Ace"],
+		"holdItem": "No Item"
+	}, {
+		"name": "Magneton",
+		"Level": 35,
+		"ability": "Sturdy",
+		"attacks": ["Thunderbolt", "Electric Terrain", "Mirror Shot"],
+		"holdItem": "No Item"
+	}, {
+		"name": "Heliolisk",
+		"Level": 37,
+		"ability": "Dry Skin",
+		"attacks": ["Thunderbolt", "Quick Attack", "Grass Knot"],
+		"holdItem": "No Item"
+	}]
+}, {
+	"gymNumber": 6,
+	"location": "Laverre City",
+	"gymLeader": "Valerie",
+	"specialty": "Fairy-type",
+	"reward": "Fairy Badge, TM 99 Dazzling Gleam",
+	"description":"This gym is the first Fairy-type gym but features a familiar puzzle, a warp-tile puzzle. This puzzle is done with the various rooms being based on rooms in a doll house. This badge allows for Pokémon up to level 80 to obey",
+	"pokemon":[{
+		"name": "Mawile",
+		"Level": 38,
+		"ability": "Hyper Cutter",
+		"attacks": ["Feint Attack", "Crunch", "Iron Defense"],
+		"holdItem": "No Item"
+	}, {
+		"name": "Mr. Mime",
+		"Level": 39,
+		"ability": "Soundproof",
+		"attacks": ["Light Screen", "Reflect", "Psychic", "Dazzling Gleam"],
+		"holdItem": "No Item"
+	}, {
+		"name": "Sylveon",
+		"Level": 42,
+		"ability": "Cute Charm",
+		"attacks": ["Dazzling Gleam", "Quick Attack", "Swift", "Charm"],
+		"holdItem": "No Item"
+	}]
+}, {
+	"gymNumber": 7,
+	"location": "Anistar City",
+	"gymLeader": "Olympia",
+	"specialty": "Psychic-type",
+	"reward": "Psychic Badge, TM 04 Calm Mind",
+	"description":"This gym is unique in that the gym actually disappears. Instead, you have to travel across various platforms, as if they're on a sphere, and navigate across multiple levels. As you get to the end, you'll encounter Olympia. This badge allows for Pokémon up to level 90 to obey",
+	"pokemon":[{
+		"name": "Sigilyph",
+		"Level": 44,
+		"ability": "Magic Guard",
+		"attacks": ["Psychic", "Air Slash", "Light Screen", "Reflect"],
+		"holdItem": "No Item"
+	}, {
+		"name": "Slowking",
+		"Level": 45,
+		"ability": "Oblivious",
+		"attacks": ["Psychic", "Calm Mind", "Power Gem", "Yawn"],
+		"holdItem": "No Item"
+	}, {
+		"name": "Meowstic",
+		"Level": 48,
+		"ability": "Infiltrator",
+		"attacks": ["Psychic", "Calm Mind", "Fake Out", "Shadow Ball"],
+		"holdItem": "No Item"
+	}]
+}, {
+	"gymNumber": 8,
+	"location": "Snowbelle City",
+	"gymLeader": "Wulfric",
+	"specialty": "Ice-type",
+	"reward": "Iceberg Badge, TM 13 Ice Beam",
+	"description":"This final gym opens up after you find Wulfric hidden away beyond Route 21. When you return, he provides you with a puzzle where you have to fiddle with switches to rotate platforms in order to create a path to proceeed, battling trainers on the way. This badge allows for Pokémon up to level 100 to obey",
+	"pokemon":[{
+		"name": "Abomasnow",
+		"Level": 56,
+		"ability": "Snow Warning",
+		"attacks": ["Ice Beam", "Ice Shard", "Energy Ball"],
+		"holdItem": "No Item"
+	}, {
+		"name": "Cryogonal",
+		"Level": 55,
+		"ability": "Levitate",
+		"attacks": ["Ice Beam", "Confuse Ray", "Flash Cannon", "Hail"],
+		"holdItem": "No Item"
+	}, {
+		"name": "Avalugg",
+		"Level": 59,
+		"ability": "Ice Body",
+		"attacks": ["Avalanche", "Crunch", "Curse", "Gyro Ball"],
+		"holdItem": "No Item"
+	}]
+}]
