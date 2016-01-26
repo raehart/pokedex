@@ -1,126 +1,109 @@
-<div class="pokemon-container container">
-	<div class="pokemon-output">
-		<h1>{{capitalize(currentPKMN.species)}}</h1>
-		<img src="#" ng-src="{{currentPKMN.sprite}}" alt="">
-		<ul class="ivs">
-			<li class="iv" ng-repeat="(iv, value) in ivs">{{iv}}: {{value.join(", ")}}</li>
-		</ul>
-	</div>
+<div id="ivcalculator" class="pokemon-container container">
 	<div class="pokemon-input">
-		<form action="" class="form-horizontal">
-			<div class="form-group">
-				<label for=""> Species
-					<input type="text" class="form-control" 
-									ng-model="pokemonSearch" 
-									ng-change="changePkmnByName(pokemonSearch)">
-				</label>
-				<label for="">
-					<select name="species-select" id="species-select" 
-									class="form-control"
-									ng-options="pokemon.name for pokemon in pokedex"
+		<form action="" class="iv-calculator">
+			<div class="level-input">
+				<label for="level">Level</label>
+				<input type="text" name="level" ng-model="currentPKMN.level" ng-change="update()">
+			</div>
+			<div class="hidden-power">
+				<label for="hidden-power">Hidden Power Type</label>
+				<select name="hidden-power" ng-options="type for type in types"
+																		ng-model="currentPKMN.hiddenPower" 
+																		ng-change="update()"></select>
+			</div>
+			<div class="species-input">
+				<label for="species-search"> Species </label>
+				<input type="text" name="species-search" ng-model="pokemonSearch" ng-change="changePkmnByName(pokemonSearch)">
+				<select name="species-select" id="species-select" 
+									ng-options="pokemon.name for pokemon in pokedex | orderBy: 'name'"
 									ng-model="species"
 									ng-change="changePkmn(species)"></select>
-				</label>
-				<label for=""> Level
-					<input type="text" class="form-control" 
-									ng-model="currentPKMN.level" 
-									ng-change="update()">
-				</label>
 			</div>
-			<div class="form-group">
-				<label for=""> Nature
-					<input type="text" class="form-control" 
-									ng-model="natureSearch" 
-									ng-change="updateNature(natureSearch)">
-				</label>
-				<label for="">
-					<select name="nature-select" id="nature-select"
-									class="form-control",
+			<div class="nature-input">
+				<label for="nature-search">Nature</label>
+				<input type="text" name="nature-search" ng-model="currentPKMN.nature" ng-change="updateNature(natureSearch)">
+				<select name="nature-select" id="nature-select"
 									ng-options="nature for nature in natures"
 									ng-model="currentPKMN.nature"
 									ng-change="update()"></select>
-				</label>
 			</div>
-			<div class="form-group">
+			<div class="char-input">
+				<label for="char-search">Characteristic</label>
+				<input type="text" name="char-search" ng-model="charSearch" ng-change="updateChar(charSearch)">
+				<select name="char-select" id="char-select"
+									ng-options="char for char in characteristics"
+									ng-model="currentPKMN.characteristic"
+									ng-change="update()"></select>
+			</div>
+			<div class="stats ivs">
 				<h4>IVs</h4>
-				<label for=""> HP
-					<input type="text" class="form-control" 
-									ng-model="currentPKMN.current.hp" 
-									ng-change="update()">
-				</label>
-				<label for=""> Attack
-					<input type="text" class="form-control" 
-									ng-model="currentPKMN.current.atk" 
-									ng-change="update()">
-				</label>
-				<label for=""> Defense
-					<input type="text" class="form-control" 
-									ng-model="currentPKMN.current.def" 
-									ng-change="update()">
-				</label>
-				<label for=""> Special Attack
-					<input type="text" class="form-control" 
-									ng-model="currentPKMN.current.satk" 
-									ng-change="update()">
-				</label>
-				<label for=""> Special Defense
-					<input type="text" class="form-control" 
-									ng-model="currentPKMN.current.sdef" 
-									ng-change="update()">
-				</label>
-				<label for=""> Speed
-					<input type="text" class="form-control" 
-									ng-model="currentPKMN.current.spd" 
-									ng-change="update()">
-				</label>
+				<div class="stat">
+					<label for="iv-hp">HP</label>
+					<input type="text" name="iv-hp" ng-model="currentPKMN.current.hp" ng-change="update()">
+				</div>	
+				<div class="stat">
+					<label for="iv-atk">Attack</label>
+					<input type="text" name="iv-atk" ng-model="currentPKMN.current.atk" ng-change="update()">
+				</div>	
+				<div class="stat">
+					<label for="iv-def">Defense</label>
+					<input type="text" name="iv-def" ng-model="currentPKMN.current.def" ng-change="update()">
+				</div>	
+				<div class="stat">
+					<label for="iv-satk">Special Attack</label>
+					<input type="text" name="iv-satk" ng-model="currentPKMN.current.satk" ng-change="update()">
+				</div>	
+				<div class="stat">
+					<label for="iv-sdef">Special Defense</label>
+					<input type="text" name="iv-sdef" ng-model="currentPKMN.current.sdef" ng-change="update()">
+				</div>	
+				<div class="stat">
+					<label for="iv-spd">Speed</label>
+					<input type="text" name="iv-spd" ng-model="currentPKMN.current.spd" ng-change="update()">
+				</div>	
 			</div>
-			<div class="form-group">
+			<div class="stats evs">
 				<h4>EVs</h4>
-				<label for=""> HP
-					<input type="text" class="form-control" 
-									ng-model="currentPKMN.EV.hp" 
-									ng-change="update()">
-				</label>
-				<label for=""> Attack
-					<input type="text" class="form-control" 
-									ng-model="currentPKMN.EV.atk" 
-									ng-change="update()">
-				</label>
-				<label for=""> Defense
-					<input type="text" class="form-control" 
-									ng-model="currentPKMN.EV.def" 
-									ng-change="update()">
-				</label>
-				<label for=""> Special Attack
-					<input type="text" class="form-control" 
-									ng-model="currentPKMN.EV.satk" 
-									ng-change="update()">
-				</label>
-				<label for=""> Special Defense
-					<input type="text" class="form-control" 
-									ng-model="currentPKMN.EV.sdef" 
-									ng-change="update()">
-				</label>
-				<label for=""> Speed
-					<input type="text" class="form-control" 
-									ng-model="currentPKMN.EV.spd" 
-									ng-change="update()">
-				</label>
+				<div class="stat">
+					<label for="ev-hp">HP</label>
+					<input type="text" name="ev-hp" ng-model="currentPKMN.EV.hp" ng-change="update()">
+				</div>
+				<div class="stat">
+					<label for="ev-atk">Attack</label>
+					<input type="text" name="ev-atk" ng-model="currentPKMN.EV.atk" ng-change="update()">
+				</div>
+				<div class="stat">
+					<label for="ev-def">Defense</label>
+					<input type="text" name="ev-def" ng-model="currentPKMN.EV.def" ng-change="update()">
+				</div>
+				<div class="stat">
+					<label for="ev-satk">Special Attack</label>
+					<input type="text" name="ev-satk" ng-model="currentPKMN.EV.satk" ng-change="update()">
+				</div>
+				<div class="stat">
+					<label for="ev-sdef">Special Defense</label>
+					<input type="text" name="ev-sdef" ng-model="currentPKMN.EV.sdef" ng-change="update()">
+				</div>
+				<div class="stat">	
+					<label for="ev-spd">Speed</label>
+					<input type="text" name="ev-spd" ng-model="currentPKMN.EV.spd" ng-change="update()">
+				</div>
 			</div>
 		</form>
 	</div>
 	
-	<!-- <pre class="code">{{ivs | json}}</pre> -->
+	<div class="pokemon-output">
+		<div class="box">
+			<h1>{{capitalize(currentPKMN.species)}}</h1>
+			<div class="image-box">
+				<img src="#" ng-src="{{currentPKMN.sprite}}" alt="" ng-show="currentPKMN.sprite">
+			</div>
+			<ul class="ivs">
+				<li ng-repeat="(iv, value) in ivs" class="iv stat-{{iv}}">
+					<span class="stat-name">{{iv.toUpperCase()}}</span>
+					<span class="spread">{{minSpreads(value)}}</span>
+				</li>
+			</ul>
+		</div>
+	</div>
 </div>
-
-<!-- Input: 		
-		Species
-		Nature
-		Stats:
-			Level
-			HP
-			Atk
-			Def
-			Sp Atk
-			Sp Def
-			Speed -->

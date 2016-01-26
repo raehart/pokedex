@@ -1,8 +1,26 @@
-<h1>HOME</h1>
-<div class="pokedex-main container">
-<div class="row">
-<div class= "col-lg-4  col-md-4 col-sm-4 col-xs-6 center-block" ng-repeat="pokemon in allpokemon | orderBy: 'number'">
-	<div class="pokeblock"> <a ng-href = "#/dex/{{pokemon.number}}"> <img class="center-block" ng-src="http://pokeapi.co/media/img/{{pokemon.number}}.png"/> #{{pokemon.number}} {{pokemon.name}}  </a></div>
-</div>
-</div>
+<div id="welcome">
+  <h1>Welcome to our Pokedex!</h1>
+  <div class="stats">
+    <ul>
+      <li>718<span>Pokemon</span></li>
+      <li>18<span>Types</span></li>
+      <li>621<span>Moves</span></li>
+      <li>191<span>Abilities</span></li>
+    </ul>
+  </div>
+  <div id="features">
+    <ul class="feature current">
+      <li class="title"><h2>Current Features</h2></li>
+      <li>Pokedex Page</li>
+      <li>Pokemon Pages with moves and stats</li>
+      <li>IV calcluator</li>
+    </ul>
+    <ul class="feature planned">
+      <li class="title"><h2>Planned Features</h2></li>
+      <li>Gym Leader Pages</li>
+      <li>Breeding Guide</li>
+      <li>Teambuilder</li>
+      <li>Coverage Calculator</li>
+    </ul>
+  </div>
 </div>

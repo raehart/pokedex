@@ -44,6 +44,8 @@ Gym Leader Pages
 		siloetted gym leader and page
 		shown gym leader and type/type weaknesses
 		full pokemon roster and battle strategy
+Coverage Calculator
+	
 City Page
 	location on map
 	buildings in city

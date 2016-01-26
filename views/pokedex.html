@@ -1,0 +1,25 @@
+<div id="pokedex" class="clearfix">
+	<div class="pokemon-tile" ng-repeat="pokemon in pokemonPage | orderBy: 'number'" ng-click="goToPage(pokemon.number)">
+    <div class="sprite">
+      <img src="#" ng-src="http://pokeapi.co/media/img/{{pokemon.number}}.png" alt="{{pokemon.name}}">
+    </div>
+    <div class="title-box">
+      <h5>#{{pokemon.number}} {{capitalize(pokemon.name)}}</h5>
+    </div>
+  </div>
+</div>
+<div class="pagination">
+  <ul>
+    <li class="page-first"><a href="javascript:void(0)" ng-click="changePage(1)">First</a></li>
+    <li class="page-prev"><a href="javascript:void(0)" ng-click="changePage('prev')">Prev</a></li>
+    <li>
+      <ul>
+        <li ng-repeat="pageNum in getPages()"><a href="javascript:void(0)" 
+                                              class="active-{{pageNum === page}}"
+                                              ng-click="changePage(pageNum)">{{pageNum}}</a></li>
+      </ul>
+    </li>
+    <li class="page-next"><a href="javascript:void(0)" ng-click="changePage('next')">Next</a></li>
+    <li class="page-last"><a href="javascript:void(0)" ng-click="changePage('last')">Last</a></li>
+  </ul>
+</div>

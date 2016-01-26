@@ -4,6 +4,9 @@ angular.module('PokedexApp', ['ngRoute'])
 	$routeProvider.when('/', {
 		controller:'MainController',
 		templateUrl:'views/home.html'
+	}).when('/pokedex', {
+		controller:'PokedexController',
+		templateUrl:'views/pokedex.html'
 	}).when('/dex/:dexnum', {
 		controller:'DexController',
 		templateUrl:'views/pokemon.html'
@@ -18,90 +21,12 @@ angular.module('PokedexApp', ['ngRoute'])
 	})
 }])
 
-//need to fix bug for prior and next buttons on first and last pokemon
-.controller('MainController', ['$scope', '$routeParams', '$http', function($scope, $routeParams, $http) {
-	var url ="http://pokeapi.co/api/v1/pokedex/1/";
-	$http.get(url).success(function(data){
-		$scope.totaldex = data;
-		console.log($scope.totaldex.pokemon)
-		$scope.allpokemon = $scope.totaldex.pokemon.filter(function(pokemon, index) {
-			var num = parseInt(pokemon.resource_uri.slice(15, -1));
-			return num < 10000;
-		});
-		for(key in $scope.allpokemon) {
-			if($scope.allpokemon.hasOwnProperty(key)) {
-				$scope.allpokemon[key].number = parseInt($scope.allpokemon[key].resource_uri.slice(15, -1));
-			}
-	}
-		console.log($scope.allpokemon)
-	})
 
-}])
-.controller('DexController', ['$scope', '$routeParams', '$http', function($scope, $routeParams, $http) {
-	$scope.dexnum = $routeParams.dexnum;
-	$scope.root = "http://pokeapi.co";
-	var url = "http://pokeapi.co/api/v1/pokemon/" + $scope.dexnum + "/";
-	$http.get(url).success(function(data) {
-		$scope.pokemon = data;
-		$scope.prior = $scope.pokemon.national_id-1;
-		$scope.next= $scope.pokemon.national_id+1
-		$scope.getData($scope.pokemon.sprites[0].resource_uri);
-		$scope.getData($scope.pokemon.descriptions[0].resource_uri);
-	});
+.factory('$pokemon', function() {
+	var natures = ['adamant', 'bashful', 'bold', 'brave', 'calm', 'careful', 'docile', 'gentle', 'hardy', 'hasty', 'impish', 'jolly', 'lax', 'lonely', 'mild', 'modest', 'naive', 'naughty', 'quirky', 'rash', 'relaxed', 'sassy', 'serious', 'timid'];
+	var characteristics = ['Loves to eat', 'Proud of its power', 'Sturdy body', 'Highly curious', 'Strong willed', 'Likes to run', 'Takes plenty of siestas', 'Likes to thrash about', 'Capable of taking hits', 'Mischievous', 'Somewhat vain', 'Alert to sounds', 'Nods off a lot', 'A little quick tempered', 'Highly persistent', 'Thoroughly cunning', 'Strongly defiant', 'Impetuous and silly', 'Scatters things often', 'Likes to fight', 'Good endurance', 'Often lost in thought', 'Hates to lose', 'Somewhat of a clown', 'Likes to relax', 'Quick tempered', 'Good perseverance', 'Very finicky', 'Somewhat stubborn', 'Quick to flee'];
+	var types = ['Normal', 'Fire', 'Fighting', 'Water', 'Flying', 'Grass', 'Poison', 'Electric', 'Ground', 'Psychic', 'Rock', 'Ice', 'Bug', 'Dragon', 'Ghost', 'Dark', 'Steel', 'Fairy'];
 
-	$scope.getData = function(uri) {
-		var url = $scope.root + uri;
-		$http.get(url).success(function(data) {
-			$scope.uriData = data;
-			if($scope.uriData.hasOwnProperty("image")) {
-				$scope.pokeSprite = $scope.root + $scope.uriData.image; 
-			} if($scope.uriData.hasOwnProperty("description")) {
-				$scope.pokeDes =$scope.uriData.description;
-			}
-		})
-	}
-
-	$('body').on('click','#moves-header', function() {
-		console.log('click')
-		$('#moves-list').slideToggle()
-	})
-
-}])
-
-.controller('IVController', ['$scope', '$http', function($scope, $http) {
-	$scope.capitalize = function(string) {
-		return string[0].toUpperCase() + string.slice(1);
-	};
-	$scope.natures = ['adamant', 'bashful', 'bold', 'brave', 'calm', 'careful', 'docile', 'gentle', 'hardy', 'hasty', 'impish', 'jolly', 'lax', 'lonely', 'mild', 'modest', 'naive', 'naughty', 'quirky', 'rash', 'relaxed', 'sassy', 'serious', 'timid'];
-	$scope.currentPKMN = {
-		species: "charmander",
-		level: 50,
-		nature: "Adamant",
-		current: {
-			hp: 114,
-			atk: 79,
-			def: 63,
-			satk: 72,
-			sdef: 70,
-			spd: 85
-		},
-		EV: {
-			hp: 0,
-			atk: 0,
-			def: 0,
-			satk: 0,
-			sdef: 0,
-			spd: 0
-		}, 
-		base:{
-			hp: 39,
-			atk: 52,
-			def: 43,
-			satk: 60,
-			sdef: 50,
-			spd: 65
-		}
-	};
 	function getIV(stat, lv, base, curr, ev ) {
 		if(stat === "hp") {
 			IV = ((curr - 10) * 100) / lv - 2*base - ev/4 - 100;
@@ -236,8 +161,176 @@ angular.module('PokedexApp', ['ngRoute'])
 		}
 		return IVs
 	};
+	var blankPokemon = {
+		species: "",
+		level: null,
+		nature: "",
+		hiddenPower: null,
+		characteristic: null,
+		current: {
+			hp: null,
+			atk: null,
+			def: null,
+			satk: null,
+			sdef: null,
+			spd: null
+		},
+		EV: {
+			hp: null,
+			atk: null,
+			def: null,
+			satk: null,
+			sdef: null,
+			spd: null
+		}, 
+		base:{
+			hp: null,
+			atk: null,
+			def: null,
+			satk: null,
+			sdef: null,
+			spd: null
+		}
+	};
+	return {
+		'natures': natures,
+		'characteristics': characteristics,
+		'types': types,
+		'getIV': getIV,
+		'getStat': getStat,
+		'nature': nature,
+		'getSpread': getSpread,
+		'getAllSpreads': getAllSpreads,
+		'getAllIVs': getAllIVs,
+		'blankPokemon': blankPokemon
+	}
+})
+
+.controller('NavController', ['$scope', function($scope) {
+	$(document).ready(function() {
+	  var menuToggle = $('#js-centered-navigation-mobile-menu').unbind();
+	  $('#js-centered-navigation-menu').removeClass("show");
+	  
+	  menuToggle.on('click', function(e) {
+	    e.preventDefault();
+	    $('#js-centered-navigation-menu').slideToggle(function(){
+	      if($('#js-centered-navigation-menu').is(':hidden')) {
+	        $('#js-centered-navigation-menu').removeAttr('style');
+	      }
+	    });
+	  });
+	});
+}])
+
+.controller('MainController', ['$scope', function($scope) {
+
+}])
+.controller('PokedexController', ['$scope', '$routeParams', '$http', '$location', function($scope, $routeParams, $http, $location) {
+	$scope.capitalize = function(string) {
+		return string[0].toUpperCase() + string.slice(1);
+	};
+	var url ="http://pokeapi.co/api/v1/pokedex/1/";
+	$http.get(url).success(function(data){
+		$scope.allpokemon = data.pokemon.map(function(pokemon) {
+			pokemon.number = parseInt(pokemon.resource_uri.slice(15, -1));
+			if(pokemon.name.indexOf("-") >= 0) {
+				pokemon.name = pokemon.name.slice(0, pokemon.name.indexOf("-"));
+			}
+			return pokemon;
+		}).sort(function(a, b) {
+			return a.number - b.number;
+		}).filter(function(pokemon, index) {
+			return pokemon.number < 10000;
+		});
+		$scope.page = 1;
+		$scope.pokeNum = 32;
+		$scope.lastpage = Math.ceil($scope.allpokemon.length / $scope.pokeNum);
+		$scope.changePage(1);
+	});
+	$scope.changePage = function(which) {
+		if(which === 'prev' && $scope.page > 1) {
+			$scope.page -= 1;
+		} else if(which === 'next' && $scope.page < $scope.lastpage) {
+			$scope.page += 1;
+		} else if(which > 0 && which <= $scope.lastpage) {
+			$scope.page = which;
+		} else if (which === 'last') {
+			$scope.page = $scope.lastpage;
+		} else {
+			return
+		}
+		var start = $scope.pokeNum * ($scope.page - 1);
+		var stop = $scope.pokeNum * ($scope.page);
+		$scope.pokemonPage = $scope.allpokemon.slice(start, stop);
+	};
+	$scope.getPages = function() {
+		var pages = [];
+		var first = $scope.page - 2 > 0 ? $scope.page - 2 : 1;
+		var last = $scope.lastpage - $scope.page < 2 ? $scope.lastpage : $scope.page + 2;
+		for(var i=first;i<=last; i++) {
+			pages.push(i);
+		}
+		return pages;
+	};
+	$scope.goToPage = function(dexnum) {
+		console.log("/dex/" + dexnum);
+		$location.path("/dex/" + dexnum);
+	}
+}])
+
+
+.controller('DexController', ['$scope', '$routeParams', '$http', function($scope, $routeParams, $http) {
+	$scope.dexnum = $routeParams.dexnum;
+	$scope.root = "http://pokeapi.co";
+	var url = "http://pokeapi.co/api/v1/pokemon/" + $scope.dexnum + "/";
+	$http.get(url).success(function(data) {
+		$scope.pokemon = data;
+		$scope.prior = $scope.pokemon.national_id-1;
+		$scope.next= $scope.pokemon.national_id+1
+		$scope.getData($scope.pokemon.sprites[0].resource_uri);
+		$scope.getData($scope.pokemon.descriptions[0].resource_uri);
+	});
+	$scope.getData = function(uri) {
+		var url = $scope.root + uri;
+		$http.get(url).success(function(data) {
+			$scope.uriData = data;
+			if($scope.uriData.hasOwnProperty("image")) {
+				$scope.pokeSprite = $scope.root + $scope.uriData.image; 
+			} if($scope.uriData.hasOwnProperty("description")) {
+				$scope.pokeDes =$scope.uriData.description;
+			}
+		})
+	};
+	$('body').on('click','#moves-header', function() {
+		console.log('click')
+		$('#moves-list').slideToggle()
+	});
+}])
+
+.controller('IVController', ['$scope', '$http', '$pokemon', function($scope, $http, $pokemon) {
+	$scope.capitalize = function(string) {
+		if(typeof string === 'string' && string.length > 0) {
+			return string[0].toUpperCase() + string.slice(1);
+		} else {
+			return string;
+		}
+		
+	};
+	$scope.natures = $pokemon.natures;
+	$scope.characteristics = $pokemon.characteristics;
+	$scope.types = $pokemon.types;
+	var getIV = $pokemon.getIV;
+	var getStat = $pokemon.getStat;
+	var nature = $pokemon.nature;
+	var getSpread = $pokemon.getSpread;
+	var getAllSpreads = $pokemon.getAllSpreads;
+	var getAllIVs = $pokemon.getAllIVs;
+	$scope.currentPKMN = $pokemon.blankPokemon;
+
 	$scope.update = function() {
-		$scope.ivs = getAllIVs($scope.currentPKMN);
+		if($scope.validPokemon()) {
+			$scope.ivs = getAllIVs($scope.currentPKMN);
+		}
 	};
 	$scope.changePkmn = function(speciesData) {
 		if(speciesData === null || speciesData === false) {
@@ -247,7 +340,6 @@ angular.module('PokedexApp', ['ngRoute'])
 			$scope.currentPKMN.species = speciesData.name;
 			$scope.pokemonSearch = speciesData.name;
 			$scope.currentPKMN.sprite = 'http://pokeapi.co/media/img/' + data.national_id + '.png';
-			console.log($scope.currentPKMN.sprite);
 			$scope.currentPKMN.base = {
 				hp: data.hp,
 				atk: data.attack,
@@ -271,6 +363,7 @@ angular.module('PokedexApp', ['ngRoute'])
 			$scope.species = PKMNdata[0];
 			$scope.changePkmn(PKMNdata[0]);
 		};
+
 	};
 	$scope.updateNature = function(nature) {
 		natures = $scope.natures.filter(function(nat) {
@@ -282,18 +375,32 @@ angular.module('PokedexApp', ['ngRoute'])
 			$scope.update();
 		}
 	};
+	$scope.minSpreads = function(spread) {
+		if(spread.length > 1 && typeof spread === 'object') {
+			return spread[0] + "-" + spread[spread.length - 1];
+		} else if(spread.length === 1) {
+			return spread[0];
+		} else {
+			return spread;
+		}
+	};
+	$scope.validPokemon = function() {
+		if($scope.currentPKMN.species && $scope.currentPKMN.nature && $scope.currentPKMN.level) {
+			return true
+		} else {
+			return false
+		}
+	}
 	$scope.initialize = function() {
-		$scope.currentPKMN.nature = $scope.natures[0];
 		$http.get('http://pokeapi.co/api/v1/pokedex/1/').success(function(data) {
 			$scope.pokedex = data.pokemon;
-			$scope.pokemonSearch = $scope.pokedex[1].name;
-			$scope.natureSearch = $scope.natures[0]
-			$scope.species = $scope.pokedex[1];
-			$scope.changePkmn($scope.species);
-			$scope.ivs = getAllIVs($scope.currentPKMN);
 		}).error(function(err) {
 			console.log(err)
 		})
 	};
 	$scope.initialize();
+}])
+
+.controller('GymLeaders', ['$scope', '$http', function($scope, $http) {
+
 }]);

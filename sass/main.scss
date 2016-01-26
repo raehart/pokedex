@@ -1,7 +1,219 @@
+@import "normalize";
 @import "base";
+@import "navbar";
+
 
 body {
+	font-family:  $lato;
 	background-color: $background-color;
-	color: $font-color;
+	color: $base-font-color;
+	margin:0;
+}
+html, body {
+	height: 100%;
 }
 
+main {
+	min-height: 640px;
+	position: relative;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: $oswald;
+}
+
+header {
+	font-family: $oswald;
+}
+#pokedex {
+	@include display(flex);
+	@include flex-wrap(wrap);
+	@include box-align(start);
+	@include justify-content(center);
+	margin: 40px auto;
+	@media screen and (min-width: 891px) and (max-width: 1050px) {
+		width: 890px;
+	}
+	@media screen and (min-width: 1051px) and (max-width: 1400px) {
+		width: 1050px;
+	}
+	@media screen and (min-width: 1441px) {
+		width: 1400px;
+	}
+	.pokemon-tile {
+		position: relative;
+		background: linear-gradient(lighten(#73C0BC, 20%) 25%, #73C0BC);
+		border: 2px solid #111;
+		height: 160px;
+		width: 160px;
+		border-radius: 50%;
+		margin: 6px;
+		box-shadow: 8px 4px 8px #111;
+		cursor: pointer;
+		.sprite {
+			position: absolute;
+			bottom: 0;
+			left: 20px;
+			img {
+				max-width: 170px;
+			}
+		}
+		.title-box { 
+			height: 160px;
+			width: 160px;
+			position: absolute;
+			text-align: center;
+			top: 0;
+			right: -2px;
+			border-radius: 50%;
+			background: linear-gradient(transparent 10%, $main-color 10%, $main-color 25%, transparent 25%);
+			h5 {
+				position: absolute;
+				top: 18px;
+				left: 0;
+				right: 0;
+				margin: 0;
+				font-family: $montserrat;
+			}
+		}
+	}
+}
+
+#welcome {
+	max-width: 1200px;
+	text-align: center;
+	margin: auto;
+	#features {
+		.feature {
+			width: 30%;
+			margin: 20px 10%;
+			float: left;
+			.title {
+				border-bottom: 1px solid transparentize($base-font-color, 0.8);
+				margin-bottom: 6px;
+			}
+			li {
+				line-height: 2em;
+			}
+			@media screen and (max-width: 600px) {
+				width: 80%;
+			}
+		}
+	}
+}
+#ivcalculator {
+	margin-top: 40px;
+	input, select {
+    background: lighten($background-color, 10%);
+    border-radius: $base-border-radius;
+    border: 0;
+    color: transparentize($base-font-color, 0.1);
+    padding: ($base-spacing / 4) ($gutter / 2);
+	}
+	@include outer-container();
+	.pokemon-input {
+		text-align: right;
+		@include span-columns(8);
+		input, select {
+			width: 80px;
+			margin-left: 10px;
+		}
+		.level-input {
+			margin: 10px;
+		}
+		.species-input, .nature-input, .char-input, .hidden-power {
+			margin: 10px;
+			input, select {
+				width: 220px;
+			}
+		}
+		.stats {
+			@include span-columns(4 of 8);
+			h4 {
+				width: 90%;
+				margin: 2px auto;
+				padding-right: 30px;
+			}
+			.stat {
+				width: 90%;
+				margin:4px auto;
+			}
+		}
+	}
+	.pokemon-output {
+		@include span-columns(4);
+		.box {
+			width: 240px;
+			margin: auto;
+			text-align: center;
+      background: lighten($background-color, 10);
+      border-radius: $base-border-radius;
+      padding: 0;
+		}
+		h1 {
+      color: transparentize($base-font-color, 0.3);
+			background-color: $main-color;
+			margin: 0;
+			padding: 10px 0;
+			border-radius: $base-border-radius $base-border-radius 0 0;
+			min-height: 67px;
+		}
+		.image-box {
+			background: linear-gradient(lighten(#73C0BC, 20%) 25%, #73C0BC);
+			min-height: 123px;
+		}
+		.ivs {
+			padding: ($base-spacing / 4) ($gutter / 2);
+			margin: 10px;
+			min-height: 268px;
+			@include stat-colors;
+			.iv {
+				margin: 10px;
+				border-radius: $base-border-radius;
+				padding: 2px;
+				.stat-name {
+					padding: 4px;
+					display: inline-block;
+					width: 60px;
+				}
+				.spread {
+					padding: 4px;
+					display: inline-block;
+					border-radius: $base-border-radius;
+					background-color: rgba(0,0,0,0.25);
+					width: 100px;
+				}
+			}
+		}
+	}
+}
+
+footer {
+	background-color: darken($main-color, 10%);
+  border-top: 1px solid darken($main-color, 6%);
+	text-align: center;
+	font-family: $lato;
+	margin-top: 34px;
+	padding: 4px;
+	color: transparentize($base-font-color, 0.3);
+	.subtext {
+		margin: 0;
+		font-size: 0.8em;
+	}
+}
+
+// page tweaks
+.clearfix {
+	*zoom: 1;
+	&:before, &:after {
+		content: "";
+		display: table;}
+	&:after {
+		clear: both;}}
+.page-wrap {
+  min-height: 100%;
+  /* equal to footer height */
+  margin-bottom: -110px; 
+	&:after {
+	  content: "";
+	  height: 110px;
+	  display: block;}}
