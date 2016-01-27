@@ -3,17 +3,17 @@
 		<form action="" class="iv-calculator">
 			<div class="level-input">
 				<label for="level">Level</label>
-				<input type="text" name="level" ng-model="currentPKMN.level" ng-change="update()">
+				<input type="text" name="level" ng-model="currentPKMN.level" ng-change="update()" placeholder="enter level (required)">
 			</div>
 			<div class="hidden-power">
 				<label for="hidden-power">Hidden Power Type</label>
-				<select name="hidden-power" ng-options="type for type in types"
+				<select name="hidden-power" ng-options="type for type in types.slice(1, 17)"
 																		ng-model="currentPKMN.hiddenPower" 
 																		ng-change="update()"></select>
 			</div>
 			<div class="species-input">
 				<label for="species-search"> Species </label>
-				<input type="text" name="species-search" ng-model="pokemonSearch" ng-change="changePkmnByName(pokemonSearch)">
+				<input type="text" name="species-search" ng-model="pokemonSearch" ng-change="changePkmnByName(pokemonSearch)" placeholder="enter species (required)">
 				<select name="species-select" id="species-select" 
 									ng-options="pokemon.name for pokemon in pokedex | orderBy: 'name'"
 									ng-model="species"
@@ -21,7 +21,7 @@
 			</div>
 			<div class="nature-input">
 				<label for="nature-search">Nature</label>
-				<input type="text" name="nature-search" ng-model="currentPKMN.nature" ng-change="updateNature(natureSearch)">
+				<input type="text" name="nature-search" ng-model="currentPKMN.nature" ng-change="updateNature(currentPKMN.nature)" placeholder="enter nature (required)">
 				<select name="nature-select" id="nature-select"
 									ng-options="nature for nature in natures"
 									ng-model="currentPKMN.nature"

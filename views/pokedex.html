@@ -14,9 +14,9 @@
     <li class="page-prev"><a href="javascript:void(0)" ng-click="changePage('prev')">Prev</a></li>
     <li>
       <ul>
-        <li ng-repeat="pageNum in getPages()"><a href="javascript:void(0)" 
-                                              class="active-{{pageNum === page}}"
-                                              ng-click="changePage(pageNum)">{{pageNum}}</a></li>
+        <li ng-repeat="pageNum in getPages()">
+          <a href="javascript:void(0)" class="active-{{pageNum === page}}" ng-click="changePage(pageNum)">{{pageNum}}</a>
+        </li>
       </ul>
     </li>
     <li class="page-next"><a href="javascript:void(0)" ng-click="changePage('next')">Next</a></li>

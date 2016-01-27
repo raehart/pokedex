@@ -64,7 +64,9 @@ ul {
     list-style: none;
   }
 }
-
+select:required {
+  color: #B8E0DE;
+}
 
 .pagination {
   text-align: center;

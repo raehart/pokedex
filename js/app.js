@@ -23,23 +23,42 @@ angular.module('PokedexApp', ['ngRoute'])
 
 
 .factory('$pokemon', function() {
-	var natures = ['adamant', 'bashful', 'bold', 'brave', 'calm', 'careful', 'docile', 'gentle', 'hardy', 'hasty', 'impish', 'jolly', 'lax', 'lonely', 'mild', 'modest', 'naive', 'naughty', 'quirky', 'rash', 'relaxed', 'sassy', 'serious', 'timid'];
+	var natures = ['adamant', 'bashful', 'bold', 'brave', 'calm', 'careful', 'docile', 'gentle', 'hardy', 'hasty', 'impish', 'jolly', 'lax', 'lonely', 'mild', 'modest', 'naive', 'naughty', 'quirky', 'quiet', 'rash', 'relaxed', 'sassy', 'serious', 'timid'];
 	var characteristics = ['Loves to eat', 'Proud of its power', 'Sturdy body', 'Highly curious', 'Strong willed', 'Likes to run', 'Takes plenty of siestas', 'Likes to thrash about', 'Capable of taking hits', 'Mischievous', 'Somewhat vain', 'Alert to sounds', 'Nods off a lot', 'A little quick tempered', 'Highly persistent', 'Thoroughly cunning', 'Strongly defiant', 'Impetuous and silly', 'Scatters things often', 'Likes to fight', 'Good endurance', 'Often lost in thought', 'Hates to lose', 'Somewhat of a clown', 'Likes to relax', 'Quick tempered', 'Good perseverance', 'Very finicky', 'Somewhat stubborn', 'Quick to flee'];
 	var types = ['Normal', 'Fire', 'Fighting', 'Water', 'Flying', 'Grass', 'Poison', 'Electric', 'Ground', 'Psychic', 'Rock', 'Ice', 'Bug', 'Dragon', 'Ghost', 'Dark', 'Steel', 'Fairy'];
+	var hiddenSpreads = { 
+		Fighting: ['000000', '001000', '010000', '100000', '110000'],
+	  Steel: ['000001', '011110', '100001', '111110'],
+	  Ground: ['000010', '011100', '101100', '111100'],
+	  Electric: ['000011', '010011', '100011', '111101'],
+	  Flying: ['000100', '011000', '101000', '111000'],
+	  Water: ['000101', '011001', '100101', '111001'],
+	  Bug: ['000110', '011010', '100110', '101010', '111010'],
+	  Ice: ['000111', '010111', '100111', '111011'],
+	  Fire: ['001001', '010001', '101001', '110001'],
+	  Rock: ['001010', '010010', '100010', '110010'],
+	  Psychic: ['001011', '011011', '101011', '110011'],
+	  Poison: ['001100', '010100', '100100', '110100'],
+	  Grass: ['001101', '010101', '011101', '101101', '110101'],
+	  Ghost: ['001110', '010110', '101110', '110110'],
+	  Dragon: ['001111', '011111', '101111', '110111'],
+	  Dark: ['111111'] 
+	};
 
-	function getIV(stat, lv, base, curr, ev ) {
+	//basically useless, since rounding will give you an average IV. Spreads are better.
+	function getIV(stat, lv, base, curr, ev, nat) {
 		if(stat === "hp") {
-			IV = ((curr - 10) * 100) / lv - 2*base - ev/4 - 100;
+			IV = Math.floor(((curr - 10) * 100) / lv) - 2*base - Math.floor(ev/4) - 100;
 		} else {
-			IV = ((curr/nat - 5) * 100) / lv - 2*base - ev/4;
+			IV = Math.floor(((Math.floor(curr/nat) - 5) * 100) / lv) - 2*base - Math.floor(ev/4);
 		}
 		return IV;
 	};
 	function getStat(stat, lv, base, iv, ev, nat) {
 		if(stat === "hp") {
-			STAT = ((2*base + iv + ev/4 + 100) * lv) / 100 + 10;
+			STAT = Math.floor(((2*base + iv + Math.floor(ev/4) + 100) * lv) / 100) + 10;
 		} else {
-			STAT = (((2*base + iv + ev/4) * lv) / 100 + 5) * nat;
+			STAT = Math.floor(Math.floor(((2*base + iv + Math.floor(ev/4)) * lv) / 100 + 5) * nat);
 		}
 		return STAT;
 	};
@@ -53,63 +72,26 @@ angular.module('PokedexApp', ['ngRoute'])
 			case 'serious':	
 				stats = [1, 1, 1, 1, 1];
 				break;
-			case 'lonely':
-				stats = [1.1, 0.9, 1, 1, 1];
-				break;
-			case 'adamant':
-				stats = [1.1, 1, 0.9, 1, 1];
-				break;
-			case 'naughty':
-				stats = [1.1, 1, 1, 0.9, 1];
-				break;
-			case 'brave':
-				stats = [1.1, 1, 1, 1, 0.9];
-				break;
-			case 'bold':	
-				stats = [0.9, 1.1, 1, 1, 1];
-				break;
-			case 'impish':	
-				stats = [1, 1.1, 0.9, 1, 1];
-				break;
-			case 'lax':	
-				stats = [1, 1.1, 1, 0.9, 1];
-				break;
-			case 'relaxed':	
-				stats = [1, 1.1, 1, 1, 0.9];
-				break;
-			case 'modest':	
-				stats = [0.9, 1, 1.1, 1, 1];
-				break;
-			case 'mild':	
-				stats = [1, 0.9, 1.1, 1, 1];
-				break;
-			case 'rash':	
-				stats = [1, 1, 1.1, 0.9, 1];
-				break;
-			case 'calm':	
-				stats = [0.9, 1, 1, 1.1, 1];
-				break;
-			case 'gentle':	
-				stats = [1, 0.9, 1, 1.1, 1];
-				break;
-			case 'careful':	
-				stats = [1, 1, 0.9, 1.1, 1];
-				break;
-			case 'sassy':	
-				stats = [1, 1, 1, 1.1, 0.9];
-				break;
-			case 'timid':	
-				stats = [0.9, 1, 1, 1, 1.1];
-				break;
-			case 'hasty':	
-				stats = [1, 0.9, 1, 1, 1.1];
-				break;
-			case 'jolly':	
-				stats = [1, 1, 0.9, 1, 1.1];
-				break;
-			case 'naive':	
-				stats = [1, 1, 1, 0.9, 1.1];
-				break;
+			case 'lonely': 	stats = [1.1, 0.9, 1, 1, 1]; break;
+			case 'adamant': stats = [1.1, 1, 0.9, 1, 1]; break;
+			case 'naughty': stats = [1.1, 1, 1, 0.9, 1]; break;
+			case 'brave': 	stats = [1.1, 1, 1, 1, 0.9]; break;
+			case 'bold': 		stats = [0.9, 1.1, 1, 1, 1]; break;
+			case 'impish': 	stats = [1, 1.1, 0.9, 1, 1]; break;
+			case 'lax': 		stats = [1, 1.1, 1, 0.9, 1]; break;
+			case 'relaxed': stats = [1, 1.1, 1, 1, 0.9]; break;
+			case 'modest': 	stats = [0.9, 1, 1.1, 1, 1]; break;
+			case 'mild': 		stats = [1, 0.9, 1.1, 1, 1]; break;
+			case 'rash': 		stats = [1, 1, 1.1, 0.9, 1]; break;
+			case 'quiet': 	stats = [1, 1, 1.1, 1, 0.9]; break;
+			case 'calm': 		stats = [0.9, 1, 1, 1.1, 1]; break;
+			case 'gentle': 	stats = [1, 0.9, 1, 1.1, 1]; break;
+			case 'careful':	stats = [1, 1, 0.9, 1.1, 1]; break;
+			case 'sassy':		stats = [1, 1, 1, 1.1, 0.9]; break;
+			case 'timid':		stats = [0.9, 1, 1, 1, 1.1]; break;
+			case 'hasty':		stats = [1, 0.9, 1, 1, 1.1]; break;
+			case 'jolly':		stats = [1, 1, 0.9, 1, 1.1]; break;
+			case 'naive':		stats = [1, 1, 1, 0.9, 1.1]; break;
 		}
 		mods = {
 			hp: 1,
@@ -159,8 +141,56 @@ angular.module('PokedexApp', ['ngRoute'])
 				IVs[stat] = "Invalid stat"
 			}
 		}
+		if(pokemon.hiddenPower !== null) {
+			return filterByHiddenPower(pokemon.hiddenPower, IVs);
+		}
 		return IVs
 	};
+	function getHiddenPower(hp, atk, def, spd, satk, sdef) {
+		var bit = Math.floor((hp % 2 + (atk % 2 * 2) + (def % 2 * 4) + (spd % 2 * 8) + (satk % 2 * 16) + (sdef % 2 * 32)) * 15 / 63);
+		switch(bit) {
+			case 0: return 'Fighting'; break;
+			case 1: return 'Flying'; break;
+			case 2: return 'Poison'; break;
+			case 3: return 'Ground'; break;
+			case 4: return 'Rock'; break;
+			case 5: return 'Bug'; break;
+			case 6: return 'Ghost'; break;
+			case 7: return 'Steel'; break;
+			case 8: return 'Fire'; break;
+			case 9: return 'Water'; break;
+			case 10: return 'Grass'; break;
+			case 11: return 'Electric'; break;
+			case 12: return 'Psychic'; break;
+			case 13: return 'Ice'; break;
+			case 14: return 'Dragon'; break;
+			case 15: return 'Dark'; break;
+			default: return undefined;
+		}
+	}
+	function filterByHiddenPower(type, ivs) {
+		var attrs = ['hp', 'atk', 'def', 'spd', 'satk', 'sdef'];
+		var valid = hiddenSpreads[type];
+		for(var i=0;i<=5;i++) {
+			if(ivs[attrs[i]] !== 'Invalid stat') {
+				var output = []
+				var stat = valid[0][i];
+				for(var j=1;j<valid.length;j++) {
+					if(stat !== valid[j][i]) {
+						stat = 'both';
+					}
+				}
+				if(stat !== 'both') {
+					ivs[attrs[i]] = ivs[attrs[i]].filter(function(iv) {
+						return iv % 2 == stat;
+					});
+				}
+			}
+		}
+		return ivs
+	};
+	function filterByChar() {
+	}
 	var blankPokemon = {
 		species: "",
 		level: null,
@@ -202,6 +232,7 @@ angular.module('PokedexApp', ['ngRoute'])
 		'getSpread': getSpread,
 		'getAllSpreads': getAllSpreads,
 		'getAllIVs': getAllIVs,
+		'getHiddenPower': getHiddenPower,
 		'blankPokemon': blankPokemon
 	}
 })
@@ -355,7 +386,6 @@ angular.module('PokedexApp', ['ngRoute'])
 		})
 	}
 	$scope.changePkmnByName = function(PKMNname) {
-		console.log(PKMNname)
 		PKMNdata = $scope.pokedex.filter(function(pkmn) {
 			return pkmn.name.toLowerCase() === PKMNname.toLowerCase();
 		});
@@ -371,7 +401,6 @@ angular.module('PokedexApp', ['ngRoute'])
 		});
 		if(natures.length > 0) {
 			$scope.currentPKMN.nature = natures[0];
-			console.log($scope.currentPKMN.nature)
 			$scope.update();
 		}
 	};

@@ -1,0 +1,25 @@
+{
+  "name": "pokedex",
+  "description": "pokemon reference and utility app",
+  "main": "index.html",
+  "authors": [
+    "Kenneth Black",
+    "Brigette Eckert"
+  ],
+  "license": "ISC",
+  "homepage": "http://pokedex.lawlietblack.com",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-animate": "~1.4.9",
+    "angular-route": "~1.4.9",
+    "jquery": "~2.2.0",
+    "angular-mocks": "~1.4.9"
+  }
+}

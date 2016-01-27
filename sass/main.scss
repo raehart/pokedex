@@ -102,7 +102,7 @@ header {
 }
 #ivcalculator {
 	margin-top: 40px;
-	input, select {
+	input, select, input:-webkit-autofill {
     background: lighten($background-color, 10%);
     border-radius: $base-border-radius;
     border: 0;
@@ -117,10 +117,7 @@ header {
 			width: 80px;
 			margin-left: 10px;
 		}
-		.level-input {
-			margin: 10px;
-		}
-		.species-input, .nature-input, .char-input, .hidden-power {
+		.species-input, .nature-input, .char-input, .hidden-power, .level-input {
 			margin: 10px;
 			input, select {
 				width: 220px;

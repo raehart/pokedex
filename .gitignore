@@ -14,3 +14,5 @@ notes/
 archive/
 
 .sass-cache/
+
+**/bower_components
