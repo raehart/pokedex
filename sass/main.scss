@@ -1,6 +1,7 @@
 @import "normalize";
 @import "base";
-@import "navbar";
+@import "mixins";
+@import "vendor";
 
 
 body {
@@ -12,13 +13,22 @@ body {
 html, body {
 	height: 100%;
 }
-
 main {
 	min-height: 640px;
 	position: relative;
 }
 h1, h2, h3, h4, h5, h6 {
-	font-family: $oswald;
+	font-family: $montserrat;
+}
+ul {
+  padding: 0;
+  margin: 0;
+  li {
+    list-style: none;
+  }
+}
+select:required {
+  color: #B8E0DE;
 }
 
 header {
@@ -30,6 +40,7 @@ header {
 	@include box-align(start);
 	@include justify-content(center);
 	margin: 40px auto;
+	@include pokemon-tile;
 	@media screen and (min-width: 891px) and (max-width: 1050px) {
 		width: 890px;
 	}
@@ -39,54 +50,216 @@ header {
 	@media screen and (min-width: 1441px) {
 		width: 1400px;
 	}
-	.pokemon-tile {
-		position: relative;
-		background: linear-gradient(lighten(#73C0BC, 20%) 25%, #73C0BC);
-		border: 2px solid #111;
-		height: 160px;
-		width: 160px;
-		border-radius: 50%;
-		margin: 6px;
-		box-shadow: 8px 4px 8px #111;
-		cursor: pointer;
-		.sprite {
-			position: absolute;
-			bottom: 0;
-			left: 20px;
-			img {
-				max-width: 170px;
+	
+}
+#poke-page {
+	margin-top: 40px;
+	@include outer-container();
+	#basic-info {
+		margin: 10px;
+	}
+	#general {
+		@include span-columns(8);
+		.national-id {
+			margin: 0;
+		}
+		.pokemon-name {
+			margin: 0;
+			font-size: 3em;
+		}
+		.description {
+			font-style: italic;
+		}
+		#moves {
+			@include span-columns(5 of 8);
+			h3 {
+				text-align: center;
+			}
+			.vertical-tab-content>ul {
+				padding-bottom: 10px;
+			}
+			.move-level {
+				display: inline-block;
+				width: 30px;
+			}
+			.machine-num {
+				display: inline-block;
+				width: 50px;
 			}
 		}
-		.title-box { 
-			height: 160px;
-			width: 160px;
-			position: absolute;
+		#evolutions {
+			@include span-columns(3 of 8);
+			@include pokemon-tile;
+			.pokemon-tile, .pokemon-tile .title-box {
+				border-radius: $base-border-radius;
+				h4 {
+					position: absolute;
+					bottom: 8px;
+					left: 0;
+					right: 0;
+					margin: 0;
+					
+					text-shadow: 2px 3px 8px #000;
+				}
+			}
 			text-align: center;
-			top: 0;
-			right: -2px;
-			border-radius: 50%;
-			background: linear-gradient(transparent 10%, $main-color 10%, $main-color 25%, transparent 25%);
-			h5 {
-				position: absolute;
-				top: 18px;
-				left: 0;
-				right: 0;
-				margin: 0;
-				font-family: $montserrat;
+			.evo-tiles {
+				@include display(flex);
+				@include flex-wrap(wrap);
+				@include box-align(start);
+				@include justify-content(center);
 			}
 		}
 	}
+	#poke-data {
+		@include type-colors;
+		@include stat-colors;
+		background-color: #333;
+		padding: 10px;
+		border-radius: $base-border-radius;
+		@include span-columns(4);
+		h5 {
+			margin: 6px 0; }
+		.button-bar {
+			height: 32px;
+			button {
+				@include redbutton;
+				display: block;
+				float: left;
+				margin: 0;
+				width: 33.33%;
+			}
+		}
+		.image-box {
+			position:relative;
+			text-align: center;
+			border-radius: $base-border-radius;
+			background: linear-gradient(lighten(#73C0BC, 20%) 25%, #73C0BC);
+			height: 160px;
+			padding: 6px;
+			margin: 6px auto;
+			.data {
+				position: absolute;
+				text-shadow: 2px 4px 3px darken(#73C0BC, 30%),  -2px 4px 3px darken(#73C0BC, 30%);
+				span {
+					display: block;
+				}
+				&.species {
+					font-size: 1.3em;
+					bottom: -10px;
+					right: 0;
+					left: 0;
+				}
+				&.height {
+					bottom: 10px;
+					right: 30px;
+				}
+				&.weight {
+					bottom: 10px;
+					left: 30px;
+				}
+			}
+		}
+		.ability-box, .type-box, .egg-group-box {
+			text-align: center;
+			.ability, .type, .egg-group {
+				border-radius: $base-border-radius;
+				padding: ($base-spacing / 4) ($gutter / 2);
+			}
+			.ability, .egg-group {
+				background-color: #222;
+			}
+			.ability-count-1 .ability, .types-count-1 .type, .egg-group-count-1 .egg-group {
+				width: 100%;}
+			.ability-count-2 .ability, .types-count-2 .type, .egg-group-count-2 .egg-group {
+				float: left;
+				width: 50%;}
+			.ability-count-3 .ability, .types-count-3 .type, .egg-group-count-3 .egg-group {
+				float: left;
+				width: 33.33%;}
+		}
+		.poke-stats-box {
+			@include bar-width;
+			text-align: center;
+			.stat {
+				margin: 6px auto;
+				border-radius: $base-border-radius;
+				padding: 6px;
+				background-color: $background-color;
+			}
+			.stat-name {
+				padding: 4px;
+				display: inline-block;
+				width: 23%;
+			}
+			.stat-score {
+				width: 12%;
+			}
+			.stat-bar-container {
+				float: right;
+				width: 65%;
+				height: 27px;
+				.stat-bar {
+					border-radius: $base-border-radius;
+					float: left;
+					height: 27px;
+				}
+			}
+		}
+	}
+	@media screen and (max-width: 924px) {
+		#general {
+			@include span-columns(6);
+			#moves {
+				@include span-columns(12);
+			}
+			#evolutions {
+				@include span-columns(12);
+			}
+		}
+		#poke-data {
+			@include span-columns(6);
+		}
+	} 	
+	@media screen and (max-width: 580px) {
+		margin: 0;
+		position: relative;
+		#general {
+			@include span-columns(12);
+			#basic-info {
+				position: absolute;
+				top: 0;
+				left: 0;
+				right: 0;
+				padding: 20px;
+				text-align: center;
+				height: 180px
+			}
+			margin-top: 400px;
+			#moves {
+				margin-top: 470px;
+			}
+		}
+		#poke-data {
+			@include span-columns(12);
+			position: absolute;
+			top: 180px;
+			&>div {
+				max-width: 400px;
+				margin: 0 auto;
+			}
+		}
+	} 
 }
-
 #welcome {
 	max-width: 1200px;
 	text-align: center;
 	margin: auto;
 	#features {
+		width: 20%;
+		margin: 20px 5%;
+		float: left;
 		.feature {
-			width: 30%;
-			margin: 20px 10%;
-			float: left;
 			.title {
 				border-bottom: 1px solid transparentize($base-font-color, 0.8);
 				margin-bottom: 6px;
@@ -94,9 +267,30 @@ header {
 			li {
 				line-height: 2em;
 			}
-			@media screen and (max-width: 600px) {
-				width: 80%;
+		}
+		@media screen and (max-width: 600px) {
+			width: 90%;
+		}
+	}
+	#updates {
+		width: 60%;
+		margin: 20px 5%;
+		float: right;
+		.title {
+			line-height: 2em;
+			border-bottom: 1px solid transparentize($base-font-color, 0.8);
+			margin-bottom: 6px;
+		}
+		.comment {
+			text-align: left;
+			padding-top: 16px;
+			.comment-image > img {
+				background-color: #333;
+				padding: 0.2em;
 			}
+		}
+		@media screen and (max-width: 600px) {
+			width: 90%;
 		}
 	}
 }
@@ -111,8 +305,8 @@ header {
 	}
 	@include outer-container();
 	.pokemon-input {
-		text-align: right;
 		@include span-columns(8);
+		text-align: right;
 		input, select {
 			width: 80px;
 			margin-left: 10px;
@@ -182,6 +376,63 @@ header {
 			}
 		}
 	}
+	@media screen and (max-width: 860px) {
+		.pokemon-input {
+			@include span-columns(6);
+			.stats {
+				@include span-columns(3 of 6);
+				padding: 0;
+				margin: 0;
+				position: relative;
+				left: 20px;
+				h4 {
+					padding: 0;
+					text-align: center;
+				}
+			}
+			.stat label, label {
+				display: block;
+				width: 100%;
+				text-align: center;
+			}
+			.stat input {
+				margin: 0;
+				width: 100%;
+			}
+			.species-input, .nature-input, .char-input, .hidden-power, .level-input {
+				margin: 0;
+				input, select {
+					width: 100%;
+				}
+				input + select {
+					margin-top: 10px;
+				}
+			}
+		}
+		.pokemon-output {
+			@include span-columns(6);
+		}
+	}
+	@media screen and (max-width: 520px) {
+		position: relative;
+		.pokemon-input {
+			@include span-columns(12);
+			width: 100%;
+			margin: 500px auto 20px;
+			padding: 0 20px 0 0 ;
+		}
+		.pokemon-output {
+			@include span-columns(12);
+			position: absolute;
+			top: 0;
+			left: 0;
+			right: 0;
+			.box {
+				width: 100%;
+				max-width: 400px;
+			}
+		}
+	}
 }
 
 footer {
@@ -191,7 +442,11 @@ footer {
 	font-family: $lato;
 	margin-top: 34px;
 	padding: 4px;
+	height: 77px;
 	color: transparentize($base-font-color, 0.3);
+	p {
+		height: 19px;
+	}
 	.subtext {
 		margin: 0;
 		font-size: 0.8em;

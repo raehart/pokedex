@@ -1,0 +1,166 @@
+$hp-stat-color: darken(desaturate(#AF0B0B, 10%), 15%);
+$atk-stat-color: darken(desaturate(#F08030, 10%), 15%);
+$def-stat-color: darken(desaturate(#F8D030, 10%), 15%);
+$satk-stat-color: darken(desaturate(#6890F0, 10%), 15%);
+$sdef-stat-color: darken(desaturate(#78C850, 10%), 15%);
+$spd-stat-color: darken(desaturate(#F85888, 10%), 15%);
+
+$normal-type-color: #A8A878;
+$fire-type-color: #F08030;
+$water-type-color: #6890F0;
+$ice-type-color: #98D8D8;
+$fighting-type-color: #C03028;
+$grass-type-color: #78C850;
+$poison-type-color: #A040A0;
+$electric-type-color: #F8D030;
+$ground-type-color: #E0C068;
+$flying-type-color: #A890F0;
+$psychic-type-color: #F85888;
+$rock-type-color: #B8A038;
+$bug-type-color: #A8B820;
+$ghost-type-color: #705898;
+$dragon-type-color: #7038F8;
+$dark-type-color: #705848;
+$steel-type-color: #B8B8D0;
+$fairy-type-color: #FF99CC;
+
+
+@mixin redbutton {
+  @include transition (all 0.2s ease-in-out);
+  background: lighten($base-border-color, 10);
+  border-radius: $base-border-radius;
+  border: 1px solid $base-border-color;
+  color: transparentize($base-font-color, 0.3);
+  outline: none;
+  padding: ($base-spacing / 4) ($gutter / 2);
+  text-decoration: none;
+  &:hover, &:focus, &.active-true {
+    background: lighten($base-border-color, 15);
+    color: $base-font-color;}}
+@mixin stat-colors {
+  .stat-hp {
+    border-color: darken($hp-stat-color, 20%);
+    background-color: $hp-stat-color;}
+  .stat-atk {
+    border-color: darken($atk-stat-color, 20%);
+    background-color: $atk-stat-color;}
+  .stat-def {
+    border-color: darken($def-stat-color, 20%);
+    background-color: $def-stat-color;}
+  .stat-satk {
+    border-color: darken($satk-stat-color, 20%);
+    background-color: $satk-stat-color;}
+  .stat-sdef {
+    border-color: darken($sdef-stat-color, 20%);
+    background-color: $sdef-stat-color;}
+  .stat-spd {
+    border-color: darken($spd-stat-color, 20%);
+    background-color: $spd-stat-color;}}
+@mixin type-colors {
+	.type-normal {
+		border-color: darken($normal-type-color, 20%);
+		background-color: $normal-type-color;}
+	.type-fire {
+		border-color: darken($fire-type-color, 20%);
+		background-color: $fire-type-color;}
+	.type-water {
+		border-color: darken($water-type-color, 20%);
+		background-color: $water-type-color;}
+	.type-ice {
+		border-color: darken($ice-type-color, 20%);
+		background-color: $ice-type-color;}
+	.type-fighting {
+		border-color: darken($fighting-type-color, 20%);
+		background-color: $fighting-type-color;}
+	.type-grass {
+		border-color: darken($grass-type-color, 20%);
+		background-color: $grass-type-color;}
+	.type-poison {
+		border-color: darken($poison-type-color, 20%);
+		background-color: $poison-type-color;}
+	.type-electric {
+		border-color: darken($electric-type-color, 20%);
+		background-color: $electric-type-color;}
+	.type-ground {
+		border-color: darken($ground-type-color, 20%);
+		background-color: $ground-type-color;}
+	.type-flying {
+		border-color: darken($flying-type-color, 20%);
+		background-color: $flying-type-color;}
+	.type-psychic {
+		border-color: darken($psychic-type-color, 20%);
+		background-color: $psychic-type-color;}
+	.type-rock {
+		border-color: darken($rock-type-color, 20%);
+		background-color: $rock-type-color;}
+	.type-bug {
+		border-color: darken($bug-type-color, 20%);
+		background-color: $bug-type-color;}
+	.type-ghost {
+		border-color: darken($ghost-type-color, 20%);
+		background-color: $ghost-type-color;}
+	.type-dragon {
+		border-color: darken($dragon-type-color, 20%);
+		background-color: $dragon-type-color;}
+	.type-dark {
+		border-color: darken($dark-type-color, 20%);
+		background-color: $dark-type-color;}
+	.type-steel {
+		border-color: darken($steel-type-color, 20%);
+		background-color: $steel-type-color;}
+	.type-fairy {
+		border-color: darken($fairy-type-color, 20%);
+		background-color: $fairy-type-color;}}
+
+@mixin bar-width() {
+	@for $i from 0 through 200 {
+		.stat-bar-container .stat-bar.val-#{$i} {
+			width: percentage($i / 200);
+		}
+	}
+	@for $i from 201 through 255 {
+		.stat-bar-container .stat-bar.val-#{$i} {
+			width: 100%;
+		}
+	}
+}
+
+@mixin pokemon-tile {
+	.pokemon-tile {
+		position: relative;
+		background: linear-gradient(lighten(#73C0BC, 20%) 25%, #73C0BC);
+		border: 2px solid #111;
+		height: 160px;
+		width: 160px;
+		border-radius: 50%;
+		margin: 6px;
+		box-shadow: 8px 4px 8px #111;
+		cursor: pointer;
+		.sprite {
+			position: absolute;
+			bottom: 0;
+			left: 20px;
+			img {
+				max-width: 170px;
+			}
+		}
+		.title-box { 
+			height: 160px;
+			width: 160px;
+			position: absolute;
+			text-align: center;
+			top: 0;
+			right: -2px;
+			border-radius: 50%;
+			background: linear-gradient(transparent 10%, $main-color 10%, $main-color 25%, transparent 25%);
+			h5 {
+				position: absolute;
+				top: 18px;
+				left: 0;
+				right: 0;
+				margin: 0;
+				font-family: $montserrat;
+			}
+		}
+	}
+}

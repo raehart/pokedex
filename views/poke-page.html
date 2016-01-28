@@ -1,0 +1,138 @@
+<div id="poke-page">
+	<div id="general" class="clearfix">
+		<div id="basic-info">
+			<h4 class="national-id">National # {{pokemon.national_id}}</h4>
+			<h1 class="pokemon-name">{{pokemon.name}}</h1>
+			<p class="description">{{pokeDes}}</p>
+		</div>
+		<div id="moves">
+			<h3>Moves</h3>
+			<div class="vertical-tabs-container">
+			  <div class="vertical-tabs">
+			    <a href="javascript:void(0)" class="js-vertical-tab vertical-tab is-active" rel="tab1">Level Up</a>
+			    <a href="javascript:void(0)" class="js-vertical-tab vertical-tab" rel="tab2">Machine</a>
+			    <a href="javascript:void(0)" class="js-vertical-tab vertical-tab" rel="tab3">Tutor</a>
+			  </div>
+			  <div class="vertical-tab-content-container">
+			    <a href="" class="js-vertical-tab-accordion-heading vertical-tab-accordion-heading is-active" rel="tab1">Level Up</a>
+			    <div id="tab1" class="js-vertical-tab-content vertical-tab-content">
+			      <ul class="moves-by-level-list">
+							<li ng-repeat="move in pokemon.movesByLevel"><span class="move-level">{{move.level}}</span> {{move.name}}</li>
+						</ul>
+			    </div>
+
+			    <a href="" class="js-vertical-tab-accordion-heading vertical-tab-accordion-heading" rel="tab2">Machine</a>
+			    <div id="tab2" class="js-vertical-tab-content vertical-tab-content">
+			      <ul class="moves-by-machine-list">
+							<li ng-repeat="move in pokemon.movesByMachine">
+								<span class="machine-num type-{{move.machine.slice(0, 2)}}">{{move.machine}}</span> {{move.name}}</li>
+						</ul>
+			    </div>
+
+			    <a href="" class="js-vertical-tab-accordion-heading vertical-tab-accordion-heading" rel="tab3">Tutor</a>
+			    <div id="tab3" class="js-vertical-tab-content vertical-tab-content">
+			      <ul class="moves-by-tutor-list">
+							<li ng-repeat="move in pokemon.movesByTutor">{{move.name}}</li>
+						</ul>
+			    </div>
+
+			  </div>
+			</div>
+		</div>
+		<div id="evolutions" class="clearfix" ng-hide="pokemon.evolutions.length === 0">
+			<h4>Evolutions</h4>
+			<div class="evo-tiles">
+				<div class="pokemon-tile" ng-repeat="pokemon in pokemon.evolutions | orderBy: 'number'" ng-click="goToPage(pokemon.number)">
+			    <div class="sprite">
+			      <img src="#" ng-src="http://pokeapi.co/media/img/{{pokemon.number}}.png" alt="{{pokemon.name}}">
+			    </div>
+			    <div class="title-box">
+			      <h5>#{{pokemon.number}} {{capitalize(pokemon.name)}}</h5>
+			      <h4 ng-show="pokemon.method === 'level_up'" ng-hide="pokemon.level === undefined">Level {{pokemon.level}}</h4>
+			    </div>
+			  </div>
+			</div>
+		</div>
+	</div>
+
+	<div id="poke-data">
+		<div class="button-bar">
+			<button class="page prev" ng-click="redirect(pokemon.national_id - 1)">Previous</button>
+			<button class="page dex" ng-click="redirect()">Pokedex</button>
+			<button class="page next" ng-click="redirect(pokemon.national_id + 1)">Next</button>
+		</div>
+		<div class="image-box">
+			<img class="center-block" ng-src="http://pokeapi.co/media/img/{{pokemon.national_id}}.png">
+			<p class="data species">{{pokemon.species}}</p>
+			<p class="data height"><span class="title">Height</span>{{pokemon.height}} meters</p>
+			<p class="data weight"><span class="title">Weight</span>{{pokemon.weight}} grams</p>
+		</div>
+		<div class="type-box clearfix">
+			<h5 class="clearfix">Types</h5>
+			<ul class="types types-count-{{pokemon.types.length}}">
+				<li ng-repeat="type in pokemon.types" class="type type-{{type.name}}">{{capitalize(type.name)}}</li>
+			</ul>
+		</div>
+		<div class="ability-box clearfix">
+			<h5 class="clearfix">Abilities</h5>
+			<ul class="abilities ability-count-{{pokemon.abilities.length}}">
+				<li ng-repeat="ability in pokemon.abilities" class="ability">{{capitalize(ability.name)}}</li>
+			</ul>
+		</div>
+		<div class="egg-group-box clearfix">
+			<h5>Egg Groups</h5>
+			<ul class="egg-groups egg-group-count-{{pokemon.egg_groups.length}}">
+				<li ng-repeat="group in pokemon.egg_groups" class="egg-group">{{group.name}}</li>
+			</ul>
+		</div>
+		<div class="poke-stats-box clearfix">
+			<h5 class="clearfix">Base Stats</h5>
+			<ul class="poke-stats">
+				<li class="stat">
+					<span class="stat-name">HP</span>
+					<span class="stat-score">{{pokemon.hp}}</span>
+					<span class="stat-bar-container">
+						<span class="stat-bar stat-hp val-{{pokemon.hp}}"></span>
+					</span>
+				</li>
+				<li class="stat">
+					<span class="stat-name">Attack</span>
+					<span class="stat-score">{{pokemon.attack}}</span>
+					<span class="stat-bar-container">
+						<span class="stat-bar stat-atk val-{{pokemon.attack}}"></span>
+					</span>
+				</li>
+				<li class="stat">
+					<span class="stat-name">Defense</span>
+					<span class="stat-score">{{pokemon.defense}}</span>
+					<span class="stat-bar-container">
+						<span class="stat-bar stat-def val-{{pokemon.defense}}"></span>
+					</span>
+				</li>
+				<li class="stat">
+					<span class="stat-name">Sp. Atk</span>
+					<span class="stat-score">{{pokemon.sp_atk}}</span>
+					<span class="stat-bar-container">
+						<span class="stat-bar stat-satk val-{{pokemon.sp_atk}}"></span>
+					</span>
+				</li>
+				<li class="stat">
+					<span class="stat-name">Sp. Def</span>
+					<span class="stat-score">{{pokemon.sp_def}}</span>
+					<span class="stat-bar-container">
+						<span class="stat-bar stat-sdef val-{{pokemon.sp_def}}"></span>
+					</span>
+				</li>
+				<li class="stat">
+					<span class="stat-name">Speed</span>
+					<span class="stat-score">{{pokemon.speed}}</span>
+					<span class="stat-bar-container">
+						<span class="stat-bar stat-spd val-{{pokemon.speed}}"></span>
+					</span>
+				</li>
+
+
+			</ul>
+		</div>
+	</div>
+</div>

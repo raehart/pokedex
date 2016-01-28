@@ -271,91 +271,6 @@ html {
 *, *::after, *::before {
   box-sizing: inherit; }
 
-ul {
-  padding: 0;
-  margin: 0; }
-  ul li {
-    list-style: none; }
-
-select:required {
-  color: #B8E0DE; }
-
-.pagination {
-  text-align: center;
-  position: absolute;
-  bottom: -50px;
-  left: 0;
-  right: 0; }
-  .pagination ul {
-    display: inline;
-    margin: auto;
-    padding: 0;
-    text-align: center; }
-    .pagination ul li {
-      display: inline;
-      list-style: none; }
-    .pagination ul ul li {
-      display: none; }
-      .pagination ul ul li:nth-child(1), .pagination ul ul li:nth-child(2), .pagination ul ul li:nth-child(3) {
-        display: inline; }
-      @media screen and (min-width: 53.75em) {
-        .pagination ul ul li {
-          display: inline; } }
-    .pagination ul li a {
-      -webkit-transition: all 0.2s ease-in-out;
-      -moz-transition: all 0.2s ease-in-out;
-      transition: all 0.2s ease-in-out;
-      background: #af0b0b;
-      border-radius: 3px;
-      border: 1px solid #7f0808;
-      color: rgba(255, 255, 255, 0.7);
-      outline: none;
-      padding: 0.375em 0.809em;
-      text-decoration: none; }
-      .pagination ul li a:hover, .pagination ul li a:focus, .pagination ul li a.active-true {
-        background: #c70d0d;
-        color: #fff; }
-      .pagination ul li a:active {
-        background: #af0b0b; }
-
-.stats {
-  padding: 0.75em; }
-  .stats ul {
-    padding: 0;
-    display: -webkit-box;
-    display: -moz-box;
-    display: box;
-    display: -webkit-flex;
-    display: -moz-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-    -moz-box-pack: center;
-    box-pack: center;
-    -webkit-justify-content: center;
-    -moz-justify-content: center;
-    -ms-justify-content: center;
-    -o-justify-content: center;
-    justify-content: center;
-    -ms-flex-pack: center; }
-  .stats li {
-    border-right: 1px solid rgba(255, 255, 255, 0.2);
-    color: #df0e0e;
-    display: inline;
-    float: left;
-    font-size: 1.2em;
-    line-height: 1.1em;
-    padding: 0 0.7em; }
-    .stats li:first-child {
-      padding-left: 0; }
-    .stats li:last-child {
-      border-right: 0; }
-  .stats span {
-    color: #fff;
-    display: block;
-    font-size: 0.7em;
-    font-weight: normal; }
-
 .centered-navigation {
   background-color: #AF0B0B;
   border-bottom: 1px solid #920909;
@@ -532,6 +447,193 @@ select:required {
             text-align: left;
             width: 12em; } }
 
+.pagination {
+  text-align: center;
+  position: absolute;
+  bottom: -50px;
+  left: 0;
+  right: 0; }
+  .pagination ul {
+    display: inline;
+    margin: auto;
+    padding: 0;
+    text-align: center; }
+    .pagination ul li {
+      display: inline;
+      list-style: none; }
+    .pagination ul ul li {
+      display: none; }
+      .pagination ul ul li:nth-child(1), .pagination ul ul li:nth-child(2), .pagination ul ul li:nth-child(3) {
+        display: inline; }
+      @media screen and (min-width: 53.75em) {
+        .pagination ul ul li {
+          display: inline; } }
+    .pagination ul li a {
+      -webkit-transition: all 0.2s ease-in-out;
+      -moz-transition: all 0.2s ease-in-out;
+      transition: all 0.2s ease-in-out;
+      background: #af0b0b;
+      border-radius: 3px;
+      border: 1px solid #7f0808;
+      color: rgba(255, 255, 255, 0.7);
+      outline: none;
+      padding: 0.375em 0.809em;
+      text-decoration: none; }
+      .pagination ul li a:hover, .pagination ul li a:focus, .pagination ul li a.active-true {
+        background: #c70d0d;
+        color: #fff; }
+
+.stats {
+  padding: 0.75em; }
+  .stats ul {
+    padding: 0;
+    display: -webkit-box;
+    display: -moz-box;
+    display: box;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -moz-box-pack: center;
+    box-pack: center;
+    -webkit-justify-content: center;
+    -moz-justify-content: center;
+    -ms-justify-content: center;
+    -o-justify-content: center;
+    justify-content: center;
+    -ms-flex-pack: center; }
+  .stats li {
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+    color: #df0e0e;
+    display: inline;
+    float: left;
+    font-size: 1.2em;
+    line-height: 1.1em;
+    padding: 0 0.7em; }
+    .stats li:first-child {
+      padding-left: 0; }
+    .stats li:last-child {
+      border-right: 0; }
+  .stats span {
+    color: #fff;
+    display: block;
+    font-size: 0.7em;
+    font-weight: normal; }
+
+.vertical-tabs-container {
+  border-radius: 3px;
+  border: 1px solid #222;
+  margin-bottom: 1.5em;
+  overflow: hidden; }
+  .vertical-tabs-container::after {
+    clear: both;
+    content: "";
+    display: table; }
+  .vertical-tabs-container li {
+    list-style: none; }
+  .vertical-tabs-container a {
+    color: #AF0B0B;
+    text-decoration: none; }
+  .vertical-tabs-container .vertical-tabs {
+    display: none; }
+    @media screen and (min-width: 40em) {
+      .vertical-tabs-container .vertical-tabs {
+        background-color: #222;
+        display: inline;
+        float: left;
+        height: 30em;
+        width: 40%; } }
+  @media screen and (min-width: 40em) {
+    .vertical-tabs-container .vertical-tab {
+      border-bottom: 1px solid #222;
+      display: block;
+      font-weight: bold;
+      margin-right: -1px;
+      padding: 0.75em 0.809em; }
+      .vertical-tabs-container .vertical-tab.is-active {
+        background-color: #333;
+        margin-right: -1px; } }
+  .vertical-tabs-container a.vertical-tab-accordion-heading,
+  .vertical-tabs-container a.vertical-tab {
+    color: #fff; }
+  .vertical-tabs-container .vertical-tab:focus {
+    outline: none; }
+  .vertical-tabs-container .vertical-tab-content-container {
+    display: block;
+    margin: 0 auto; }
+    .vertical-tabs-container .vertical-tab-content-container a:focus {
+      outline: none; }
+    @media screen and (min-width: 40em) {
+      .vertical-tabs-container .vertical-tab-content-container {
+        height: 30em;
+        width: 60%;
+        background-color: #333;
+        display: inline-block; } }
+  .vertical-tabs-container .vertical-tab-content {
+    background-color: #333;
+    padding: 1.5em 1.618em; }
+    .vertical-tabs-container .vertical-tab-content p {
+      color: #fff;
+      line-height: 1.5em; }
+    @media screen and (min-width: 40em) {
+      .vertical-tabs-container .vertical-tab-content {
+        border: none;
+        display: none; } }
+  .vertical-tabs-container .vertical-tab-accordion-heading {
+    background-color: #181818;
+    border-top: 1px solid #222;
+    cursor: pointer;
+    display: block;
+    font-weight: bold;
+    padding: 0.75em 0.809em; }
+    .vertical-tabs-container .vertical-tab-accordion-heading:focus, .vertical-tabs-container .vertical-tab-accordion-heading:hover {
+      color: #AF0B0B; }
+    .vertical-tabs-container .vertical-tab-accordion-heading:first-child {
+      border-top: none; }
+    .vertical-tabs-container .vertical-tab-accordion-heading.is-active {
+      background: #333;
+      border-bottom: none; }
+    @media screen and (min-width: 40em) {
+      .vertical-tabs-container .vertical-tab-accordion-heading {
+        display: none; } }
+
+.comment {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  display: table;
+  margin-bottom: 1.5em;
+  padding-bottom: 1em;
+  width: 100%; }
+  .comment .comment-image,
+  .comment .comment-content {
+    display: table-cell;
+    vertical-align: top; }
+  .comment .comment-image {
+    padding-right: 1.4em; }
+    .comment .comment-image > img {
+      background: #f01616;
+      border-radius: 3px;
+      display: block;
+      height: auto;
+      max-width: none;
+      padding: 0.7em;
+      width: 4em; }
+    .comment-reverse-order .comment .comment-image {
+      padding-right: 0;
+      padding-left: 10px; }
+  .comment .comment-content {
+    width: 100%; }
+    .comment .comment-content h1 {
+      font-size: 1em;
+      margin: 0 0 0.5em 0; }
+    .comment .comment-content p {
+      line-height: 1.5em;
+      margin-bottom: 0.5em; }
+    .comment .comment-content p.comment-detail {
+      color: rgba(255, 255, 255, 0.5);
+      font-size: 0.9em;
+      font-style: italic; }
+
 body {
   font-family: "Lato", sans-serif;
   background-color: #222;
@@ -546,7 +648,16 @@ main {
   position: relative; }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Oswald", sans-serif; }
+  font-family: "Montserrat", sans-serif; }
+
+ul {
+  padding: 0;
+  margin: 0; }
+  ul li {
+    list-style: none; }
+
+select:required {
+  color: #B8E0DE; }
 
 header {
   font-family: "Oswald", sans-serif; }
@@ -580,15 +691,6 @@ header {
   justify-content: center;
   -ms-flex-pack: center;
   margin: 40px auto; }
-  @media screen and (min-width: 891px) and (max-width: 1050px) {
-    #pokedex {
-      width: 890px; } }
-  @media screen and (min-width: 1051px) and (max-width: 1400px) {
-    #pokedex {
-      width: 1050px; } }
-  @media screen and (min-width: 1441px) {
-    #pokedex {
-      width: 1400px; } }
   #pokedex .pokemon-tile {
     position: relative;
     background: linear-gradient(#b9e0de 25%, #73C0BC);
@@ -621,14 +723,882 @@ header {
         right: 0;
         margin: 0;
         font-family: "Montserrat", sans-serif; }
+  @media screen and (min-width: 891px) and (max-width: 1050px) {
+    #pokedex {
+      width: 890px; } }
+  @media screen and (min-width: 1051px) and (max-width: 1400px) {
+    #pokedex {
+      width: 1050px; } }
+  @media screen and (min-width: 1441px) {
+    #pokedex {
+      width: 1400px; } }
+
+#poke-page {
+  margin-top: 40px;
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto; }
+  #poke-page::after {
+    clear: both;
+    content: "";
+    display: table; }
+  #poke-page #basic-info {
+    margin: 10px; }
+  #poke-page #general {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 65.88078%; }
+    #poke-page #general:last-child {
+      margin-right: 0; }
+    #poke-page #general .national-id {
+      margin: 0; }
+    #poke-page #general .pokemon-name {
+      margin: 0;
+      font-size: 3em; }
+    #poke-page #general .description {
+      font-style: italic; }
+    #poke-page #general #moves {
+      float: left;
+      display: block;
+      margin-right: 3.57866%;
+      width: 61.158%; }
+      #poke-page #general #moves:last-child {
+        margin-right: 0; }
+      #poke-page #general #moves h3 {
+        text-align: center; }
+      #poke-page #general #moves .vertical-tab-content > ul {
+        padding-bottom: 10px; }
+      #poke-page #general #moves .move-level {
+        display: inline-block;
+        width: 30px; }
+      #poke-page #general #moves .machine-num {
+        display: inline-block;
+        width: 50px; }
+    #poke-page #general #evolutions {
+      float: left;
+      display: block;
+      margin-right: 3.57866%;
+      width: 35.26334%;
+      text-align: center; }
+      #poke-page #general #evolutions:last-child {
+        margin-right: 0; }
+      #poke-page #general #evolutions .pokemon-tile {
+        position: relative;
+        background: linear-gradient(#b9e0de 25%, #73C0BC);
+        border: 2px solid #111;
+        height: 160px;
+        width: 160px;
+        border-radius: 50%;
+        margin: 6px;
+        box-shadow: 8px 4px 8px #111;
+        cursor: pointer; }
+        #poke-page #general #evolutions .pokemon-tile .sprite {
+          position: absolute;
+          bottom: 0;
+          left: 20px; }
+          #poke-page #general #evolutions .pokemon-tile .sprite img {
+            max-width: 170px; }
+        #poke-page #general #evolutions .pokemon-tile .title-box {
+          height: 160px;
+          width: 160px;
+          position: absolute;
+          text-align: center;
+          top: 0;
+          right: -2px;
+          border-radius: 50%;
+          background: linear-gradient(transparent 10%, #AF0B0B 10%, #AF0B0B 25%, transparent 25%); }
+          #poke-page #general #evolutions .pokemon-tile .title-box h5 {
+            position: absolute;
+            top: 18px;
+            left: 0;
+            right: 0;
+            margin: 0;
+            font-family: "Montserrat", sans-serif; }
+      #poke-page #general #evolutions .pokemon-tile, #poke-page #general #evolutions .pokemon-tile .title-box {
+        border-radius: 3px; }
+        #poke-page #general #evolutions .pokemon-tile h4, #poke-page #general #evolutions .pokemon-tile .title-box h4 {
+          position: absolute;
+          bottom: 8px;
+          left: 0;
+          right: 0;
+          margin: 0;
+          text-shadow: 2px 3px 8px #000; }
+      #poke-page #general #evolutions .evo-tiles {
+        display: -webkit-box;
+        display: -moz-box;
+        display: box;
+        display: -webkit-flex;
+        display: -moz-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-lines: multiple;
+        -moz-box-lines: multiple;
+        box-lines: multiple;
+        -webkit-flex-wrap: wrap;
+        -moz-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -webkit-box-align: start;
+        -moz-box-align: start;
+        box-align: start;
+        -ms-flex-align: start;
+        -webkit-box-pack: center;
+        -moz-box-pack: center;
+        box-pack: center;
+        -webkit-justify-content: center;
+        -moz-justify-content: center;
+        -ms-justify-content: center;
+        -o-justify-content: center;
+        justify-content: center;
+        -ms-flex-pack: center; }
+  #poke-page #poke-data {
+    background-color: #333;
+    padding: 10px;
+    border-radius: 3px;
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 31.76157%; }
+    #poke-page #poke-data .type-normal {
+      border-color: #717149;
+      background-color: #A8A878; }
+    #poke-page #poke-data .type-fire {
+      border-color: #ad500d;
+      background-color: #F08030; }
+    #poke-page #poke-data .type-water {
+      border-color: #1650dc;
+      background-color: #6890F0; }
+    #poke-page #poke-data .type-ice {
+      border-color: #4ebcbc;
+      background-color: #98D8D8; }
+    #poke-page #poke-data .type-fighting {
+      border-color: #6c1b16;
+      background-color: #C03028; }
+    #poke-page #poke-data .type-grass {
+      border-color: #4a872b;
+      background-color: #78C850; }
+    #poke-page #poke-data .type-poison {
+      border-color: #572357;
+      background-color: #A040A0; }
+    #poke-page #poke-data .type-electric {
+      border-color: #bc9706;
+      background-color: #F8D030; }
+    #poke-page #poke-data .type-ground {
+      border-color: #bc9426;
+      background-color: #E0C068; }
+    #poke-page #poke-data .type-flying {
+      border-color: #6236e4;
+      background-color: #A890F0; }
+    #poke-page #poke-data .type-psychic {
+      border-color: #e1094a;
+      background-color: #F85888; }
+    #poke-page #poke-data .type-rock {
+      border-color: #6a5c20;
+      background-color: #B8A038; }
+    #poke-page #poke-data .type-bug {
+      border-color: #596111;
+      background-color: #A8B820; }
+    #poke-page #poke-data .type-ghost {
+      border-color: #403357;
+      background-color: #705898; }
+    #poke-page #poke-data .type-dragon {
+      border-color: #3e07c3;
+      background-color: #7038F8; }
+    #poke-page #poke-data .type-dark {
+      border-color: #322720;
+      background-color: #705848; }
+    #poke-page #poke-data .type-steel {
+      border-color: #7b7ba7;
+      background-color: #B8B8D0; }
+    #poke-page #poke-data .type-fairy {
+      border-color: #ff3399;
+      background-color: #FF99CC; }
+    #poke-page #poke-data .stat-hp {
+      border-color: #070101;
+      background-color: #620c0c; }
+    #poke-page #poke-data .stat-atk {
+      border-color: #61300d;
+      background-color: #bb5c19; }
+    #poke-page #poke-data .stat-def {
+      border-color: #6c580a;
+      background-color: #c9a512; }
+    #poke-page #poke-data .stat-satk {
+      border-color: #173a8e;
+      background-color: #2f62dd; }
+    #poke-page #poke-data .stat-sdef {
+      border-color: #2c481d;
+      background-color: #57913b; }
+    #poke-page #poke-data .stat-spd {
+      border-color: #8f0e35;
+      background-color: #e81b59; }
+    #poke-page #poke-data:last-child {
+      margin-right: 0; }
+    #poke-page #poke-data h5 {
+      margin: 6px 0; }
+    #poke-page #poke-data .button-bar {
+      height: 32px; }
+      #poke-page #poke-data .button-bar button {
+        -webkit-transition: all 0.2s ease-in-out;
+        -moz-transition: all 0.2s ease-in-out;
+        transition: all 0.2s ease-in-out;
+        background: #af0b0b;
+        border-radius: 3px;
+        border: 1px solid #7f0808;
+        color: rgba(255, 255, 255, 0.7);
+        outline: none;
+        padding: 0.375em 0.809em;
+        text-decoration: none;
+        display: block;
+        float: left;
+        margin: 0;
+        width: 33.33%; }
+        #poke-page #poke-data .button-bar button:hover, #poke-page #poke-data .button-bar button:focus, #poke-page #poke-data .button-bar button.active-true {
+          background: #c70d0d;
+          color: #fff; }
+    #poke-page #poke-data .image-box {
+      position: relative;
+      text-align: center;
+      border-radius: 3px;
+      background: linear-gradient(#b9e0de 25%, #73C0BC);
+      height: 160px;
+      padding: 6px;
+      margin: 6px auto; }
+      #poke-page #poke-data .image-box .data {
+        position: absolute;
+        text-shadow: 2px 4px 3px #306a67, -2px 4px 3px #306a67; }
+        #poke-page #poke-data .image-box .data span {
+          display: block; }
+        #poke-page #poke-data .image-box .data.species {
+          font-size: 1.3em;
+          bottom: -10px;
+          right: 0;
+          left: 0; }
+        #poke-page #poke-data .image-box .data.height {
+          bottom: 10px;
+          right: 30px; }
+        #poke-page #poke-data .image-box .data.weight {
+          bottom: 10px;
+          left: 30px; }
+    #poke-page #poke-data .ability-box, #poke-page #poke-data .type-box, #poke-page #poke-data .egg-group-box {
+      text-align: center; }
+      #poke-page #poke-data .ability-box .ability, #poke-page #poke-data .ability-box .type, #poke-page #poke-data .ability-box .egg-group, #poke-page #poke-data .type-box .ability, #poke-page #poke-data .type-box .type, #poke-page #poke-data .type-box .egg-group, #poke-page #poke-data .egg-group-box .ability, #poke-page #poke-data .egg-group-box .type, #poke-page #poke-data .egg-group-box .egg-group {
+        border-radius: 3px;
+        padding: 0.375em 0.809em; }
+      #poke-page #poke-data .ability-box .ability, #poke-page #poke-data .ability-box .egg-group, #poke-page #poke-data .type-box .ability, #poke-page #poke-data .type-box .egg-group, #poke-page #poke-data .egg-group-box .ability, #poke-page #poke-data .egg-group-box .egg-group {
+        background-color: #222; }
+      #poke-page #poke-data .ability-box .ability-count-1 .ability, #poke-page #poke-data .ability-box .types-count-1 .type, #poke-page #poke-data .ability-box .egg-group-count-1 .egg-group, #poke-page #poke-data .type-box .ability-count-1 .ability, #poke-page #poke-data .type-box .types-count-1 .type, #poke-page #poke-data .type-box .egg-group-count-1 .egg-group, #poke-page #poke-data .egg-group-box .ability-count-1 .ability, #poke-page #poke-data .egg-group-box .types-count-1 .type, #poke-page #poke-data .egg-group-box .egg-group-count-1 .egg-group {
+        width: 100%; }
+      #poke-page #poke-data .ability-box .ability-count-2 .ability, #poke-page #poke-data .ability-box .types-count-2 .type, #poke-page #poke-data .ability-box .egg-group-count-2 .egg-group, #poke-page #poke-data .type-box .ability-count-2 .ability, #poke-page #poke-data .type-box .types-count-2 .type, #poke-page #poke-data .type-box .egg-group-count-2 .egg-group, #poke-page #poke-data .egg-group-box .ability-count-2 .ability, #poke-page #poke-data .egg-group-box .types-count-2 .type, #poke-page #poke-data .egg-group-box .egg-group-count-2 .egg-group {
+        float: left;
+        width: 50%; }
+      #poke-page #poke-data .ability-box .ability-count-3 .ability, #poke-page #poke-data .ability-box .types-count-3 .type, #poke-page #poke-data .ability-box .egg-group-count-3 .egg-group, #poke-page #poke-data .type-box .ability-count-3 .ability, #poke-page #poke-data .type-box .types-count-3 .type, #poke-page #poke-data .type-box .egg-group-count-3 .egg-group, #poke-page #poke-data .egg-group-box .ability-count-3 .ability, #poke-page #poke-data .egg-group-box .types-count-3 .type, #poke-page #poke-data .egg-group-box .egg-group-count-3 .egg-group {
+        float: left;
+        width: 33.33%; }
+    #poke-page #poke-data .poke-stats-box {
+      text-align: center; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-0 {
+        width: 0%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-1 {
+        width: 0.5%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-2 {
+        width: 1%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-3 {
+        width: 1.5%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-4 {
+        width: 2%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-5 {
+        width: 2.5%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-6 {
+        width: 3%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-7 {
+        width: 3.5%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-8 {
+        width: 4%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-9 {
+        width: 4.5%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-10 {
+        width: 5%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-11 {
+        width: 5.5%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-12 {
+        width: 6%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-13 {
+        width: 6.5%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-14 {
+        width: 7%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-15 {
+        width: 7.5%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-16 {
+        width: 8%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-17 {
+        width: 8.5%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-18 {
+        width: 9%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-19 {
+        width: 9.5%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-20 {
+        width: 10%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-21 {
+        width: 10.5%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-22 {
+        width: 11%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-23 {
+        width: 11.5%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-24 {
+        width: 12%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-25 {
+        width: 12.5%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-26 {
+        width: 13%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-27 {
+        width: 13.5%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-28 {
+        width: 14%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-29 {
+        width: 14.5%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-30 {
+        width: 15%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-31 {
+        width: 15.5%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-32 {
+        width: 16%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-33 {
+        width: 16.5%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-34 {
+        width: 17%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-35 {
+        width: 17.5%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-36 {
+        width: 18%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-37 {
+        width: 18.5%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-38 {
+        width: 19%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-39 {
+        width: 19.5%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-40 {
+        width: 20%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-41 {
+        width: 20.5%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-42 {
+        width: 21%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-43 {
+        width: 21.5%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-44 {
+        width: 22%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-45 {
+        width: 22.5%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-46 {
+        width: 23%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-47 {
+        width: 23.5%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-48 {
+        width: 24%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-49 {
+        width: 24.5%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-50 {
+        width: 25%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-51 {
+        width: 25.5%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-52 {
+        width: 26%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-53 {
+        width: 26.5%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-54 {
+        width: 27%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-55 {
+        width: 27.5%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-56 {
+        width: 28%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-57 {
+        width: 28.5%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-58 {
+        width: 29%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-59 {
+        width: 29.5%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-60 {
+        width: 30%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-61 {
+        width: 30.5%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-62 {
+        width: 31%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-63 {
+        width: 31.5%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-64 {
+        width: 32%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-65 {
+        width: 32.5%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-66 {
+        width: 33%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-67 {
+        width: 33.5%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-68 {
+        width: 34%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-69 {
+        width: 34.5%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-70 {
+        width: 35%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-71 {
+        width: 35.5%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-72 {
+        width: 36%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-73 {
+        width: 36.5%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-74 {
+        width: 37%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-75 {
+        width: 37.5%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-76 {
+        width: 38%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-77 {
+        width: 38.5%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-78 {
+        width: 39%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-79 {
+        width: 39.5%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-80 {
+        width: 40%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-81 {
+        width: 40.5%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-82 {
+        width: 41%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-83 {
+        width: 41.5%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-84 {
+        width: 42%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-85 {
+        width: 42.5%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-86 {
+        width: 43%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-87 {
+        width: 43.5%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-88 {
+        width: 44%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-89 {
+        width: 44.5%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-90 {
+        width: 45%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-91 {
+        width: 45.5%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-92 {
+        width: 46%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-93 {
+        width: 46.5%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-94 {
+        width: 47%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-95 {
+        width: 47.5%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-96 {
+        width: 48%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-97 {
+        width: 48.5%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-98 {
+        width: 49%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-99 {
+        width: 49.5%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-100 {
+        width: 50%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-101 {
+        width: 50.5%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-102 {
+        width: 51%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-103 {
+        width: 51.5%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-104 {
+        width: 52%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-105 {
+        width: 52.5%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-106 {
+        width: 53%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-107 {
+        width: 53.5%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-108 {
+        width: 54%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-109 {
+        width: 54.5%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-110 {
+        width: 55%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-111 {
+        width: 55.5%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-112 {
+        width: 56%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-113 {
+        width: 56.5%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-114 {
+        width: 57%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-115 {
+        width: 57.5%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-116 {
+        width: 58%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-117 {
+        width: 58.5%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-118 {
+        width: 59%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-119 {
+        width: 59.5%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-120 {
+        width: 60%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-121 {
+        width: 60.5%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-122 {
+        width: 61%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-123 {
+        width: 61.5%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-124 {
+        width: 62%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-125 {
+        width: 62.5%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-126 {
+        width: 63%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-127 {
+        width: 63.5%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-128 {
+        width: 64%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-129 {
+        width: 64.5%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-130 {
+        width: 65%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-131 {
+        width: 65.5%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-132 {
+        width: 66%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-133 {
+        width: 66.5%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-134 {
+        width: 67%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-135 {
+        width: 67.5%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-136 {
+        width: 68%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-137 {
+        width: 68.5%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-138 {
+        width: 69%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-139 {
+        width: 69.5%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-140 {
+        width: 70%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-141 {
+        width: 70.5%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-142 {
+        width: 71%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-143 {
+        width: 71.5%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-144 {
+        width: 72%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-145 {
+        width: 72.5%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-146 {
+        width: 73%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-147 {
+        width: 73.5%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-148 {
+        width: 74%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-149 {
+        width: 74.5%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-150 {
+        width: 75%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-151 {
+        width: 75.5%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-152 {
+        width: 76%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-153 {
+        width: 76.5%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-154 {
+        width: 77%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-155 {
+        width: 77.5%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-156 {
+        width: 78%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-157 {
+        width: 78.5%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-158 {
+        width: 79%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-159 {
+        width: 79.5%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-160 {
+        width: 80%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-161 {
+        width: 80.5%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-162 {
+        width: 81%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-163 {
+        width: 81.5%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-164 {
+        width: 82%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-165 {
+        width: 82.5%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-166 {
+        width: 83%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-167 {
+        width: 83.5%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-168 {
+        width: 84%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-169 {
+        width: 84.5%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-170 {
+        width: 85%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-171 {
+        width: 85.5%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-172 {
+        width: 86%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-173 {
+        width: 86.5%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-174 {
+        width: 87%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-175 {
+        width: 87.5%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-176 {
+        width: 88%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-177 {
+        width: 88.5%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-178 {
+        width: 89%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-179 {
+        width: 89.5%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-180 {
+        width: 90%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-181 {
+        width: 90.5%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-182 {
+        width: 91%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-183 {
+        width: 91.5%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-184 {
+        width: 92%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-185 {
+        width: 92.5%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-186 {
+        width: 93%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-187 {
+        width: 93.5%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-188 {
+        width: 94%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-189 {
+        width: 94.5%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-190 {
+        width: 95%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-191 {
+        width: 95.5%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-192 {
+        width: 96%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-193 {
+        width: 96.5%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-194 {
+        width: 97%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-195 {
+        width: 97.5%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-196 {
+        width: 98%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-197 {
+        width: 98.5%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-198 {
+        width: 99%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-199 {
+        width: 99.5%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-200 {
+        width: 100%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-201 {
+        width: 100%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-202 {
+        width: 100%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-203 {
+        width: 100%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-204 {
+        width: 100%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-205 {
+        width: 100%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-206 {
+        width: 100%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-207 {
+        width: 100%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-208 {
+        width: 100%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-209 {
+        width: 100%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-210 {
+        width: 100%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-211 {
+        width: 100%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-212 {
+        width: 100%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-213 {
+        width: 100%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-214 {
+        width: 100%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-215 {
+        width: 100%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-216 {
+        width: 100%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-217 {
+        width: 100%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-218 {
+        width: 100%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-219 {
+        width: 100%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-220 {
+        width: 100%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-221 {
+        width: 100%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-222 {
+        width: 100%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-223 {
+        width: 100%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-224 {
+        width: 100%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-225 {
+        width: 100%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-226 {
+        width: 100%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-227 {
+        width: 100%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-228 {
+        width: 100%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-229 {
+        width: 100%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-230 {
+        width: 100%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-231 {
+        width: 100%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-232 {
+        width: 100%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-233 {
+        width: 100%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-234 {
+        width: 100%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-235 {
+        width: 100%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-236 {
+        width: 100%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-237 {
+        width: 100%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-238 {
+        width: 100%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-239 {
+        width: 100%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-240 {
+        width: 100%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-241 {
+        width: 100%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-242 {
+        width: 100%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-243 {
+        width: 100%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-244 {
+        width: 100%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-245 {
+        width: 100%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-246 {
+        width: 100%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-247 {
+        width: 100%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-248 {
+        width: 100%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-249 {
+        width: 100%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-250 {
+        width: 100%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-251 {
+        width: 100%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-252 {
+        width: 100%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-253 {
+        width: 100%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-254 {
+        width: 100%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar.val-255 {
+        width: 100%; }
+      #poke-page #poke-data .poke-stats-box .stat {
+        margin: 6px auto;
+        border-radius: 3px;
+        padding: 6px;
+        background-color: #222; }
+      #poke-page #poke-data .poke-stats-box .stat-name {
+        padding: 4px;
+        display: inline-block;
+        width: 23%; }
+      #poke-page #poke-data .poke-stats-box .stat-score {
+        width: 12%; }
+      #poke-page #poke-data .poke-stats-box .stat-bar-container {
+        float: right;
+        width: 65%;
+        height: 27px; }
+        #poke-page #poke-data .poke-stats-box .stat-bar-container .stat-bar {
+          border-radius: 3px;
+          float: left;
+          height: 27px; }
+  @media screen and (max-width: 924px) {
+    #poke-page #general {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 48.82117%; }
+      #poke-page #general:last-child {
+        margin-right: 0; }
+      #poke-page #general #moves {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 100%; }
+        #poke-page #general #moves:last-child {
+          margin-right: 0; }
+      #poke-page #general #evolutions {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 100%; }
+        #poke-page #general #evolutions:last-child {
+          margin-right: 0; }
+    #poke-page #poke-data {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 48.82117%; }
+      #poke-page #poke-data:last-child {
+        margin-right: 0; } }
+  @media screen and (max-width: 580px) {
+    #poke-page {
+      margin: 0;
+      position: relative; }
+      #poke-page #general {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 100%;
+        margin-top: 400px; }
+        #poke-page #general:last-child {
+          margin-right: 0; }
+        #poke-page #general #basic-info {
+          position: absolute;
+          top: 0;
+          left: 0;
+          right: 0;
+          padding: 20px;
+          text-align: center;
+          height: 180px; }
+        #poke-page #general #moves {
+          margin-top: 470px; }
+      #poke-page #poke-data {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 100%;
+        position: absolute;
+        top: 180px; }
+        #poke-page #poke-data:last-child {
+          margin-right: 0; }
+        #poke-page #poke-data > div {
+          max-width: 400px;
+          margin: 0 auto; } }
 
 #welcome {
   max-width: 1200px;
   text-align: center;
   margin: auto; }
-  #welcome #features .feature {
-    width: 30%;
-    margin: 20px 10%;
+  #welcome #features {
+    width: 20%;
+    margin: 20px 5%;
     float: left; }
     #welcome #features .feature .title {
       border-bottom: 1px solid rgba(255, 255, 255, 0.2);
@@ -636,8 +1606,25 @@ header {
     #welcome #features .feature li {
       line-height: 2em; }
     @media screen and (max-width: 600px) {
-      #welcome #features .feature {
-        width: 80%; } }
+      #welcome #features {
+        width: 90%; } }
+  #welcome #updates {
+    width: 60%;
+    margin: 20px 5%;
+    float: right; }
+    #welcome #updates .title {
+      line-height: 2em;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+      margin-bottom: 6px; }
+    #welcome #updates .comment {
+      text-align: left;
+      padding-top: 16px; }
+      #welcome #updates .comment .comment-image > img {
+        background-color: #333;
+        padding: 0.2em; }
+    @media screen and (max-width: 600px) {
+      #welcome #updates {
+        width: 90%; } }
 
 #ivcalculator {
   margin-top: 40px;
@@ -655,11 +1642,11 @@ header {
     content: "";
     display: table; }
   #ivcalculator .pokemon-input {
-    text-align: right;
     float: left;
     display: block;
     margin-right: 2.35765%;
-    width: 65.88078%; }
+    width: 65.88078%;
+    text-align: right; }
     #ivcalculator .pokemon-input:last-child {
       margin-right: 0; }
     #ivcalculator .pokemon-input input, #ivcalculator .pokemon-input select {
@@ -712,8 +1699,8 @@ header {
       margin: 10px;
       min-height: 268px; }
       #ivcalculator .pokemon-output .ivs .stat-hp {
-        border-color: #4f0505;
-        background-color: #AF0B0B; }
+        border-color: #070101;
+        background-color: #620c0c; }
       #ivcalculator .pokemon-output .ivs .stat-atk {
         border-color: #61300d;
         background-color: #bb5c19; }
@@ -743,6 +1730,75 @@ header {
           border-radius: 3px;
           background-color: rgba(0, 0, 0, 0.25);
           width: 100px; }
+  @media screen and (max-width: 860px) {
+    #ivcalculator .pokemon-input {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 48.82117%; }
+      #ivcalculator .pokemon-input:last-child {
+        margin-right: 0; }
+      #ivcalculator .pokemon-input .stats {
+        float: left;
+        display: block;
+        margin-right: 4.82916%;
+        width: 47.58542%;
+        padding: 0;
+        margin: 0;
+        position: relative;
+        left: 20px; }
+        #ivcalculator .pokemon-input .stats:last-child {
+          margin-right: 0; }
+        #ivcalculator .pokemon-input .stats h4 {
+          padding: 0;
+          text-align: center; }
+      #ivcalculator .pokemon-input .stat label, #ivcalculator .pokemon-input label {
+        display: block;
+        width: 100%;
+        text-align: center; }
+      #ivcalculator .pokemon-input .stat input {
+        margin: 0;
+        width: 100%; }
+      #ivcalculator .pokemon-input .species-input, #ivcalculator .pokemon-input .nature-input, #ivcalculator .pokemon-input .char-input, #ivcalculator .pokemon-input .hidden-power, #ivcalculator .pokemon-input .level-input {
+        margin: 0; }
+        #ivcalculator .pokemon-input .species-input input, #ivcalculator .pokemon-input .species-input select, #ivcalculator .pokemon-input .nature-input input, #ivcalculator .pokemon-input .nature-input select, #ivcalculator .pokemon-input .char-input input, #ivcalculator .pokemon-input .char-input select, #ivcalculator .pokemon-input .hidden-power input, #ivcalculator .pokemon-input .hidden-power select, #ivcalculator .pokemon-input .level-input input, #ivcalculator .pokemon-input .level-input select {
+          width: 100%; }
+        #ivcalculator .pokemon-input .species-input input + select, #ivcalculator .pokemon-input .nature-input input + select, #ivcalculator .pokemon-input .char-input input + select, #ivcalculator .pokemon-input .hidden-power input + select, #ivcalculator .pokemon-input .level-input input + select {
+          margin-top: 10px; }
+    #ivcalculator .pokemon-output {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 48.82117%; }
+      #ivcalculator .pokemon-output:last-child {
+        margin-right: 0; } }
+  @media screen and (max-width: 520px) {
+    #ivcalculator {
+      position: relative; }
+      #ivcalculator .pokemon-input {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 100%;
+        width: 100%;
+        margin: 500px auto 20px;
+        padding: 0 20px 0 0; }
+        #ivcalculator .pokemon-input:last-child {
+          margin-right: 0; }
+      #ivcalculator .pokemon-output {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0; }
+        #ivcalculator .pokemon-output:last-child {
+          margin-right: 0; }
+        #ivcalculator .pokemon-output .box {
+          width: 100%;
+          max-width: 400px; } }
 
 footer {
   background-color: #7f0808;
@@ -751,7 +1807,10 @@ footer {
   font-family: "Lato", sans-serif;
   margin-top: 34px;
   padding: 4px;
+  height: 77px;
   color: rgba(255, 255, 255, 0.7); }
+  footer p {
+    height: 19px; }
   footer .subtext {
     margin: 0;
     font-size: 0.8em; }

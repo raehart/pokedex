@@ -8,8 +8,8 @@ angular.module('PokedexApp', ['ngRoute'])
 		controller:'PokedexController',
 		templateUrl:'views/pokedex.html'
 	}).when('/dex/:dexnum', {
-		controller:'DexController',
-		templateUrl:'views/pokemon.html'
+		controller:'PokePageController',
+		templateUrl:'views/poke-page.html'
 	}).when('/ivcalc/', {
 		controller: 'IVController',
 		templateUrl: 'views/ivcalc.html'
@@ -43,6 +43,113 @@ angular.module('PokedexApp', ['ngRoute'])
 	  Ghost: ['001110', '010110', '101110', '110110'],
 	  Dragon: ['001111', '011111', '101111', '110111'],
 	  Dark: ['111111'] 
+	};
+	var machines = {
+		'Hone Claws': 'TM01',
+		'Dragon Claw': 'TM02',
+		'Psyshock': 'TM03',
+		'Calm Mind': 'TM04',
+		'Roar': 'TM05',
+		'Toxic': 'TM06',
+		'Hail': 'TM07',
+		'Bulk Up': 'TM08',
+		'Venoshock': 'TM09',
+		'Hidden Power': 'TM10',
+		'Sunny Day': 'TM11',
+		'Taunt': 'TM12',
+		'Ice Beam': 'TM13',
+		'Blizzard': 'TM14',
+		'Hyper Beam': 'TM15',
+		'Light Screen': 'TM16',
+		'Protect': 'TM17',
+		'Rain Dance': 'TM18',
+		'Roost': 'TM19',
+		'Safeguard': 'TM20',
+		'Frustration': 'TM21',
+		'Solar Beam': 'TM22',
+		'Smack Down': 'TM23',
+		'Thunderbolt': 'TM24',
+		'Thunder': 'TM25',
+		'Earthquake': 'TM26',
+		'Return': 'TM27',
+		'Dig': 'TM28',
+		'Psychic': 'TM29',
+		'Shadow Ball': 'TM30',
+		'Brick Break': 'TM31',
+		'Double Team': 'TM32',
+		'Reflect': 'TM33',
+		'Sludge Wave': 'TM34',
+		'Flamethrower': 'TM35',
+		'Sludge Bomb': 'TM36',
+		'Sandstorm': 'TM37',
+		'Fire Blast': 'TM38',
+		'Rock Tomb': 'TM39',
+		'Aerial Ace': 'TM40',
+		'Torment': 'TM41',
+		'Facade': 'TM42',
+		'Flame Charge': 'TM43',
+		'Rest': 'TM44',
+		'Attract': 'TM45',
+		'Thief': 'TM46',
+		'Low Sweep': 'TM47',
+		'Round': 'TM48',
+		'Echoed Voice': 'TM49',
+		'Overheat': 'TM50',
+		'Steel Wing': 'TM51',
+		'Focus Blast': 'TM52',
+		'Energy Ball': 'TM53',
+		'False Swipe': 'TM54',
+		'Scald': 'TM55',
+		'Fling': 'TM56',
+		'Charge Beam': 'TM57',
+		'Sky Drop': 'TM58',
+		'Incinerate': 'TM59',
+		'Quash': 'TM60',
+		'Will-O-Wisp': 'TM61',
+		'Acrobatics': 'TM62',
+		'Embargo': 'TM63',
+		'Explosion': 'TM64',
+		'Shadow Claw': 'TM65',
+		'Payback': 'TM66',
+		'Retaliate': 'TM67',
+		'Giga Impact': 'TM68',
+		'Rock Polish': 'TM69',
+		'Flash': 'TM70',
+		'Stone Edge': 'TM71',
+		'Volt Switch': 'TM72',
+		'Thunder Wave': 'TM73',
+		'Gyro Ball': 'TM74',
+		'Swords Dance': 'TM75',
+		'Struggle Bug': 'TM76',
+		'Psych Up': 'TM77',
+		'Bulldoze': 'TM78',
+		'Frost Breath': 'TM79',
+		'Rock Slide': 'TM80',
+		'X-Scissor': 'TM81',
+		'Dragon Tail': 'TM82',
+		'Infestation': 'TM83',
+		'Poison Jab': 'TM84',
+		'Dream Eater': 'TM85',
+		'Grass Knot': 'TM86',
+		'Swagger': 'TM87',
+		'Sleep Talk': 'TM88',
+		'U-turn': 'TM89',
+		'Substitute': 'TM90',
+		'Flash Cannon': 'TM91',
+		'Trick Room': 'TM92',
+		'Wild Charge': 'TM93',
+		'Rock Smash': 'TM94',
+		'Snarl': 'TM95',
+		'Nature Power': 'TM96',
+		'Dark Pulse': 'TM97',
+		'Power-Up Punch': 'TM98',
+		'Dazzling Gleam': 'TM99',
+		'Confide': 'TM100',
+		'Cut': 'HM01',
+		'Fly': 'HM02',
+		'Surf': 'HM03',
+		'Strength': 'HM04',
+		'Waterfall': 'HM05'
 	};
 
 	//basically useless, since rounding will give you an average IV. Spreads are better.
@@ -233,7 +340,8 @@ angular.module('PokedexApp', ['ngRoute'])
 		'getAllSpreads': getAllSpreads,
 		'getAllIVs': getAllIVs,
 		'getHiddenPower': getHiddenPower,
-		'blankPokemon': blankPokemon
+		'blankPokemon': blankPokemon,
+		'machines': machines
 	}
 })
 
@@ -258,7 +366,11 @@ angular.module('PokedexApp', ['ngRoute'])
 }])
 .controller('PokedexController', ['$scope', '$routeParams', '$http', '$location', function($scope, $routeParams, $http, $location) {
 	$scope.capitalize = function(string) {
-		return string[0].toUpperCase() + string.slice(1);
+		if(typeof string === 'string' && string.length > 0) {
+			return string[0].toUpperCase() + string.slice(1);
+		} else {
+			return string;
+		}
 	};
 	var url ="http://pokeapi.co/api/v1/pokedex/1/";
 	$http.get(url).success(function(data){
@@ -304,37 +416,122 @@ angular.module('PokedexApp', ['ngRoute'])
 		return pages;
 	};
 	$scope.goToPage = function(dexnum) {
-		console.log("/dex/" + dexnum);
 		$location.path("/dex/" + dexnum);
 	}
 }])
 
-
-.controller('DexController', ['$scope', '$routeParams', '$http', function($scope, $routeParams, $http) {
+.controller('PokePageController', ['$scope', '$routeParams', '$http', '$location', '$pokemon', function($scope, $routeParams, $http, $location, $pokemon) {
+	$scope.capitalize = function(string) {
+		if(typeof string === 'string' && string.length > 0) {
+			return string[0].toUpperCase() + string.slice(1);
+		} else {
+			return string;
+		}
+	};
 	$scope.dexnum = $routeParams.dexnum;
 	$scope.root = "http://pokeapi.co";
 	var url = "http://pokeapi.co/api/v1/pokemon/" + $scope.dexnum + "/";
 	$http.get(url).success(function(data) {
 		$scope.pokemon = data;
-		$scope.prior = $scope.pokemon.national_id-1;
-		$scope.next= $scope.pokemon.national_id+1
-		$scope.getData($scope.pokemon.sprites[0].resource_uri);
-		$scope.getData($scope.pokemon.descriptions[0].resource_uri);
-	});
-	$scope.getData = function(uri) {
-		var url = $scope.root + uri;
-		$http.get(url).success(function(data) {
-			$scope.uriData = data;
-			if($scope.uriData.hasOwnProperty("image")) {
-				$scope.pokeSprite = $scope.root + $scope.uriData.image; 
-			} if($scope.uriData.hasOwnProperty("description")) {
-				$scope.pokeDes =$scope.uriData.description;
+		$scope.pokemon.movesByLevel = [];
+		$scope.pokemon.movesByTutor = [];
+		$scope.pokemon.movesByMachine = [];
+		for(var i=0;i<$scope.pokemon.moves.length;i++) {
+			switch($scope.pokemon.moves[i].learn_type) {
+				case 'level up': 
+					$scope.pokemon.movesByLevel.push($scope.pokemon.moves[i]);
+					break;
+				case 'machine':
+					$scope.pokemon.movesByMachine.push($scope.pokemon.moves[i]);
+					break;
+				case 'tutor':
+					$scope.pokemon.movesByTutor.push($scope.pokemon.moves[i]);
+					break;
 			}
-		})
+		}
+		$scope.pokemon.movesByLevel.sort(function(x, y) {
+			return x.level - y.level;
+		});
+		$scope.pokemon.movesByMachine = $scope.pokemon.movesByMachine.map(function(move) {
+			move.code = move.name;
+			if(move.name.indexOf("-") >= 0) {
+				var idx = move.name.indexOf("-");
+				move.name = move.name.slice(0, idx) + " " + $scope.capitalize(move.name.slice(idx + 1));
+			}
+			if($pokemon.machines[move.name]) {
+				move.machine = $pokemon.machines[move.name];
+			}
+			return move;
+		}).filter(function(move) {
+			return move.machine !== undefined;
+		}).sort(function(x, y) {
+			var xval = x.machine.slice(0, 2) === "HM" ? 100 + parseInt(x.machine.slice(2, 4)): parseInt(x.machine.slice(2, 4))
+			var yval = y.machine.slice(0, 2) === "HM" ? 100 + parseInt(y.machine.slice(2, 4)): parseInt(y.machine.slice(2, 4))
+			return xval - yval;
+		});
+		if($scope.pokemon.evolutions.length > 0) {
+			$scope.pokemon.evolutions = $scope.pokemon.evolutions.map(function(evo) {
+				evo.name = evo.to;
+				evo.number = parseInt(evo.resource_uri.slice(16, -1));
+				if(evo.number > 10000) {
+					evo.number = $scope.pokemon.national_id;
+				}
+				return evo;
+			});
+		}
+		$scope.getData($scope.pokemon.descriptions[0].resource_uri, function(data) {
+			$scope.pokeDes = data.description;
+		});
+	});
+	$scope.getData = function(uri, callback) {
+		$http.get($scope.root + uri).success(function(data) {
+			if(callback) {
+				callback(data);
+			}
+		});
 	};
-	$('body').on('click','#moves-header', function() {
-		console.log('click')
-		$('#moves-list').slideToggle()
+	$scope.redirect = function(dexnum) {
+		if(dexnum > 0 && dexnum < 719) {
+			$location.path("/dex/" + dexnum);
+		} else if(dexnum === undefined) {
+			$location.path("/pokedex");
+		}
+	};
+	$(document).ready(function() {
+		$(".js-vertical-tab-content").hide();
+		$(".js-vertical-tab-content:first").show();
+
+		/* if in tab mode */
+
+		$(".js-vertical-tab").click(function(event) {
+		  event.preventDefault();
+
+		  $(".js-vertical-tab-content").hide();
+		  var activeTab = $(this).attr("rel");
+		  $("#"+activeTab).show();
+			$(".js-vertical-tab").removeClass("is-active");
+		  $(this).addClass("is-active");
+
+		  $(".js-vertical-tab-accordion-heading").removeClass("is-active");
+		  $(".js-vertical-tab-accordion-heading[rel^='"+activeTab+"']").addClass("is-active");
+		});
+
+		/* if in accordion mode */
+
+		$(".js-vertical-tab-accordion-heading").click(function(event) {
+		  event.preventDefault();
+
+		  $(".js-vertical-tab-content").hide();
+		  var accordion_activeTab = $(this).attr("rel");
+		  $("#"+accordion_activeTab).show();
+
+		  $(".js-vertical-tab-accordion-heading").removeClass("is-active");
+		  $(this).addClass("is-active");
+
+		  $(".js-vertical-tab").removeClass("is-active");
+		  $(".js-vertical-tab[rel^='"+accordion_activeTab+"']").addClass("is-active");
+		});
+
 	});
 }])
 
@@ -345,7 +542,6 @@ angular.module('PokedexApp', ['ngRoute'])
 		} else {
 			return string;
 		}
-		
 	};
 	$scope.natures = $pokemon.natures;
 	$scope.characteristics = $pokemon.characteristics;
