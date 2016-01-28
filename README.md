@@ -9,6 +9,10 @@ Gottta catch 'em all
  - Displaying nested information from an external API in differnet locations (ie pictures for each pokemon on main page out of each pokemons object)
  - Praticed Using Angular JS 
 
+(Kenneth):
+
+ - Worked on testing angular factories with Jasmine
+ - How to use Bourbon and Sass
 
 ##### Skills used 
 
@@ -17,6 +21,9 @@ Gottta catch 'em all
  - HTML5
  - CSS3
  - Bootstrap
+ - Sass
+ - TDD
+ - Jasmine
 
 ##### User Stories
 
