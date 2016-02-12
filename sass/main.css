@@ -656,6 +656,10 @@ ul {
   ul li {
     list-style: none; }
 
+a {
+  color: #0a9999;
+  text-decoration: none; }
+
 select:required {
   color: #B8E0DE; }
 
@@ -1799,6 +1803,9 @@ header {
         #ivcalculator .pokemon-output .box {
           width: 100%;
           max-width: 400px; } }
+
+#gym h1 {
+  text-align: center; }
 
 footer {
   background-color: #7f0808;

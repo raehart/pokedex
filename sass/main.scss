@@ -27,6 +27,11 @@ ul {
     list-style: none;
   }
 }
+a {
+	color: lighten($secondary-color, 10%);
+	text-decoration: none;
+}
+
 select:required {
   color: #B8E0DE;
 }
@@ -50,7 +55,6 @@ header {
 	@media screen and (min-width: 1441px) {
 		width: 1400px;
 	}
-	
 }
 #poke-page {
 	margin-top: 40px;
@@ -433,6 +437,9 @@ header {
 			}
 		}
 	}
+}
+#gym h1 {
+	text-align: center;
 }
 
 footer {
