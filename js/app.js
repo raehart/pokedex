@@ -469,6 +469,7 @@ angular.module('PokedexApp', ['ngRoute'])
 			var yval = y.machine.slice(0, 2) === "HM" ? 100 + parseInt(y.machine.slice(2, 4)): parseInt(y.machine.slice(2, 4))
 			return xval - yval;
 		});
+    var evoNums = $scope.pokemon.evolutions.map(function(evo) { return evo.number  });
 		if($scope.pokemon.evolutions.length > 0) {
 			$scope.pokemon.evolutions = $scope.pokemon.evolutions.map(function(evo) {
 				evo.name = evo.to;
@@ -477,7 +478,10 @@ angular.module('PokedexApp', ['ngRoute'])
 					evo.number = $scope.pokemon.national_id;
 				}
 				return evo;
-			});
+			}).filter(function(evo, index) {
+				//TODO: Fix Filter
+				return evoNums.indexOf(evo.number) === index;
+			})
 		}
 		$scope.getData($scope.pokemon.descriptions[0].resource_uri, function(data) {
 			$scope.pokeDes = data.description;
@@ -566,7 +570,7 @@ angular.module('PokedexApp', ['ngRoute'])
 		$http.get('http://pokeapi.co/' + speciesData.resource_uri).success(function(data) {
 			$scope.currentPKMN.species = speciesData.name;
 			$scope.pokemonSearch = speciesData.name;
-			$scope.currentPKMN.sprite = 'http://pokeapi.co/media/img/' + data.national_id + '.png';
+			$scope.currentPKMN.sprite = 'img/sprites/' + data.national_id + '.png';
 			$scope.currentPKMN.base = {
 				hp: data.hp,
 				atk: data.attack,

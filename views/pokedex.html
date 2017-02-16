@@ -1,7 +1,7 @@
 <div id="pokedex" class="clearfix">
 	<div class="pokemon-tile" ng-repeat="pokemon in pokemonPage | orderBy: 'number'" ng-click="goToPage(pokemon.number)">
     <div class="sprite">
-      <img src="#" ng-src="http://pokeapi.co/media/img/{{pokemon.number}}.png" alt="{{pokemon.name}}">
+      <img src="#" ng-src="img/sprites/{{pokemon.number}}.png" alt="{{pokemon.name}}">
     </div>
     <div class="title-box">
       <h5>#{{pokemon.number}} {{capitalize(pokemon.name)}}</h5>
